@@ -6,14 +6,13 @@ import JsonLdCollectionPage from '@/components/JsonLdCollectionPage';
 import { locales, defaultLocale } from '../../../../next-intl.config';
 
 interface BlogIndexPageProps {
-  params: {
+  params: Promise<{
     lang: string;
-  };
+  }>;
 }
 
 export async function generateMetadata({ params }: BlogIndexPageProps) {
-  const resolvedParams = await params;
-  const lang = resolvedParams.lang;
+  const { lang } = await params;
   const tPage = await getTranslations({ locale: lang, namespace: 'BlogIndexPage' });
 
   const currentPath = "/blog";
@@ -35,8 +34,7 @@ export async function generateMetadata({ params }: BlogIndexPageProps) {
 
 // Composant de page Server Component
 export default async function BlogIndexPage({ params }: BlogIndexPageProps) {
-  const resolvedParams = await params;
-  const lang = resolvedParams.lang;
+  const { lang } = await params;
   const posts = getAllPostsMetadata(lang);
   const tGlobal = await getTranslations({ locale: lang, namespace: 'Global' });
   const tBlogIndex = await getTranslations({ locale: lang, namespace: 'BlogIndex' });

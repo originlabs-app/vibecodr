@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 // Version compatible avec les exigences de Next.js pour les paramètres dynamiques
 const VisionFirstPage = async (
-  props: { params: { lang: string } }
+  props: { params: Promise<{ lang: string }> }
 ) => {
   const { lang } = await props.params;
   
