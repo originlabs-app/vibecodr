@@ -104,13 +104,41 @@
 @layer base {
   html {
     @apply h-full;
+    /* Empêcher le défilement horizontal */
+    overflow-x: hidden;
   }
   body {
     @apply bg-background text-foreground w-full min-h-full;
     font-feature-settings: "rlig" 1, "calt" 1;
+    /* Empêcher le défilement horizontal */
+    overflow-x: hidden;
+    max-width: 100vw;
   }
   * {
     @apply border-border;
+  }
+  
+  /* Corrections mobiles critiques */
+  .container {
+    @apply px-4 sm:px-6 lg:px-8;
+    max-width: 100%;
+  }
+  
+  /* Empêcher les débordements sur tous les éléments */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* S'assurer que les images ne débordent jamais */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Correction pour les sections de largeur complète */
+  section {
+    overflow-x: hidden;
+    max-width: 100vw;
   }
 }
 
