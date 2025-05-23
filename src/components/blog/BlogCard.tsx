@@ -4,11 +4,11 @@ import Image from "next/image";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, User, Clock } from "lucide-react";
-import { PostMetadata } from "@/lib/blog"; // Notre interface PostMetadata
+import { PostFrontmatter } from "@/types/blog"; // Corriger l'import pour utiliser le bon type
 import { Badge } from "@/components/ui/badge";
 
 interface BlogCardProps {
-  post: PostMetadata;
+  post: PostFrontmatter;
   lang: string; // Pour construire le lien correctement
   readMoreText: string; // Nouvelle prop pour le texte traduit
 }
