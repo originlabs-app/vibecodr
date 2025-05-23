@@ -2,11 +2,12 @@ import React from "react";
 import Footer from "./Footer"; // Chemin local
 // import Link from 'next/link'; // Pas nécessaire ici si les liens sont dans Footer.tsx
 
-// Définir le type pour les liens, peut être importé depuis Footer.tsx si exporté
+// Définir le type pour les liens, doit correspondre à celui de Footer.tsx
 interface FooterLink {
-  name: string;
+  key: string; // Pour la traduction du nom
   href: string;
   isExternal?: boolean;
+  disabled?: boolean;
 }
 
 const CustomFooter: React.FC = () => {
@@ -16,7 +17,7 @@ const CustomFooter: React.FC = () => {
   // Pour l'instant, je garde la structure que vous aviez.
   const landingPageSpecificLinks: FooterLink[] = [
     // Exemple: Si vous voulez ajouter des liens spécifiques UNIQUEMENT pour la landing page
-    // { name: "Notre Vision Détaillée", href: "/vision-detaillee" }, 
+    // { key: "ourVisionDetailed", href: "/vision-detaillee" }, 
   ];
 
   return (
