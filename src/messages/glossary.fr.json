@@ -1,0 +1,1358 @@
+[
+      {
+        "id": "vibe-coding",
+        "term": "Vibe Coding",
+        "definition": "Approche de développement unique à Vibecodr qui combine expertise humaine et puissance de l'IA pour créer des solutions sur mesure, efficientes et de haute qualité. Cette méthode permet d'accélérer le développement tout en maintenant l'expertise et la créativité humaine au centre du processus.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "vibe-coder",
+        "term": "Vibe Coder",
+        "definition": "Développeur freelance français qualifié et certifié par Vibecodr, formé aux outils d'intelligence artificielle pour augmenter sa productivité et la qualité de son travail. Les Vibe Coders opèrent sur la marketplace de Vibecodr et sont spécialement formés à la méthodologie Vibe Coding.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "vision-first",
+        "term": "Vision-First",
+        "definition": "Approche méthodologique de Vibecodr qui place la vision du produit au centre du processus de création. Cette méthode utilise des outils SaaS intelligents pour aider les entrepreneurs à définir, structurer et valider leur vision avant de passer à la phase de développement.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "codeguide",
+        "term": "CodeGuide",
+        "definition": "Outil SaaS de Vibecodr qui agit comme un assistant intelligent pour la création de documents de projet (PRD, user stories, etc.). Il utilise l'IA pour faciliter la structuration des idées et la documentation des besoins.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "llm",
+        "term": "LLM (Grand Modèle de Langage)",
+        "definition": "Modèle d'intelligence artificielle capable de comprendre et générer du langage humain à grande échelle. Ces modèles sont entraînés sur d'immenses corpus de textes et peuvent accomplir diverses tâches linguistiques, de la génération de contenu à la traduction en passant par la rédaction de code.",
+        "category": "IA"
+      },
+      {
+        "id": "rag",
+        "term": "RAG (Génération Augmentée par Récupération)",
+        "definition": "Technique qui améliore les modèles de langage en leur permettant d'accéder à des informations externes spécifiques avant de générer une réponse. Elle combine la recherche d'informations pertinentes avec la génération de texte, ce qui permet d'obtenir des réponses plus précises et contextuelles.",
+        "category": "IA"
+      },
+      {
+        "id": "transformers",
+        "term": "Transformers",
+        "definition": "Architecture de réseau neuronal utilisée dans de nombreux modèles de langage modernes. Les transformers utilisent un mécanisme d'attention qui permet au modèle de donner différents poids à différentes parties de l'entrée, ce qui les rend particulièrement efficaces pour comprendre le contexte.",
+        "category": "IA"
+      },
+      {
+        "id": "prompt-engineering",
+        "term": "Ingénierie de Prompt",
+        "definition": "Le Prompt Engineering (Ingénierie de Prompt) est l'art et la science de concevoir, formuler et optimiser des instructions claires, précises et contextuelles (appelées *prompts*) destinées à guider une intelligence artificielle générative (comme un LLM) afin qu'elle produise les résultats souhaités de manière pertinente, exacte et utile.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "agile",
+        "term": "Méthodologie Agile",
+        "definition": "Approche itérative du développement logiciel qui met l'accent sur la flexibilité, la collaboration avec les clients et la réponse rapide au changement. Elle se caractérise par des cycles de développement courts (sprints), des révisions régulières et une adaptation continue du produit.",
+        "category": "Developpement"
+      },
+      {
+        "id": "scrum",
+        "term": "Scrum",
+        "definition": "Framework agile populaire qui organise le travail en sprints de durée fixe (généralement 2 semaines). L'équipe Scrum, composée d'un Product Owner, d'un Scrum Master et de l'équipe de développement, collabore pour livrer des incréments de produit à chaque sprint.",
+        "category": "Developpement"
+      },
+      {
+        "id": "kanban",
+        "term": "Kanban",
+        "definition": "Méthode de gestion de projet visuelle qui utilise des tableaux et des cartes pour représenter le flux de travail. Elle limite le travail en cours pour optimiser l'efficacité et identifie rapidement les goulets d'étranglement dans le processus de développement.",
+        "category": "Developpement"
+      },
+      {
+        "id": "mvp",
+        "term": "MVP (Produit Minimum Viable)",
+        "definition": "Version initiale d'un produit avec juste assez de fonctionnalités pour satisfaire les premiers utilisateurs et recueillir des retours pour guider le développement futur. Le MVP permet de tester des hypothèses avec un minimum d'effort et de ressources.",
+        "category": "Producty"
+      },
+      {
+        "id": "api",
+        "term": "API (Interface de Programmation d'Application)",
+        "definition": "Une API (Interface de Programmation d'Application) est un contrat logiciel qui définit comment différentes composantes ou applications logicielles peuvent communiquer et interagir entre elles. Elle spécifie les types de requêtes qu'une application peut faire à une autre, comment ces requêtes doivent être formulées, les formats de données attendus, et les conventions à suivre, permettant ainsi l'échange de données et de fonctionnalités.",
+        "category": "Developpement"
+      },
+      {
+        "id": "full-stack",
+        "term": "Full Stack",
+        "definition": "Approche de développement qui couvre à la fois le frontend (interface utilisateur) et le backend (logique serveur, base de données) d'une application. Un développeur full stack maîtrise l'ensemble des technologies nécessaires pour créer une application complète.",
+        "category": "Developpement"
+      },
+      {
+        "id": "devops",
+        "term": "DevOps",
+        "definition": "DevOps est une culture, un mouvement et un ensemble de pratiques qui visent à unifier le développement logiciel (Dev) et les opérations informatiques (Ops). L'objectif principal est d'automatiser et d'intégrer les processus entre les équipes de développement et d'exploitation pour livrer des logiciels plus rapidement, plus fréquemment et de manière plus fiable, souvent en s'appuyant sur des outils de CI/CD, d'Infrastructure as Code, et de monitoring.",
+        "category": "Developpement"
+      },
+      {
+        "id": "ci-cd",
+        "term": "CI/CD (Intégration Continue/Déploiement Continu)",
+        "definition": "Pratique de développement logiciel qui consiste à intégrer régulièrement les changements de code et à les déployer automatiquement en production. CI/CD permet de détecter rapidement les problèmes, de réduire les risques et d'accélérer la livraison de nouvelles fonctionnalités.",
+        "category": "Developpement"
+      },
+      {
+        "id": "saas",
+        "term": "SaaS (Logiciel en tant que Service)",
+        "definition": "Modèle de distribution logicielle où les applications sont hébergées par un fournisseur de services et rendues accessibles aux utilisateurs via internet. Les utilisateurs s'abonnent au service plutôt que d'acheter le logiciel, ce qui offre flexibilité et réduction des coûts initiaux.",
+        "category": "Producty"
+      },
+      {
+        "id": "ui-ux",
+        "term": "UI/UX (Interface Utilisateur/Expérience Utilisateur)",
+        "definition": "Disciplines complémentaires du design numérique. L'UI concerne l'aspect visuel et interactif d'une application, tandis que l'UX englobe l'ensemble de l'expérience et des interactions de l'utilisateur avec le produit, visant à la rendre intuitive et satisfaisante.",
+        "category": "Developpement"
+      },
+      {
+        "id": "prd",
+        "term": "PRD (Document des Exigences du Produit)",
+        "definition": "Document détaillant les exigences, fonctionnalités et objectifs d'un produit. Le PRD sert de référence pour l'équipe de développement et les parties prenantes, assurant que tous partagent la même vision du produit final.",
+        "category": "Producty"
+      },
+      {
+        "id": "user-story",
+        "term": "User Story (Récit Utilisateur)",
+        "definition": "Description simple d'une fonctionnalité du point de vue de l'utilisateur final. Généralement formulée comme 'En tant que [type d'utilisateur], je veux [action] afin de [bénéfice]', elle aide à centrer le développement sur les besoins réels des utilisateurs.",
+        "category": "Producty"
+      },
+      {
+        "id": "agentic-software-development",
+        "term": "Développement Logiciel Agentique",
+        "definition": "Le Développement Logiciel Agentique (Agentic Software Development) désigne une approche avancée du développement où des agents d'intelligence artificielle (IA) opèrent de manière autonome. Ces agents sont conçus pour comprendre des objectifs de haut niveau, décomposer des tâches complexes, générer, tester et déboguer du code, le tout en nécessitant une intervention humaine minimale. Cela représente une évolution significative vers une automatisation accrue du cycle de vie logiciel.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "ai-code-review",
+        "term": "Revue de Code par IA",
+        "definition": "L'AI Code Review (Revue de Code par IA) consiste à utiliser des outils basés sur l'intelligence artificielle pour analyser automatiquement le code source. Cette analyse vise à identifier les erreurs potentielles, les bugs, les vulnérabilités de sécurité, à suggérer des optimisations de performance ou de lisibilité, et à vérifier la conformité du code aux standards de développement et aux bonnes pratiques de l'industrie.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "ai-pair-programming",
+        "term": "Programmation en Binôme avec IA",
+        "definition": "L'AI Pair Programming (Programmation en Binôme avec IA) est une méthode de collaboration interactive et en temps réel entre un développeur humain et un assistant IA, tel que GitHub Copilot. Dans ce mode de travail, l'IA fournit activement des suggestions de code, aide à la correction d'erreurs, complète des portions de code, ou génère des blocs fonctionnels, optimisant ainsi le flux de travail du développeur.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "ai-augmented-creativity",
+        "term": "Créativité Augmentée par IA",
+        "definition": "L'AI-Augmented Creativity (Créativité Augmentée par IA) fait référence à l'utilisation de l'intelligence artificielle comme un levier pour amplifier et stimuler l'idéation et la créativité, notamment dans les domaines du codage et de la conception de produits. Par exemple, une IA peut aider à générer des concepts d'applications innovantes à partir d'un mood board ou d'une simple description d'intention utilisateur.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "ai-driven-development",
+        "term": "Développement Piloté par IA (AIDD)",
+        "definition": "L'AI-Driven Development (AIDD), ou Développement Piloté par IA, est une approche méthodologique où l'intelligence artificielle générative est intégrée au cœur du processus de développement logiciel. L'IA y joue un rôle central en automatisant de manière significative la génération de code, la rédaction de la documentation technique, la création de cas de test, et d'autres tâches, principalement à partir de prompts ou de spécifications fonctionnelles de haut niveau.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "ai-fluent",
+        "term": "Compétent en IA (AI-Fluent)",
+        "definition": "Être AI-Fluent (Compétent en IA) décrit la capacité d'un individu à interagir de manière efficace et productive avec divers outils d'intelligence artificielle. Cette compétence va au-delà de la simple utilisation ; elle implique de comprendre comment formuler des requêtes (prompts) optimales, interpréter et valider les résultats produits par l'IA, et intégrer ces outils dans son flux de travail, plutôt que de se limiter à la maîtrise d'un langage de programmation spécifique.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "ai-native-architecture",
+        "term": "Architecture Née de l'IA",
+        "definition": "Une AI-Native Architecture (Architecture Née de l'IA) désigne la conception de systèmes et d'applications où l'intelligence artificielle n'est pas un simple ajout fonctionnel, mais un composant fondamental et intrinsèque de l'architecture elle-même. Cette approche influence profondément la manière dont les données sont traitées, les décisions automatisées, les interfaces utilisateur générées et l'expérience globale conçue.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "automl-for-code",
+        "term": "AutoML pour le Code",
+        "definition": "L'AutoML for Code consiste à appliquer les principes de l'AutoML (Automated Machine Learning) spécifiquement à la génération et à l'optimisation de code. Dans ce contexte, l'intelligence artificielle est utilisée pour explorer et optimiser elle-même les algorithmes ou les modèles capables de réaliser des tâches de programmation, comme la génération de code pour des fonctions spécifiques ou la recherche des meilleures implémentations.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "citizen-developer",
+        "term": "Développeur Citoyen",
+        "definition": "Un Citizen Developer (Développeur Citoyen) est un utilisateur, souvent un professionnel non issu du développement informatique traditionnel, qui crée des applications métier en utilisant des plateformes et des outils no-code, low-code, ou des solutions basées sur l'IA générative. Ces individus exploitent la technologie pour résoudre des problèmes spécifiques à leur domaine ou pour innover, souvent dans un cadre entrepreneurial ou au sein de leur département.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "code-contextualization",
+        "term": "Contextualisation du Code",
+        "definition": "La Code Contextualization (Contextualisation du Code) est une technique employée par les IA génératrices de code. Elle permet à l'IA d'adapter le code qu'elle produit au contexte spécifique du projet en cours (par exemple, le framework utilisé, l'environnement de déploiement, les bibliothèques existantes). L'IA s'appuie pour cela sur des métadonnées fournies, des exemples de code du projet, ou l'analyse du code environnant.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "code-intent-verification",
+        "term": "Vérification d'Intention du Code",
+        "definition": "La Vérification d'Intention du Code (Code Intent Verification) va au-delà des tests unitaires classiques. Elle implique d'utiliser des systèmes d'IA pour analyser si le code produit par une autre IA (ou même par un humain) correspond réellement à l'intention métier ou fonctionnelle exprimée dans le prompt initial, les spécifications ou les user stories. Le but est de s'assurer que le code \"fait ce qu'il est censé faire\" à un niveau sémantique.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "code-persona",
+        "term": "Persona de Code",
+        "definition": "Un Code Persona (Persona de Code) est un profil d'intelligence artificielle personnalisé et configurable, conçu pour générer du code d'une manière qui s'aligne sur un style de programmation, une philosophie de conception, ou des conventions spécifiques. Par exemple, on pourrait définir un persona \"Développeur Python Expert en Sécurité\" ou \"Développeur JavaScript Pragmatique\" pour influencer la nature du code produit par l'IA.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "code-synthesis",
+        "term": "Synthèse de Code",
+        "definition": "La Synthèse de Code (Code Synthesis) est le processus par lequel une intelligence artificielle génère automatiquement du code source fonctionnel à partir d'une description de haut niveau, souvent abstraite, d'une spécification formelle ou d'un prompt en langage naturel. Cette capacité est au cœur d'outils comme GitHub Copilot, CodeLlama, et autres assistants de codage IA.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "collaborative-prompting",
+        "term": "Prompting Collaboratif",
+        "definition": "Le Prompting Collaboratif (Collaborative Prompting) est une pratique où plusieurs utilisateurs, souvent de disciplines différentes (développeurs, designers, chefs de produit), co-créent et affinent itérativement des prompts pour guider une intelligence artificielle. Cette approche favorise la synergie des expertises et permet d'obtenir des résultats plus riches et mieux alignés avec les objectifs du projet.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "conversational-coding",
+        "term": "Codage Conversationnel",
+        "definition": "Le Codage Conversationnel (Conversational Coding) décrit une approche de développement interactive où les développeurs \"dialoguent\" avec un assistant d'intelligence artificielle pour co-créer du code. Plutôt que de simplement recevoir des suggestions, le développeur affine les instructions, pose des questions, et itère sur les propositions de l'IA à travers un échange qui s'apparente à une conversation.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "ephemeral-code",
+        "term": "Code Éphémère",
+        "definition": "Le Code Éphémère (Ephemeral Code) est du code généré par IA, souvent rapidement et pour des usages spécifiques et temporaires. Il peut s'agir de scripts pour des prototypes, des démonstrations, des tests ponctuels, ou des tâches d'automatisation à usage unique. Sa caractéristique principale est d'être conçu pour être potentiellement jetable après utilisation, sans attente de maintenabilité à long terme.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "flow-based-coding",
+        "term": "Codage Basé sur le Flux (Flow-Based Coding)",
+        "definition": "Le Codage Basé sur le Flux (Flow-Based Coding) est une approche où les développeurs cherchent à maximiser leur état de \"flow\" créatif et productif en utilisant l'intelligence artificielle pour déléguer les tâches de codage répétitives, fastidieuses ou interruptives. L'IA agit comme un assistant qui permet au développeur de se concentrer sur la résolution de problèmes complexes et la conception de haut niveau.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "intent-driven-programming",
+        "term": "Programmation Pilotée par l'Intention",
+        "definition": "La Programmation Pilotée par l'Intention (Intent-Driven Programming) est un paradigme de développement où le développeur exprime ses intentions ou ses objectifs métier de haut niveau (par exemple, \"créer une application pour suivre les habitudes quotidiennes et afficher les progrès\") et l'intelligence artificielle se charge de traduire ces intentions en code fonctionnel. Cela réduit la dépendance aux détails techniques d'implémentation.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "multi-agent-code-generation",
+        "term": "Génération de Code Multi-Agents",
+        "definition": "La Génération de Code Multi-Agents (Multi-Agent Code Generation) est une technique avancée où plusieurs agents d'intelligence artificielle, chacun spécialisé dans un domaine ou une tâche spécifique (par exemple, frontend, backend, base de données, sécurité, tests), collaborent pour construire une application logicielle complexe. Ces agents peuvent être coordonnés par un agent \"chef d'orchestre\" ou interagir selon des protocoles définis.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "no-code-low-code",
+        "term": "No-Code/Low-Code",
+        "definition": "Les plateformes No-Code/Low-Code désignent des approches de développement logiciel qui permettent de créer des applications en utilisant principalement des interfaces graphiques visuelles (comme des composants à glisser-déposer) et de la configuration déclarative, nécessitant ainsi peu ou pas de codage manuel traditionnel. Elles visent à démocratiser la création d'applications.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "prompt-chaining",
+        "term": "Chaînage de Prompts",
+        "definition": "Le Chaînage de Prompts (Prompt Chaining) est une technique d'ingénierie de prompt où plusieurs prompts sont utilisés séquentiellement pour obtenir un résultat complexe ou affiné d'une intelligence artificielle générative. La sortie d'un prompt sert d'entrée ou de contexte pour le prompt suivant, permettant de décomposer une tâche en étapes plus simples pour l'IA.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "prompt-security",
+        "term": "Sécurité des Prompts",
+        "definition": "La Sécurité des Prompts (Prompt Security) englobe l'ensemble des pratiques, techniques et mesures visant à protéger les prompts et les interactions avec les grands modèles de langage (LLM) contre les manipulations malveillantes (comme l'injection de prompt), et à s'assurer que les IA ne génèrent pas de code nuisible, d'informations sensibles ou des réponses non conformes aux politiques d'utilisation.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "prompt-driven-testing",
+        "term": "Tests Pilotés par Prompts",
+        "definition": "Les Tests Pilotés par Prompts (Prompt-Driven Testing) sont une méthode de test logiciel où l'intelligence artificielle génère automatiquement des cas de test, des données de test, ou même des scripts de test à partir de descriptions de fonctionnalités ou d'exigences formulées en langage naturel (prompts). Cela vise à accélérer et automatiser une partie du processus de test.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "self-healing-code",
+        "term": "Code Auto-Réparateur",
+        "definition": "Le Code Auto-Réparateur (Self-Healing Code) désigne un code logiciel conçu avec la capacité de détecter ses propres anomalies, erreurs ou défaillances en cours d'exécution, et d'appliquer de manière autonome des correctifs ou des stratégies de contournement pour maintenir sa fonctionnalité ou sa résilience, souvent grâce à des mécanismes d'IA intégrés.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "semantic-coding",
+        "term": "Codage Sémantique",
+        "definition": "Le Codage Sémantique (Semantic Coding) est une approche de développement où le développeur se concentre sur l'expression de l'intention, de la logique métier et de la signification (sémantique) du programme qu'il souhaite créer, laissant ensuite à des outils avancés, souvent basés sur l'IA, le soin de traduire cette intention sémantique en code source concret et optimisé dans un langage spécifique.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "software-2-0",
+        "term": "Software 2.0",
+        "definition": "Le Software 2.0 est un concept, notamment popularisé par Andrej Karpathy, qui décrit une nouvelle manière de construire des logiciels. Au lieu d'être explicitement programmé par des humains avec des instructions logiques, le comportement du logiciel est appris à partir de données grâce à l'entraînement de modèles d'intelligence artificielle (typiquement des réseaux de neurones). Le code traditionnel est alors remplacé ou complété par les poids et l'architecture du modèle d'IA.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "vibe-coding-emerging",
+        "term": "Vibe Coding",
+        "definition": "Le Vibe Coding est un paradigme de développement émergent où l'intelligence artificielle générative, notamment les grands modèles de langage (LLM), permet de créer du code source et des applications à partir d'instructions formulées en langage naturel, d'intentions, ou même d'une \"vibe\" souhaitée. Il réduit significativement le besoin d'écrire manuellement chaque ligne de code, transformant le rôle du développeur.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "vibe-debugging",
+        "term": "Débogage Vibe",
+        "definition": "Le Débogage Vibe (Vibe Debugging) est un processus de débogage assisté par IA, spécifiquement dans le contexte du vibe coding. Il ne s'agit pas seulement de corriger des erreurs de syntaxe, mais aussi d'identifier et de rectifier les écarts entre le code généré par l'IA et l'intention ou la \"vibe\" initiale exprimée par l'utilisateur, en analysant la sémantique et le comportement attendu.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "vibe-orchestration",
+        "term": "Orchestration Vibe",
+        "definition": "L'Orchestration Vibe (Vibe Orchestration) désigne la coordination et la gestion de multiples outils et services d'intelligence artificielle (IA génératives, outils d'analyse, plateformes de déploiement) pour mener à bien un projet de développement logiciel de bout en bout, depuis la phase d'idéation et de prompting initial jusqu'à la mise en production et la maintenance, dans une démarche typique de vibe coding.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "vibe-testing",
+        "term": "Tests Vibe",
+        "definition": "Les Tests Vibe (Vibe Testing) sont une approche de validation des applications ou fonctionnalités développées via le vibe coding. Au-delà des tests techniques traditionnels (unitaires, intégration), les Tests Vibe s'assurent que le résultat final respecte fidèlement l'intention, l'objectif métier et la \"vibe\" globale exprimée dans les prompts initiaux, vérifiant ainsi l'alignement sémantique et expérientiel.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "zero-context-code-generation",
+        "term": "Génération de Code Sans Contexte",
+        "definition": "La Génération de Code Sans Contexte (Zero-Context Code Generation) décrit la capacité d'un modèle d'intelligence artificielle à générer du code pertinent et potentiellement complexe pour un projet existant sans recevoir explicitement un volume important de contexte préalable sur ce projet. L'IA tente alors d'inférer le contexte nécessaire à partir de fragments de code, de noms de fichiers ou d'autres indices limités, bien que cela représente un défi technique majeur.",
+        "category": "Vibecodr"
+      },
+      {
+        "id": "backend",
+        "term": "Backend",
+        "definition": "Le Backend (parfois appelé \"côté serveur\") d'une application logicielle est la partie non visible par l'utilisateur final qui gère la logique métier, le traitement des données, les interactions avec les bases de données, l'authentification, les API, et toutes les opérations qui se déroulent sur le serveur. Il est le moteur qui fait fonctionner l'application, en opposition au frontend qui est l'interface utilisateur.",
+        "category": "Developpement"
+      },
+      {
+        "id": "blue-green-deployment",
+        "term": "Déploiement Bleu-Vert",
+        "definition": "Le Déploiement Bleu-Vert (Blue-Green Deployment) est une technique de déploiement continu qui vise à réduire les temps d'arrêt et les risques lors de la mise en production d'une nouvelle version d'une application. Elle consiste à maintenir deux environnements de production identiques (\"Bleu\" pour la version active, \"Vert\" pour la nouvelle version). Le trafic est basculé de l'environnement Bleu vers le Vert une fois que ce dernier est testé et validé, l'ancien environnement Bleu servant de retour arrière en cas de problème.",
+        "category": "Developpement"
+      },
+      {
+        "id": "chaos-engineering",
+        "term": "Ingénierie du Chaos",
+        "definition": "L'Ingénierie du Chaos (Chaos Engineering) est une discipline qui consiste à expérimenter sur un système distribué en production afin de construire une confiance dans la capacité du système à résister à des conditions turbulentes et inattendues. Cela implique d'introduire délibérément des pannes contrôlées (ex: latence réseau, arrêt de serveur) pour identifier les faiblesses avant qu'elles n'impactent les utilisateurs.",
+        "category": "Developpement"
+      },
+      {
+        "id": "ci-cd-pipeline",
+        "term": "Pipeline CI/CD",
+        "definition": "Un Pipeline CI/CD (Pipeline d'Intégration Continue / Déploiement Continu ou Livraison Continue) est un ensemble automatisé de processus et d'outils qui permet aux équipes de développement de livrer des modifications logicielles de manière fréquente et fiable. Il englobe les étapes de compilation du code, d'exécution des tests automatisés, de packaging de l'application, et de déploiement sur les différents environnements (développement, test, production).",
+        "category": "Developpement"
+      },
+      {
+        "id": "containerization",
+        "term": "Conteneurisation",
+        "definition": "La Conteneurisation est une technologie de virtualisation au niveau du système d'exploitation qui permet d'empaqueter une application et toutes ses dépendances (bibliothèques, binaires, fichiers de configuration) dans une unité standardisée appelée \"conteneur\". Des outils comme Docker et Kubernetes sont emblématiques de cette approche, qui assure la portabilité et la cohérence des applications à travers différents environnements.",
+        "category": "Developpement"
+      },
+      {
+        "id": "cqrs",
+        "term": "CQRS (Ségrégation des Responsabilités de Commande et de Requête)",
+        "definition": "CQRS (Command Query Responsibility Segregation) est un patron d'architecture logicielle qui sépare les opérations de modification de l'état d'un système (les \"Commands\" ou commandes) des opérations de lecture de cet état (les \"Queries\" ou requêtes). Cette séparation permet d'optimiser indépendamment les modèles de données, les performances et la scalabilité pour les écritures et les lectures.",
+        "category": "Developpement"
+      },
+      {
+        "id": "dependency-injection",
+        "term": "Injection de Dépendances (DI)",
+        "definition": "L'Injection de Dépendances (Dependency Injection - DI) est un patron de conception logiciel dans lequel les dépendances d'un objet (c'est-à-dire les autres objets dont il a besoin pour fonctionner) lui sont fournies (injectées) par une entité externe plutôt qu'il ne les crée lui-même. Cela favorise un couplage faible entre les composants, améliorant la modularité, la testabilité et la maintenabilité du code.",
+        "category": "Developpement"
+      },
+      {
+        "id": "domain-driven-design-advanced",
+        "term": "Conception Dirigée par le Domaine (DDD) - Aspects Avancés",
+        "definition": "La Conception Dirigée par le Domaine (Domain-Driven Design - DDD) est une approche de la conception logicielle qui met l'accent sur la modélisation du logiciel pour qu'il corresponde étroitement au domaine métier sous-jacent. Les aspects avancés du DDD incluent des concepts tels que les \"Contextes Délimités\" (Bounded Contexts) pour isoler les modèles de domaine, les \"Agrégats\" (Aggregates) pour gérer la cohérence des objets, et l'utilisation d'un \"Langage Omniprésent\" (Ubiquitous Language) partagé par les experts du domaine et les développeurs.",
+        "category": "Developpement"
+      },
+      {
+        "id": "event-driven-architecture",
+        "term": "Architecture Orientée Événements (EDA)",
+        "definition": "Une Architecture Orientée Événements (Event-Driven Architecture - EDA) est un paradigme de conception logicielle dans lequel la production, la détection, la consommation et la réaction aux événements constituent le principal mécanisme de fonctionnement du système. Les composants (services, modules) communiquent de manière asynchrone en publiant et en s'abonnant à des événements (ex: un clic utilisateur, une mise à jour de base de données, un message d'un autre service).",
+        "category": "Developpement"
+      },
+      {
+        "id": "feature-toggles",
+        "term": "Commutateurs de Fonctionnalités",
+        "definition": "Les Commutateurs de Fonctionnalités (Feature Toggles ou Feature Flags) sont une technique de développement logiciel qui permet d'activer ou de désactiver dynamiquement certaines fonctionnalités d'une application en production, sans avoir à redéployer du code. Cela facilite les tests A/B, les lancements progressifs (canary releases), et la gestion des fonctionnalités en cours de développement.",
+        "category": "Developpement"
+      },
+      {
+        "id": "frontend",
+        "term": "Frontend",
+        "definition": "Le Frontend (parfois appelé \"côté client\") d'une application logicielle est la partie avec laquelle l'utilisateur interagit directement. Il englobe l'interface utilisateur (UI), le design visuel, l'expérience utilisateur (UX), et la logique qui s'exécute sur l'appareil de l'utilisateur (généralement dans un navigateur web ou une application mobile), souvent développée avec des technologies comme HTML, CSS, et JavaScript (ou des frameworks comme React, Angular, Vue.js).",
+        "category": "Developpement"
+      },
+      {
+        "id": "gitops",
+        "term": "GitOps",
+        "definition": "GitOps est une extension des pratiques DevOps qui utilise un dépôt Git comme unique source de vérité pour déclarer l'état désiré de l'infrastructure et des applications. Les modifications de l'infrastructure et des déploiements applicatifs sont gérées via des *commits* Git, et des processus automatisés assurent que l'état réel du système converge vers l'état déclaré dans Git, favorisant la traçabilité, la reproductibilité et la collaboration.",
+        "category": "Developpement"
+      },
+      {
+        "id": "graphql",
+        "term": "GraphQL",
+        "definition": "GraphQL est un langage de requête pour les API et un environnement d'exécution côté serveur pour exécuter ces requêtes. Contrairement aux API REST traditionnelles, GraphQL permet aux clients de demander précisément les données dont ils ont besoin, et uniquement celles-ci, en une seule requête, évitant ainsi le sur-chargement (over-fetching) ou le sous-chargement (under-fetching) de données et optimisant les performances.",
+        "category": "Developpement"
+      },
+      {
+        "id": "green-software-engineering",
+        "term": "Ingénierie Logicielle Écologique",
+        "definition": "L'Ingénierie Logicielle Écologique (Green Software Engineering ou Éco-conception logicielle) est une discipline émergente qui applique des principes de durabilité au développement et à l'exploitation des logiciels. L'objectif est de concevoir, développer et déployer des applications qui minimisent leur consommation d'énergie et leur empreinte carbone, tout en optimisant l'utilisation des ressources matérielles.",
+        "category": "Developpement"
+      },
+      {
+        "id": "ide",
+        "term": "IDE (Environnement de Développement Intégré)",
+        "definition": "Un IDE (Integrated Development Environment), ou Environnement de Développement Intégré, est une application logicielle qui fournit un ensemble complet d'outils aux développeurs pour faciliter le cycle de développement de logiciels. Un IDE typique inclut un éditeur de code source, des outils de construction (compilation, build), un débogueur, et souvent des fonctionnalités d'intégration avec des systèmes de gestion de versions (comme Git). Des exemples populaires sont Visual Studio Code, IntelliJ IDEA, Eclipse.",
+        "category": "Developpement"
+      },
+      {
+        "id": "infrastructure-as-code",
+        "term": "Infrastructure en tant que Code (IaC)",
+        "definition": "L'Infrastructure en tant que Code (Infrastructure as Code - IaC) est la pratique consistant à gérer et à provisionner l'infrastructure informatique (serveurs, réseaux, bases de données, équilibreurs de charge, etc.) à travers des fichiers de configuration lisibles par machine (du code), plutôt que par des configurations manuelles ou des outils interactifs. Des outils comme Terraform, Ansible, ou AWS CloudFormation permettent d'automatiser, de versionner et de reproduire les environnements d'infrastructure.",
+        "category": "Developpement"
+      },
+      {
+        "id": "jamstack",
+        "term": "Jamstack",
+        "definition": "Jamstack est une architecture moderne pour la construction de sites web et d'applications web plus rapides, plus sécurisés et plus faciles à mettre à l'échelle. Elle repose sur trois piliers : **J**avaScript, les **A**PIs, et le **M**arkup pré-rendu (souvent sous forme de fichiers statiques HTML). Le frontend est découplé du backend, le contenu est servi via des CDN, et les fonctionnalités dynamiques sont gérées via des APIs et du JavaScript côté client.",
+        "category": "Developpement"
+      },
+      {
+        "id": "microservices",
+        "term": "Microservices",
+        "definition": "L'architecture en Microservices est une approche de développement logiciel où une application complexe est décomposée en un ensemble de petits services indépendants et autonomes. Chaque microservice est responsable d'une fonctionnalité métier spécifique, possède sa propre base de code, est déployé indépendamment, et communique avec les autres services via des API bien définies (souvent HTTP/REST ou des messages asynchrones).",
+        "category": "Developpement"
+      },
+      {
+        "id": "monorepo",
+        "term": "Monorepo",
+        "definition": "Un Monorepo (contraction de \"mono-repository\") est une stratégie de gestion de code source où le code de multiples projets, bibliothèques ou applications, potentiellement liés, est stocké dans un unique dépôt de version (généralement Git). Cette approche vise à faciliter le partage de code, la gestion des dépendances, et la collaboration à grande échelle, bien qu'elle présente aussi ses propres défis.",
+        "category": "Developpement"
+      },
+      {
+        "id": "observability",
+        "term": "Observabilité",
+        "definition": "L'Observabilité (Observability) dans le contexte des systèmes logiciels est la capacité à comprendre l'état interne et le comportement d'un système complexe uniquement à partir de ses sorties externes. Elle repose typiquement sur la collecte et l'analyse de trois types de données : les métriques (mesures quantitatives), les logs (enregistrements d'événements), et les traces (suivi des requêtes à travers les services). L'observabilité est cruciale pour le débogage, le monitoring et l'optimisation des systèmes distribués.",
+        "category": "Developpement"
+      },
+      {
+        "id": "platform-engineering",
+        "term": "Ingénierie de Plateforme",
+        "definition": "L'Ingénierie de Plateforme (Platform Engineering) est une discipline qui consiste à concevoir, construire et maintenir des plateformes internes en libre-service (Internal Developer Platforms - IDP). L'objectif est de fournir aux équipes de développement des outils, des services et des workflows standardisés qui simplifient et accélèrent le cycle de vie du développement logiciel (du code à la production), améliorant ainsi l'expérience développeur (DX) et la productivité.",
+        "category": "Developpement"
+      },
+      {
+        "id": "polyglot-programming",
+        "term": "Programmation Polyglotte",
+        "definition": "La Programmation Polyglotte (Polyglot Programming) est la pratique consistant à utiliser plusieurs langages de programmation au sein d'un même projet ou d'un même système logiciel. Cette approche permet de choisir le langage le plus adapté pour chaque composant ou tâche spécifique, en tirant parti des forces de chaque langage (ex: Python pour le scripting et le machine learning, Java pour des services backend robustes, JavaScript pour le frontend).",
+        "category": "Developpement"
+      },
+      {
+        "id": "progressive-web-app",
+        "term": "Application Web Progressive (PWA)",
+        "definition": "Une Application Web Progressive (Progressive Web App - PWA) est un type d'application web qui utilise les technologies web modernes (comme les Service Workers, les Web App Manifests) pour offrir une expérience utilisateur similaire à celle des applications natives (mobiles ou de bureau). Les PWAs sont fiables (fonctionnent même hors ligne ou avec une mauvaise connexion), rapides, engageantes (peuvent envoyer des notifications push), et installables sur l'appareil de l'utilisateur.",
+        "category": "Developpement"
+      },
+      {
+        "id": "quantum-resistant-cryptography",
+        "term": "Cryptographie Post-Quantique",
+        "definition": "La Cryptographie Post-Quantique (Quantum-Resistant Cryptography ou Cryptographie Résistante aux Ordinateurs Quantiques) désigne le domaine de la cryptographie qui développe des algorithmes capables de résister aux attaques qui pourraient être menées par de futurs ordinateurs quantiques suffisamment puissants. Ces ordinateurs menacent de casser les systèmes cryptographiques actuels basés sur la factorisation de grands nombres ou le logarithme discret.",
+        "category": "Developpement"
+      },
+      {
+        "id": "refactoring",
+        "term": "Réusinage de code",
+        "definition": "Le Réusinage de code (Refactoring ou Remaniement de code) est le processus qui consiste à restructurer et à améliorer le code source existant d'un logiciel sans en changer son comportement externe observable. L'objectif est d'améliorer la lisibilité, la maintenabilité, la performance, la conception interne du code, ou de réduire sa complexité, facilitant ainsi les évolutions futures.",
+        "category": "Developpement"
+      },
+      {
+        "id": "resilience-engineering",
+        "term": "Ingénierie de la Résilience",
+        "definition": "L'Ingénierie de la Résilience (Resilience Engineering) est une approche de la conception et de l'exploitation des systèmes complexes qui se concentre sur leur capacité à anticiper, à résister, à s'adapter et à se rétablir face à des perturbations, des défaillances ou des événements inattendus. Elle va au-delà de la simple prévention des pannes pour s'intéresser à la manière dont le système peut continuer à fonctionner, même en mode dégradé, et récupérer rapidement.",
+        "category": "Developpement"
+      },
+      {
+        "id": "schema-evolution-management",
+        "term": "Gestion de l'Évolution des Schémas",
+        "definition": "La Gestion de l'Évolution des Schémas (Schema Evolution Management) concerne les stratégies et les techniques utilisées pour gérer les modifications apportées aux schémas de données (par exemple, dans une base de données ou un format de message) de manière contrôlée et non disruptive pour les applications qui les utilisent. Cela inclut des pratiques comme la compatibilité ascendante et descendante, les migrations de données, et le versioning des schémas.",
+        "category": "Developpement"
+      },
+      {
+        "id": "serverless-computing",
+        "term": "Informatique sans Serveur (Serverless)",
+        "definition": "L'Informatique sans Serveur (Serverless Computing ou \"Serverless\") est un modèle d'exécution cloud dans lequel le fournisseur de cloud gère dynamiquement l'allocation et la mise à l'échelle des ressources serveur. Les développeurs écrivent et déploient du code sous forme de fonctions (ex: AWS Lambda, Azure Functions, Google Cloud Functions) qui s'exécutent en réponse à des événements, sans avoir à provisionner ou à gérer explicitement des serveurs.",
+        "category": "Developpement"
+      },
+      {
+        "id": "technical-debt",
+        "term": "Dette Technique",
+        "definition": "La Dette Technique (Technical Debt) est une métaphore utilisée en développement logiciel pour décrire les conséquences à long terme des choix de conception ou d'implémentation qui ont été faits pour accélérer la livraison à court terme, mais qui rendent le code plus difficile à maintenir, à faire évoluer, ou plus coûteux à modifier dans le futur. Comme une dette financière, elle accumule des \"intérêts\" sous forme de complexité accrue et de ralentissement du développement.",
+        "category": "Developpement"
+      },
+      {
+        "id": "unit-test",
+        "term": "Test Unitaire",
+        "definition": "Un Test Unitaire (Unit Test) est un type de test logiciel automatisé qui vérifie le bon fonctionnement d'une petite partie isolée du code source (une \"unité\", typiquement une fonction, une méthode ou une classe). L'objectif des tests unitaires est de s'assurer que chaque unité de code se comporte comme prévu individuellement, avant de les intégrer dans des ensembles plus larges.",
+        "category": "Developpement"
+      },
+      {
+        "id": "togglable-architecture",
+        "term": "Architecture à Bascules",
+        "definition": "Une Architecture à Bascules (Togglable Architecture ou Architecture Commutable) est une conception de système logiciel où des pans entiers de l'architecture, des composants majeurs, ou des implémentations alternatives de services peuvent être activés, désactivés, ou échangés dynamiquement en production, souvent grâce à des mécanismes de Feature Toggles avancés ou des routeurs de services configurables. Cela permet des migrations progressives, des tests A/B d'architectures, ou une meilleure résilience.",
+        "category": "Developpement"
+      },
+      {
+        "id": "versioning",
+        "term": "Gestion de Versions",
+        "definition": "La Gestion de Versions (Versioning ou Contrôle de Version) est la pratique et l'ensemble des outils (comme Git, SVN) qui permettent de suivre et de gérer les modifications apportées au code source d'un logiciel (ou à d'autres types de fichiers) au fil du temps. Cela permet de revenir à des versions antérieures, de travailler en parallèle sur différentes fonctionnalités (branches), de fusionner les modifications, et de collaborer efficacement en équipe.",
+        "category": "Developpement"
+      },
+      {
+        "id": "webassembly",
+        "term": "WebAssembly (Wasm)",
+        "definition": "WebAssembly (Wasm) est un format binaire d'instructions de bas niveau conçu comme une cible de compilation portable pour les langages de programmation de haut niveau (comme C++, Rust, Go). Il permet d'exécuter du code à des performances proches du natif directement dans les navigateurs web, ainsi que dans d'autres environnements (serveur, edge). Wasm ouvre la voie à des applications web plus performantes et à l'utilisation de langages variés pour le développement web.",
+        "category": "Developpement"
+      },
+      {
+        "id": "zero-trust-architecture",
+        "term": "Architecture Confiance Zéro (ZTA)",
+        "definition": "Une Architecture Confiance Zéro (Zero Trust Architecture - ZTA) est un modèle de sécurité informatique basé sur le principe fondamental de \"ne jamais faire confiance, toujours vérifier\". Dans une architecture Zero Trust, aucune entité (utilisateur, appareil, application, réseau) n'est considérée comme fiable par défaut, même si elle se trouve à l'intérieur du périmètre du réseau de l'entreprise. L'accès aux ressources est accordé de manière granulaire, après une vérification stricte de l'identité et du contexte.",
+        "category": "Developpement"
+      },
+      {
+        "id": "ab-testing",
+        "term": "A/B Testing",
+        "definition": "A/B Testing (également appelé test fractionné ou test A/B/N) est une méthode d'expérimentation qui consiste à comparer deux ou plusieurs versions d'une page web, d'une fonctionnalité, d'un email ou d'un autre élément d'un produit, en les présentant de manière aléatoire à différents segments d'utilisateurs. L'objectif est de déterminer statistiquement quelle version performe le mieux par rapport à un objectif spécifique (ex: taux de conversion, taux de clics, temps passé).",
+        "category": "Producty"
+      },
+      {
+        "id": "behavioral-analytics",
+        "term": "Behavioral Analytics",
+        "definition": "Behavioral Analytics (Analyse Comportementale) est le processus de collecte, d'analyse et d'interprétation des données relatives aux actions et comportements des utilisateurs lorsqu'ils interagissent avec un produit numérique (site web, application). Elle vise à comprendre comment les utilisateurs utilisent le produit (ex: clics, défilements, temps passé sur une page, séquences d'actions) afin d'identifier des points de friction, d'optimiser l'expérience utilisateur et d'améliorer les performances du produit.",
+        "category": "Producty"
+      },
+      {
+        "id": "category-design",
+        "term": "Category Design",
+        "definition": "**Category Design** (Création de Catégorie ou Conception de Catégorie) est une stratégie d'entreprise et de marketing qui consiste non pas à concurrencer les acteurs existants sur un marché, mais à créer et à définir une nouvelle catégorie de marché que l'entreprise peut ensuite dominer. L'objectif est de se positionner comme le leader d'opinion et la référence de cette nouvelle catégorie, en éduquant le marché sur un nouveau problème et une nouvelle solution.",
+        "category": "Producty"
+      },
+      {
+        "id": "cognitive-load-management",
+        "term": "Cognitive Load Management",
+        "definition": "**Cognitive Load Management** (Gestion de la Charge Cognitive) en conception de produit est l'art de concevoir des interfaces utilisateur et des expériences qui minimisent l'effort mental requis de la part des utilisateurs pour comprendre et utiliser le produit. Cela implique de simplifier les interfaces, de structurer l'information de manière logique, de réduire le nombre de choix, et de fournir des indications claires pour éviter la surcharge cognitive.",
+        "category": "Producty"
+      },
+      {
+        "id": "continuous-discovery-habits",
+        "term": "Continuous Discovery Habits",
+        "definition": "Les **Continuous Discovery Habits** (Habitudes de Découverte Continue) désignent un ensemble de pratiques régulières et intégrées dans le travail des équipes produit (chefs de produit, designers, développeurs) visant à interagir fréquemment avec les clients et utilisateurs (par des entretiens, des tests utilisateurs, l'analyse de données) pour identifier en continu leurs besoins, leurs problèmes et leurs désirs. L'objectif est d'informer les décisions produit de manière continue plutôt que ponctuelle.",
+        "category": "Producty"
+      },
+      {
+        "id": "customer-journey-mapping",
+        "term": "Customer Journey Mapping",
+        "definition": "La **Customer Journey Mapping** (Cartographie du Parcours Client) est un exercice de visualisation qui décrit les différentes étapes, points de contact, actions, pensées et émotions qu'un utilisateur ou client traverse lorsqu'il interagit avec une entreprise, un produit ou un service, depuis la prise de conscience initiale jusqu'à l'après-achat et la fidélisation. Elle aide à identifier les points de douleur et les opportunités d'amélioration.",
+        "category": "Producty"
+      },
+      {
+        "id": "customer-success",
+        "term": "Customer Success",
+        "definition": "Le **Customer Success** (Succès Client) est une fonction et une philosophie d'entreprise, particulièrement répandue dans les modèles SaaS, qui vise de manière proactive à s'assurer que les clients atteignent les résultats souhaités et tirent le maximum de valeur du produit ou service qu'ils utilisent. L'objectif est d'augmenter la satisfaction, la rétention, la fidélité et potentiellement l'expansion (upselling, cross-selling) des clients.",
+        "category": "Producty"
+      },
+      {
+        "id": "design-thinking",
+        "term": "Design Thinking",
+        "definition": "Le **Design Thinking** (Pensée Design) est une approche itérative et centrée sur l'humain pour la résolution de problèmes complexes et l'innovation. Elle s'appuie sur des méthodes et des outils issus du design pour comprendre profondément les besoins des utilisateurs (par l'empathie), définir clairement les problèmes, générer de multiples idées (idéation), prototyper rapidement des solutions, et les tester auprès des utilisateurs pour recueillir des feedbacks et itérer.",
+        "category": "Producty"
+      },
+      {
+        "id": "feature-creep",
+        "term": "Feature Creep",
+        "definition": "Le **Feature Creep** (Inflation des Fonctionnalités ou Dérive des Fonctionnalités) est le phénomène par lequel un produit logiciel s'enrichit continuellement de nouvelles fonctionnalités, souvent de manière non maîtrisée, au point de devenir excessivement complexe, difficile à utiliser, et coûteux à maintenir. Cela se produit souvent au détriment de la simplicité, de la clarté de la proposition de valeur et de l'expérience utilisateur initiale.",
+        "category": "Producty"
+      },
+      {
+        "id": "feedback-loop-optimization",
+        "term": "Feedback Loop Optimization",
+        "definition": "La **Feedback Loop Optimization** (Optimisation de la Boucle de Rétroaction) est un processus itératif visant à maximiser la collecte, l'analyse et l'utilisation des retours d'information (feedback) des utilisateurs, des clients ou des données d'usage pour améliorer continuellement un produit, un service ou un processus. L'objectif est de raccourcir les cycles d'apprentissage et d'adaptation.",
+        "category": "Producty"
+      },
+      {
+        "id": "flywheel-effect",
+        "term": "Flywheel Effect",
+        "definition": "L'**Flywheel Effect** (Effet de Volant d'Inertie) est un concept de croissance d'entreprise popularisé par Jim Collins, puis adapté par des entreprises comme Amazon. Il décrit un modèle où un ensemble d'initiatives clés, bien exécutées et interconnectées, se renforcent mutuellement, créant une dynamique positive auto-entretenue qui propulse la croissance de manière exponentielle avec le temps, comme un lourd volant qui, une fois lancé, continue de tourner avec de moins en moins d'effort.",
+        "category": "Producty"
+      },
+      {
+        "id": "frictionless-experience",
+        "term": "Frictionless Experience",
+        "definition": "Une **Frictionless Experience** (Expérience sans Friction) en conception de produit vise à éliminer ou à minimiser tous les obstacles, les difficultés, les frustrations ou les efforts inutiles qu'un utilisateur pourrait rencontrer lors de son interaction avec un produit ou un service. L'objectif est de rendre le parcours utilisateur aussi fluide, intuitif et agréable que possible.",
+        "category": "Producty"
+      },
+      {
+        "id": "growth-driven-design",
+        "term": "Growth-Driven Design",
+        "definition": "Le **Growth-Driven Design (GDD)** est une approche itérative de la conception et de l'amélioration de sites web (et par extension, de produits numériques) qui s'oppose aux refontes traditionnelles, longues et coûteuses. Le GDD se concentre sur un lancement rapide d'une version initiale (Launch Pad) puis sur des cycles d'amélioration continue basés sur l'analyse des données d'utilisation et des comportements des visiteurs, afin d'optimiser la performance et la croissance.",
+        "category": "Producty"
+      },
+      {
+        "id": "inclusive-design",
+        "term": "Inclusive Design",
+        "definition": "L'**Inclusive Design** (Conception Inclusive ou Conception pour Tous) est une méthodologie de conception qui vise à créer des produits, services et environnements qui sont accessibles et utilisables par le plus grand nombre de personnes possible, quels que soient leur âge, leur genre, leurs capacités physiques ou cognitives, leur culture ou leur situation. Elle cherche à inclure la diversité humaine dès le début du processus de conception.",
+        "category": "Producty"
+      },
+      {
+        "id": "jobs-to-be-done",
+        "term": "Jobs-to-be-Done (JTBD)",
+        "definition": "Le cadre des **Jobs-to-be-Done (JTBD)** est une approche de l'innovation et du développement produit qui se concentre sur la compréhension des \"tâches\" (jobs) fondamentales que les clients essaient d'accomplir dans une situation donnée, ainsi que les résultats qu'ils attendent. Plutôt que de se focaliser sur les caractéristiques du produit ou les profils démographiques, le JTBD cherche à identifier les motivations profondes et les besoins fonctionnels et émotionnels des clients.",
+        "category": "Producty"
+      },
+      {
+        "id": "lean-product-development",
+        "term": "Lean Product Development",
+        "definition": "Le **Lean Product Development** (Développement Produit Lean ou frugal) est une approche de la création de produits inspirée des principes du Lean Manufacturing. Elle vise à maximiser la valeur délivrée à l'utilisateur tout en minimisant les gaspillages (de temps, de ressources, d'efforts) grâce à des cycles d'itération rapides (Construire-Mesurer-Apprendre), une focalisation sur l'apprentissage validé, et une prise de décision basée sur les données.",
+        "category": "Producty"
+      },
+      {
+        "id": "minimum-lovable-product",
+        "term": "Minimum Lovable Product (MLP)",
+        "definition": "Le **Minimum Lovable Product (MLP)** est une évolution du concept de MVP (Minimum Viable Product). Plutôt que de se concentrer uniquement sur la viabilité fonctionnelle, le MLP vise à créer une version initiale d'un produit qui, bien que minimale en termes de fonctionnalités, est conçue avec suffisamment de soin, de qualité et d'attention à l'expérience utilisateur pour que les premiers adoptants (\"early adopters\") non seulement l'utilisent, mais l'\"adorent\" et en deviennent des ambassadeurs.",
+        "category": "Producty"
+      },
+      {
+        "id": "north-star-metric",
+        "term": "North Star Metric",
+        "definition": "La **North Star Metric (NSM)**, ou Métrique Phare, est un indicateur de performance clé (KPI) unique qui représente le mieux la valeur fondamentale que votre produit délivre à vos clients. Elle sert de guide à l'ensemble de l'entreprise pour aligner les efforts et les décisions produit vers un objectif commun qui reflète la croissance durable et la satisfaction client.",
+        "category": "Producty"
+      },
+      {
+        "id": "outcome-driven-development",
+        "term": "Outcome-Driven Development",
+        "definition": "L'**Outcome-Driven Development** (Développement Piloté par les Résultats ou les Impacts) est une approche du développement produit où les équipes se concentrent sur l'atteinte de résultats mesurables et significatifs pour l'utilisateur et pour l'entreprise (les \"outcomes\"), plutôt que de se focaliser uniquement sur la livraison de fonctionnalités (les \"outputs\"). Cela implique de définir clairement les résultats souhaités et de mesurer l'impact des fonctionnalités livrées.",
+        "category": "Producty"
+      },
+      {
+        "id": "outcome-driven-innovation",
+        "term": "Outcome-Driven Innovation (ODI)",
+        "definition": "L'**Outcome-Driven Innovation (ODI)** est une méthodologie de stratégie et d'innovation, souvent associée au cadre Jobs-to-be-Done, qui se concentre sur l'identification et la priorisation des \"résultats attendus\" (desired outcomes) non satisfaits par les clients lorsqu'ils essaient d'accomplir un \"job\". L'innovation vise alors à développer des solutions qui aident les clients à mieux atteindre ces résultats.",
+        "category": "Producty"
+      },
+      {
+        "id": "product-evangelism",
+        "term": "Product Evangelism",
+        "definition": "Le **Product Evangelism** (Évangélisation Produit) est une forme de marketing et de communication où des individus passionnés (souvent des employés, mais aussi des clients ou des partenaires) promeuvent activement et avec enthousiasme un produit ou une technologie, en partageant leur conviction de sa valeur et en cherchant à convertir d'autres personnes à son utilisation.",
+        "category": "Producty"
+      },
+      {
+        "id": "product-lifecycle-management",
+        "term": "Product Lifecycle Management (PLM)",
+        "definition": "Le **Product Lifecycle Management (PLM)**, ou Gestion du Cycle de Vie Produit, est le processus de gestion de l'ensemble du cycle de vie d'un produit, depuis sa conception initiale (idéation, R&D), en passant par son développement, son lancement, sa croissance, sa maturité, jusqu'à son déclin et son retrait éventuel du marché. Le PLM implique la coordination de nombreuses activités et parties prenantes.",
+        "category": "Producty"
+      },
+      {
+        "id": "product-led-growth",
+        "term": "Product-Led Growth (PLG)",
+        "definition": "La **Product-Led Growth (PLG)**, ou Croissance Pilotée par le Produit, est une stratégie de go-to-market où le produit lui-même est le principal moteur d'acquisition, d'activation, de rétention et d'expansion des clients. Les entreprises PLG s'appuient sur des essais gratuits, des versions freemium, une excellente expérience utilisateur et des fonctionnalités virales pour attirer et convertir les utilisateurs, souvent avant même une interaction avec une équipe de vente.",
+        "category": "Producty"
+      },
+      {
+        "id": "product-led-sales",
+        "term": "Product-Led Sales (PLS)",
+        "definition": "Le **Product-Led Sales (PLS)** est une approche commerciale qui s'inscrit dans une stratégie de Product-Led Growth. Les équipes commerciales utilisent les données d'utilisation du produit (Product Qualified Leads - PQLs) pour identifier les utilisateurs ou les comptes qui montrent un fort engagement ou qui ont atteint certains seuils d'utilisation, afin de les contacter de manière ciblée et de les aider à passer à des offres payantes ou supérieures.",
+        "category": "Producty"
+      },
+      {
+        "id": "product-market-fit",
+        "term": "Product-Market Fit (PMF)",
+        "definition": "Le **Product-Market Fit (PMF)**, ou Adéquation Produit-Marché, est un état atteint lorsqu'une entreprise a développé un produit qui satisfait une demande forte sur un marché cible bien défini. Cela signifie que le produit résout un problème réel pour un nombre significatif de clients qui sont prêts à l'utiliser et, idéalement, à payer pour cela. C'est un jalon crucial pour la survie et la croissance d'une startup.",
+        "category": "Producty"
+      },
+      {
+        "id": "proof-of-concept",
+        "term": "Proof of Concept (PoC)",
+        "definition": "Une **Proof of Concept (PoC)**, ou Preuve de Concept, est une réalisation ou une démonstration à petite échelle dont l'objectif principal est de vérifier la faisabilité technique ou la viabilité pratique d'une idée, d'un concept, d'une technologie ou d'une méthodologie avant d'engager des ressources plus importantes dans son développement complet.",
+        "category": "Producty"
+      },
+      {
+        "id": "prototyping-fidelity",
+        "term": "Prototyping Fidelity",
+        "definition": "La **Prototyping Fidelity** (Fidélité du Prototypage) fait référence au niveau de détail, de réalisme et d'interactivité d'un prototype par rapport au produit final. On distingue généralement la basse fidélité (ex: croquis papier, wireframes simples), la moyenne fidélité (ex: wireframes interactifs avec quelques éléments visuels), et la haute fidélité (ex: maquettes interactives très proches du design final et du comportement attendu).",
+        "category": "Producty"
+      },
+      {
+        "id": "roadmap",
+        "term": "Roadmap",
+        "definition": "Une **Roadmap** (Feuille de Route Produit) est un document stratégique de haut niveau qui communique la vision, la direction, les priorités et les objectifs futurs du développement d'un produit sur une période donnée. Elle aligne les parties prenantes sur ce qui sera construit, pourquoi, et approximativement quand, mais elle doit rester flexible pour s'adapter aux apprentissages et aux changements du marché.",
+        "category": "Producty"
+      },
+      {
+        "id": "sustainable-product-development",
+        "term": "Sustainable Product Development",
+        "definition": "Le **Sustainable Product Development** (Développement Produit Durable ou Éco-conception de Produit) est une approche de la conception et du développement de produits qui vise à minimiser leur impact environnemental et social négatif tout au long de leur cycle de vie, tout en maximisant leur valeur économique et leur contribution positive. Cela inclut des considérations sur les matériaux, l'énergie, la durabilité, la réparabilité, et la fin de vie.",
+        "category": "Producty"
+      },
+      {
+        "id": "time-to-market",
+        "term": "Time-to-Market",
+        "definition": "Le **Time-to-Market (TTM)**, ou Délai de Commercialisation, est la durée totale nécessaire pour qu'un produit passe de sa phase de conception initiale (idée) à sa disponibilité effective sur le marché pour les clients. Réduire le TTM est souvent un objectif clé pour les entreprises cherchant à gagner un avantage concurrentiel ou à répondre rapidement aux besoins du marché.",
+        "category": "Producty"
+      },
+      {
+        "id": "user-advocacy",
+        "term": "User Advocacy",
+        "definition": "La **User Advocacy** (Défense des Utilisateurs) est un rôle ou une pratique au sein d'une entreprise où une personne ou une équipe se fait le porte-parole des besoins, des intérêts et des préoccupations des utilisateurs finaux. L'objectif est de s'assurer que la voix de l'utilisateur est entendue et prise en compte dans les décisions de conception, de développement et de stratégie produit.",
+        "category": "Producty"
+      },
+      {
+        "id": "ux-ui",
+        "term": "UX/UI (User Experience/User Interface)",
+        "definition": "**UX/UI** sont deux termes liés mais distincts dans la conception de produits numériques :\n*   **UX (User Experience - Expérience Utilisateur)** concerne l'ensemble des perceptions, émotions et réactions d'une personne lorsqu'elle utilise un produit, un système ou un service. Elle englobe l'utilisabilité, l'accessibilité, la désirabilité et la valeur globale perçue.\n*   **UI (User Interface - Interface Utilisateur)** se réfère spécifiquement aux éléments visuels et interactifs avec lesquels l'utilisateur interagit (ex: boutons, menus, écrans, typographie, couleurs). Une bonne UI contribue à une bonne UX.",
+        "category": "Producty"
+      },
+      {
+        "id": "value-proposition",
+        "term": "Value Proposition",
+        "definition": "La **Value Proposition** (Proposition de Valeur) est une déclaration claire et concise qui explique les bénéfices uniques qu'un produit ou service offre à son public cible, comment il résout leurs problèmes ou satisfait leurs besoins, et pourquoi il est préférable aux alternatives concurrentes. C'est un élément fondamental de la stratégie marketing et produit.",
+        "category": "Producty"
+      },
+      {
+        "id": "value-stream-mapping",
+        "term": "Value Stream Mapping (Cartographie de la Chaîne de Valeur)",
+        "definition": "La **Value Stream Mapping (VSM)**, ou Cartographie de la Chaîne de Valeur, appliquée au développement produit, est un outil d'analyse Lean qui permet de visualiser, d'analyser et d'améliorer l'ensemble des étapes et des flux d'activités (avec et sans valeur ajoutée) nécessaires pour transformer une idée de produit en une valeur livrée au client. L'objectif est d'identifier les gaspillages et d'optimiser le cycle de livraison de valeur.",
+        "category": "Producty"
+      },
+      {
+        "id": "angel-investor",
+        "term": "Angel Investor",
+        "definition": "Un Angel Investor (Investisseur Providentiel ou Business Angel) est un particulier fortuné qui investit son propre capital dans des entreprises en phase de démarrage (startups), généralement en échange d'une participation au capital (equity) ou de dette convertible. Au-delà du financement, les business angels apportent souvent leur expertise, leur réseau et un rôle de mentorat aux entrepreneurs qu'ils soutiennent.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "build-in-public-at-scale",
+        "term": "Build in Public at Scale",
+        "definition": "Le mouvement 'Build in Public at Scale' (Construire en Public à Grande Échelle) est une extension de la philosophie 'Build in Public' où non seulement les fondateurs solos ou les petites startups, mais aussi des entreprises plus matures ou en croissance, adoptent une stratégie de transparence radicale. Elles partagent ouvertement leurs métriques de performance, leurs défis, leurs apprentissages, et leur feuille de route avec leur communauté et le public, même à une échelle plus importante.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "bootstrapping",
+        "term": "Bootstrapping",
+        "definition": "Le Bootstrapping est une méthode de financement d'une entreprise qui consiste à la démarrer et à la faire croître en utilisant uniquement ses propres ressources financières (épargne personnelle des fondateurs, revenus générés par l'activité elle-même) sans recourir à des investissements externes (comme le capital-risque ou les prêts bancaires importants). L'accent est mis sur la frugalité, la rentabilité rapide et la croissance organique.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "burn-rate",
+        "term": "Burn Rate",
+        "definition": "Le Burn Rate (Taux de Combustion ou Taux de Consommation de Trésorerie) est la vitesse à laquelle une startup, généralement non encore rentable, dépense son capital disponible (provenant d'investissements ou de fonds propres) pour couvrir ses dépenses opérationnelles mensuelles. Il est un indicateur clé de la santé financière et de la piste de décollage (runway) d'une jeune entreprise.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "business-model",
+        "term": "Business Model",
+        "definition": "Un Business Model (Modèle Économique ou Modèle d'Affaires) décrit la logique par laquelle une organisation crée, délivre et capture de la valeur (économique, sociale, ou autre). Il articule comment l'entreprise entend générer des revenus et atteindre la rentabilité en identifiant sa proposition de valeur, ses segments de clientèle, ses canaux de distribution, ses relations clients, ses activités clés, ses ressources clés, ses partenaires clés, et sa structure de coûts.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "cap-table",
+        "term": "Cap Table",
+        "definition": "Une Cap Table (Capitalization Table), ou Table de Capitalisation, est un tableau ou une feuille de calcul qui détaille la répartition de la propriété (le capital social) d'une entreprise, généralement une startup. Elle liste tous les actionnaires (fondateurs, investisseurs, employés détenant des stock-options), le type et le nombre de titres qu'ils possèdent, et leur pourcentage de détention, reflétant ainsi la structure de l'actionnariat.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "convertible-note",
+        "term": "Convertible Note",
+        "definition": "Une Convertible Note (Obligation Convertible ou Billet Convertible) est un instrument de financement à court terme utilisé par les startups en phase d'amorçage. Il s'agit d'un prêt accordé par un investisseur qui, au lieu d'être remboursé en numéraire, est conçu pour être converti en actions de l'entreprise lors d'un futur tour de financement qualifié (généralement une levée de fonds en Série A), souvent avec une décote sur le prix de l'action ou un plafond de valorisation (cap).",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "corporate-venture-capital",
+        "term": "Corporate Venture Capital (CVC)",
+        "definition": "Le Corporate Venture Capital (CVC), ou Capital-Risque d'Entreprise, désigne les investissements réalisés directement par de grandes entreprises établies dans des startups externes, généralement jeunes et innovantes. Ces investissements sont souvent stratégiques, visant à accéder à de nouvelles technologies, à explorer de nouveaux marchés, ou à nouer des partenariats, en plus d'un potentiel retour financier. Les CVC opèrent via des fonds dédiés ou des filiales spécialisées.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "cultural-intelligence",
+        "term": "Cultural Intelligence (CQ)",
+        "definition": "La Cultural Intelligence (CQ), ou Intelligence Culturelle, est la capacité d'un individu, notamment un entrepreneur opérant dans un contexte international ou multiculturel, à comprendre, à s'adapter et à interagir efficacement avec des personnes issues de cultures différentes. Elle englobe la connaissance des normes culturelles, la motivation à apprendre, et les compétences comportementales pour naviguer dans des environnements variés.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "customer-acquisition-cost",
+        "term": "Customer Acquisition Cost (CAC)",
+        "definition": "Le Customer Acquisition Cost (CAC), ou Coût d'Acquisition Client, est une métrique clé qui mesure le coût total moyen dépensé par une entreprise pour acquérir un nouveau client payant sur une période donnée. Il inclut généralement toutes les dépenses de marketing et de vente (publicité, salaires des équipes commerciales, outils, etc.) divisées par le nombre de nouveaux clients acquis.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "depin",
+        "term": "Decentralized Physical Infrastructure Networks (DePIN)",
+        "definition": "Les Decentralized Physical Infrastructure Networks (DePIN) sont des projets et des startups qui utilisent des technologies décentralisées (comme la blockchain et les cryptomonnaies/tokens) pour inciter et coordonner la construction, la maintenance et l'exploitation d'infrastructures physiques du monde réel (ex: réseaux sans fil, stockage de données, capteurs environnementaux, énergie). Les contributeurs sont récompensés par des tokens pour leur participation.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "due-diligence",
+        "term": "Due Diligence",
+        "definition": "La Due Diligence (Diligence Raisonnable ou Audit Préalable) est un processus d'investigation approfondie et d'audit mené par des investisseurs potentiels (ou des acquéreurs) avant de prendre une décision d'investissement (ou d'acquisition) dans une entreprise. Elle vise à évaluer la viabilité de l'entreprise, ses aspects financiers, légaux, technologiques, commerciaux, et à identifier les risques potentiels.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "ecosystem-led-growth",
+        "term": "Ecosystem-Led Growth (ELG)",
+        "definition": "L'Ecosystem-Led Growth (ELG), ou Croissance Pilotée par l'Écosystème, est une stratégie de croissance d'entreprise qui s'appuie sur la création et l'animation d'un écosystème de partenaires, de développeurs, d'intégrateurs, de clients ambassadeurs et de communautés. L'objectif est de générer de la valeur et des opportunités de croissance de manière collaborative et mutuellement bénéfique, plutôt que par des efforts purement internes.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "equity-crowdfunding",
+        "term": "Equity Crowdfunding",
+        "definition": "L'Equity Crowdfunding (Financement Participatif en Actions ou Investissement Participatif) est une méthode de levée de fonds où une entreprise, généralement une startup, offre des parts de son capital (actions) à un grand nombre de particuliers via une plateforme en ligne. En échange de leur investissement, les contributeurs deviennent actionnaires de l'entreprise.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "exit-strategy",
+        "term": "Exit Strategy",
+        "definition": "Une Exit Strategy (Stratégie de Sortie) est un plan élaboré par les fondateurs d'une entreprise et/ou ses investisseurs pour liquider leur participation dans l'entreprise et réaliser un retour sur investissement. Les stratégies de sortie courantes incluent une acquisition par une autre entreprise (M&A), une introduction en bourse (IPO), ou un rachat par la direction (MBO).",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "fintech",
+        "term": "Fintech",
+        "definition": "Fintech (contraction de 'Finance' et 'Technologie') désigne le secteur d'activité et les entreprises qui utilisent les technologies numériques innovantes (IA, blockchain, mobile, cloud) pour créer, améliorer, automatiser ou disrupter les services et processus financiers traditionnels (paiements, prêts, investissements, assurances, etc.).",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "founder-fatigue",
+        "term": "Founder Fatigue",
+        "definition": "La Founder Fatigue (Épuisement du Fondateur) est un état d'épuisement physique, mental et émotionnel qui peut affecter les fondateurs de startups en raison de la pression intense et constante, des longues heures de travail, de l'incertitude, et de la responsabilité écrasante liés à la gestion et à la croissance d'une jeune entreprise.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "founder-syndicate",
+        "term": "Founder Syndicate",
+        "definition": "Un Founder Syndicate (Syndicat de Fondateurs ou Club Deal de Fondateurs) est un groupe informel ou structuré de fondateurs d'entreprises (souvent eux-mêmes entrepreneurs à succès) qui mettent en commun leurs ressources financières et leur expertise pour investir collectivement dans d'autres startups en phase d'amorçage ou de démarrage. Ils s'appuient souvent sur la réputation et le réseau d'un 'lead angel' au sein du syndicat.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "fractional-ownership",
+        "term": "Fractional Ownership",
+        "definition": "La Fractional Ownership (Propriété Fractionnée) est un modèle économique et juridique où plusieurs individus ou entités possèdent collectivement un actif de grande valeur (ex: immobilier, œuvres d'art, jets privés), chacun détenant une fraction ou une part de cet actif et partageant les coûts et les droits d'usage. Dans le contexte des startups, cela peut se référer à des modèles où les utilisateurs ou les employés peuvent acquérir de petites parts de l'entreprise, souvent via des tokens ou des mécanismes d'actionnariat salarié innovants.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "global-first-startup",
+        "term": "Global-First Startup",
+        "definition": "Une Global-First Startup (Startup Globale dès le Départ ou 'Born Global') est une jeune entreprise qui, dès sa création, conçoit ses produits, ses services et sa stratégie pour opérer et se développer sur des marchés internationaux, plutôt que de se concentrer initialement sur un marché domestique avant de s'étendre à l'étranger.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "go-to-market-strategy",
+        "term": "Go-to-Market Strategy (GTM)",
+        "definition": "Une Go-to-Market Strategy (GTM), ou Stratégie de Commercialisation, est un plan d'action détaillé qui définit comment une entreprise entend lancer un nouveau produit ou service sur le marché et atteindre ses clients cibles. Elle englobe des éléments tels que le positionnement du produit, la tarification, les canaux de distribution, les stratégies de marketing et de vente, et le support client.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "impact-weighted-accounts",
+        "term": "Impact-Weighted Accounts",
+        "definition": "L'Impact-Weighted Accounts (Comptabilité à Impact Pondéré) est une méthodologie comptable émergente qui vise à intégrer et à quantifier les impacts sociaux et environnementaux positifs et négatifs d'une entreprise (sur ses employés, ses clients, la société, l'environnement) directement dans ses états financiers traditionnels (bilan, compte de résultat). L'objectif est de fournir une vision plus holistique de la création de valeur de l'entreprise.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "intrapreneurship",
+        "term": "Intrapreneurship",
+        "definition": "L'Intrapreneurship (Intraprenariat) est la pratique de l'entrepreneuriat au sein d'une grande entreprise ou d'une organisation établie. Elle encourage les employés à se comporter comme des entrepreneurs, en développant des idées innovantes, en prenant des initiatives, en gérant des projets de manière autonome, et en créant de nouvelles sources de valeur pour l'entreprise, souvent avec le soutien et les ressources de cette dernière.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "network-effects",
+        "term": "Network Effects",
+        "definition": "Les Network Effects (Effets de Réseau) désignent un phénomène où la valeur ou l'utilité d'un produit, d'un service ou d'une plateforme augmente pour chaque utilisateur à mesure que le nombre total d'utilisateurs de ce même produit/service/plateforme croît. Les réseaux sociaux, les places de marché, et les systèmes de communication sont des exemples classiques d'entreprises bénéficiant d'effets de réseau.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "pitch",
+        "term": "Pitch",
+        "definition": "Un Pitch est une présentation concise, structurée et persuasive d'une idée, d'un projet, d'un produit ou d'une entreprise, généralement destinée à convaincre un public cible (investisseurs, partenaires potentiels, clients, juges de concours) d'adhérer à la proposition ou de prendre une action souhaitée (investir, collaborer, acheter). La durée d'un pitch peut varier de quelques secondes (elevator pitch) à plusieurs minutes.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "reskilling-economy",
+        "term": "Reskilling Economy",
+        "definition": "La Reskilling Economy (Économie de Requalification ou de Reconversion Professionnelle) fait référence à un marché et à un ensemble d'initiatives où des entreprises, des startups, des institutions éducatives et des gouvernements se concentrent sur la formation et la requalification des travailleurs pour leur permettre d'acquérir de nouvelles compétences adaptées aux évolutions rapides du marché du travail, notamment face à l'automatisation et à l'émergence de nouveaux métiers.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "revenue-based-financing",
+        "term": "Revenue-Based Financing",
+        "definition": "Le Revenue-Based Financing (RBF), ou Financement Basé sur les Revenus, est un modèle de financement alternatif pour les entreprises (souvent des SaaS ou des e-commerces avec des revenus récurrents) où un investisseur fournit un capital en échange d'un pourcentage des revenus bruts futurs de l'entreprise, jusqu'à ce qu'un montant prédéterminé (le capital initial plus une prime) soit remboursé. Il offre une alternative non dilutive au capital-risque.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "reverse-pitch",
+        "term": "Reverse Pitch",
+        "definition": "Un Reverse Pitch (Pitch Inversé ou Pitch à l'Envers) est un format d'événement où, au lieu que ce soient les entrepreneurs qui pitchent leurs idées aux investisseurs, ce sont les investisseurs (fonds de capital-risque, business angels, CVC) qui présentent leurs fonds, leurs thèses d'investissement, et ce qu'ils recherchent aux startups et aux entrepreneurs présents.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "rolling-funds",
+        "term": "Rolling Funds",
+        "definition": "Les Rolling Funds (Fonds à Roulement) sont une structure de fonds de capital-risque, popularisée par AngelList, qui permet aux gestionnaires de fonds (General Partners - GPs) de lever des capitaux auprès des investisseurs (Limited Partners - LPs) sur une base d'abonnement trimestriel, plutôt que par des levées de fonds traditionnelles ponctuelles et de grande envergure. Cela offre plus de flexibilité et un accès continu au capital pour investir.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "runway",
+        "term": "Runway",
+        "definition": "Le Runway (Piste de Décollage Financière ou Autonomie Financière) d'une startup est la durée pendant laquelle elle peut continuer à opérer avec ses fonds actuels en trésorerie, compte tenu de son burn rate (taux de combustion mensuel). Il est généralement exprimé en nombre de mois et indique combien de temps l'entreprise a avant de devoir soit devenir rentable, soit lever de nouveaux fonds pour survivre.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "scalabilite",
+        "term": "Scalabilité",
+        "definition": "La Scalabilité (Passage à l'Échelle ou Capacité d'Évolution) d'une entreprise, d'un produit ou d'un système technologique est sa capacité à gérer une augmentation significative de sa charge de travail, de son volume d'utilisateurs ou de ses opérations, sans que ses performances, sa qualité de service ou sa structure de coûts ne se dégradent de manière disproportionnée. Une bonne scalabilité est essentielle pour la croissance.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "secondary-market",
+        "term": "Secondary Market",
+        "definition": "Le Secondary Market (Marché Secondaire) pour les actions de startups désigne les plateformes ou les transactions qui permettent aux actionnaires de startups non cotées en bourse (fondateurs, employés, premiers investisseurs) de vendre leurs parts à d'autres investisseurs avant une sortie officielle de l'entreprise (comme une IPO ou une acquisition). Cela offre de la liquidité aux détenteurs d'actions.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "serie-a-b-c",
+        "term": "Série A/B/C",
+        "definition": "Les termes Série A, Série B, Série C, etc., désignent les différentes étapes ou tours de financement par capital-risque qu'une startup lève pour financer sa croissance après la phase d'amorçage (seed). Chaque série correspond généralement à des objectifs de développement spécifiques (ex: Série A pour développer le produit et le marché, Série B pour accélérer la croissance et l'expansion, Série C pour atteindre une plus grande échelle ou préparer une sortie).",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "social-entrepreneurship",
+        "term": "Social Entrepreneurship",
+        "definition": "Le Social Entrepreneurship (Entrepreneuriat Social) est une approche entrepreneuriale qui vise à créer et à développer des entreprises (à but lucratif, non lucratif, ou hybrides) dont la mission principale est de résoudre des problèmes sociaux ou environnementaux et de générer un impact positif mesurable sur la société, tout en cherchant à atteindre une viabilité et une soutenabilité économiques.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "traction",
+        "term": "Traction",
+        "definition": "La Traction d'une startup est la preuve tangible et mesurable que son produit ou service gagne en popularité, en adoption par le marché, et/ou génère des revenus. Elle démontre qu'il existe une demande réelle pour ce que l'entreprise propose et que son business model commence à fonctionner. Les indicateurs de traction varient (nombre d'utilisateurs, croissance des revenus, taux d'engagement, partenariats, etc.) mais sont cruciaux pour attirer les investisseurs.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "venture-debt",
+        "term": "Venture Debt",
+        "definition": "Le Venture Debt (Dette de Risque ou Prêt d'Amorçage-Risque) est une forme de financement par emprunt spécifiquement destinée aux startups qui ont déjà levé des fonds en capital-risque. Contrairement aux prêts bancaires traditionnels, le venture debt est souvent accordé par des prêteurs spécialisés et peut inclure des warrants (options d'achat d'actions), offrant ainsi une source de capital moins dilutive que des tours de financement en equity supplémentaires.",
+        "category": "Entrepreneuriat"
+      },
+      {
+        "id": "active-learning",
+        "term": "Active Learning",
+        "definition": "L'Active Learning (Apprentissage Actif) est une technique d'apprentissage automatique (Machine Learning) où le modèle IA, pendant sa phase d'entraînement, est capable de sélectionner de manière autonome les données non étiquetées les plus informatives ou les plus incertaines à faire étiqueter par un humain (ou un oracle). L'objectif est d'améliorer les performances du modèle avec un minimum d'effort d'étiquetage, en se concentrant sur les exemples les plus utiles.",
+        "category": "IA"
+      },
+      {
+        "id": "transfer-learning",
+        "term": "Transfer Learning",
+        "definition": "Le Transfer Learning (Apprentissage par Transfert) est une technique d'apprentissage automatique où les connaissances acquises par un modèle IA lors de l'entraînement sur une première tâche (souvent avec un grand ensemble de données) sont réutilisées et adaptées pour améliorer ses performances ou accélérer son apprentissage sur une deuxième tâche, différente mais liée, souvent avec moins de données disponibles.",
+        "category": "IA"
+      },
+      {
+        "id": "ai-art-curation",
+        "term": "AI Art Curation (Curation d'Art IA)",
+        "definition": "Pratique émergente qui implique l'utilisation d'outils ou de systèmes d'intelligence artificielle pour assister ou automatiser le processus de sélection, d'organisation, de présentation et de contextualisation d'œuvres d'art, en particulier celles qui sont elles-mêmes générées par IA. L'IA peut aider à identifier des tendances, à évaluer la qualité esthétique, ou à créer des expositions thématiques.",
+        "category": "GenAI"
+      },
+      {
+        "id": "ai-content-moderation",
+        "term": "AI Content Moderation (Modération de Contenu par IA)",
+        "definition": "Utilisation de systèmes d'intelligence artificielle, y compris des modèles d'IA générative, pour détecter, filtrer, et potentiellement supprimer automatiquement les contenus inappropriés, illégaux, nuisibles ou non conformes aux politiques d'une plateforme en ligne (réseaux sociaux, forums, etc.). L'IA peut analyser du texte, des images, des vidéos et d'autres types de médias.",
+        "category": "GenAI"
+      },
+      {
+        "id": "ai-generated-virtual-environments",
+        "term": "AI-Generated Virtual Environments (Environnements Virtuels Générés par IA)",
+        "definition": "Mondes ou scènes 3D (pour les jeux vidéo, les simulateurs, le métavers, etc.) créés de manière procédurale ou entièrement générés par des algorithmes d'intelligence artificielle générative. L'IA peut concevoir des paysages, des architectures, des objets et des textures, permettant la création rapide de vastes environnements immersifs et variés.",
+        "category": "GenAI"
+      },
+      {
+        "id": "ai-provenance",
+        "term": "AI Provenance (Provenance IA)",
+        "definition": "Ensemble des méthodes et technologies visant à identifier, suivre et authentifier l'origine et l'historique des contenus générés ou modifiés par des systèmes d'intelligence artificielle. L'objectif est de pouvoir déterminer si un contenu est d'origine humaine ou IA, quels modèles ont été utilisés, et de lutter contre la désinformation ou les usages abusifs. Le content watermarking est une technique de provenance IA.",
+        "category": "GenAI"
+      },
+      {
+        "id": "audio-generation",
+        "term": "Audio Generation (Génération Audio)",
+        "definition": "Processus par lequel des systèmes d'intelligence artificielle créent de nouveaux contenus sonores, tels que de la musique dans divers styles, des effets sonores, de la parole synthétisée (Text-to-Speech), ou même des imitations de voix spécifiques. Les modèles génératifs sont entraînés sur de grandes quantités de données audio pour apprendre à produire des sons réalistes et cohérents.",
+        "category": "GenAI"
+      },
+      {
+        "id": "chatbot",
+        "term": "Chatbot",
+        "definition": "Programme informatique conçu pour simuler une conversation humaine (écrite ou orale) avec des utilisateurs. Les chatbots modernes s'appuient de plus en plus sur l'intelligence artificielle, en particulier les grands modèles de langage (LLM) de l'IA générative, pour comprendre les requêtes en langage naturel, maintenir le contexte de la conversation, et fournir des réponses pertinentes, informatives et engageantes.",
+        "category": "GenAI"
+      },
+      {
+        "id": "content-watermarking",
+        "term": "Content Watermarking (Filigrane de Contenu)",
+        "definition": "Technique qui consiste à intégrer une marque ou une signature discrète (souvent invisible à l'œil nu ou inaudible) dans un contenu numérique (image, vidéo, audio, texte généré par IA). Ce filigrane peut servir à prouver l'authenticité, à identifier l'origine (notamment pour les contenus générés par IA), à protéger les droits d'auteur, ou à détecter les manipulations.",
+        "category": "GenAI"
+      },
+      {
+        "id": "creative-co-pilot",
+        "term": "Creative Co-Pilot (Co-pilote Créatif IA)",
+        "definition": "Système d'intelligence artificielle conçu pour agir comme un assistant ou un partenaire collaboratif pour les professionnels de la création (écrivains, designers, musiciens, développeurs). Il ne remplace pas la créativité humaine mais l'augmente en proposant des idées, en générant des ébauches, en automatisant des tâches répétitives, ou en offrant des perspectives nouvelles.",
+        "category": "GenAI"
+      },
+      {
+        "id": "cross-modal-generation",
+        "term": "Cross-Modal Generation (Génération Intermodale)",
+        "definition": "Capacité d'un système à générer un type de contenu (une modalité, ex: image) à partir d'un autre type de contenu (une autre modalité, ex: texte), ou à combiner des informations issues de plusieurs modalités pour en créer une nouvelle. Exemples : texte-vers-image, image-vers-texte, texte-vers-vidéo, ou génération d'une description textuelle à partir d'une image et d'un son.",
+        "category": "GenAI"
+      },
+      {
+        "id": "dall-e",
+        "term": "DALL-E",
+        "definition": "Modèle d'intelligence artificielle générative développé par OpenAI, capable de créer des images et des œuvres d'art originales et souvent photoréalistes à partir de descriptions textuelles en langage naturel (des prompts). Il illustre les capacités impressionnantes des modèles texte-vers-image.",
+        "category": "GenAI"
+      },
+      {
+        "id": "deepfake",
+        "term": "Deepfake (Hypertrucage)",
+        "definition": "Contenu médiatique (généralement une vidéo ou un enregistrement audio) qui a été falsifié ou synthétisé à l'aide de techniques d'intelligence artificielle, en particulier des réseaux antagonistes génératifs (GAN) ou d'autres modèles de deep learning. Les deepfakes permettent de superposer des visages, de synchroniser des mouvements labiaux, ou de cloner des voix, soulevant d'importants enjeux éthiques et de désinformation.",
+        "category": "GenAI"
+      },
+      {
+        "id": "emotion-aware-ai",
+        "term": "Emotion-Aware AI (IA Consciente des Émotions)",
+        "definition": "Systèmes d'intelligence artificielle capables de détecter, d'analyser, d'interpréter et, dans certains cas, de réagir ou d'adapter leurs comportements en fonction des émotions humaines. Ces émotions peuvent être perçues à travers diverses modalités comme les expressions faciales, le ton de la voix, le langage corporel, ou le texte.",
+        "category": "GenAI"
+      },
+      {
+        "id": "fine-tuning",
+        "term": "Fine-Tuning (Ajustement Fin)",
+        "definition": "Processus en apprentissage automatique qui consiste à prendre un modèle d'intelligence artificielle pré-entraîné sur un vaste ensemble de données génériques (souvent un modèle de fondation) et à le ré-entraîner de manière ciblée sur un ensemble de données plus petit et spécifique à une tâche ou un domaine particulier. L'objectif est d'adapter et d'améliorer les performances du modèle pour cette tâche spécifique.",
+        "category": "GenAI"
+      },
+      {
+        "id": "gan",
+        "term": "Generative Adversarial Network (GAN) - Réseau Antagoniste Génératif",
+        "definition": "Architecture d'apprentissage automatique non supervisé composée de deux réseaux de neurones qui sont mis en compétition (d'où le terme 'antagoniste'). Un réseau, le 'générateur', essaie de créer des données synthétiques (ex: images) qui ressemblent à des données réelles, tandis que l'autre réseau, le 'discriminateur', essaie de distinguer les données réelles des données générées. Ce processus itératif permet au générateur de produire des contenus de plus en plus réalistes.",
+        "category": "GenAI"
+      },
+      {
+        "id": "generative-ai-for-scientific-discovery",
+        "term": "Generative AI for Scientific Discovery (IA Générative pour la Découverte Scientifique)",
+        "definition": "Application des techniques d'IA générative pour accélérer et transformer la recherche scientifique. Cela peut inclure la formulation de nouvelles hypothèses, la conception de molécules ou de matériaux avec des propriétés désirées, la génération de plans d'expériences, l'analyse et l'interprétation de données complexes, ou la simulation de phénomènes naturels.",
+        "category": "GenAI"
+      },
+      {
+        "id": "generative-personalization",
+        "term": "Generative Personalization (Personnalisation Générative)",
+        "definition": "Utilisation de l'intelligence artificielle générative pour créer des expériences, des contenus, des produits ou des services qui sont hautement personnalisés et adaptés en temps réel aux besoins, préférences et contextes spécifiques de chaque utilisateur individuel. Cela va au-delà de la simple recommandation pour englober la création de contenu sur mesure.",
+        "category": "GenAI"
+      },
+      {
+        "id": "generative-replay",
+        "term": "Generative Replay (Rejeu Génératif)",
+        "definition": "Technique utilisée notamment en apprentissage continu (continual learning) pour lutter contre l'oubli catastrophique. Elle consiste, pour un modèle d'IA, à générer des exemples synthétiques représentatifs des tâches ou des données qu'il a apprises précédemment, afin de les 'rejouer' lors de l'apprentissage de nouvelles tâches, et ainsi maintenir ses performances sur les anciennes.",
+        "category": "GenAI"
+      },
+      {
+        "id": "generative-storytelling",
+        "term": "Generative Storytelling (Narration Générative)",
+        "definition": "Utilisation de systèmes d'intelligence artificielle pour créer, co-créer ou adapter dynamiquement des récits, des histoires, des scénarios ou des expériences narratives. L'IA peut générer des intrigues, des personnages, des dialogues, ou même des mondes narratifs entiers, souvent de manière interactive et personnalisée en fonction des choix de l'utilisateur.",
+        "category": "GenAI"
+      },
+      {
+        "id": "gouvernance-ia",
+        "term": "Gouvernance de l'IA",
+        "definition": "Terme plus large que l'AI Governance Framework, se référant à l'ensemble des systèmes, des institutions, des règles, des normes et des processus (formels et informels) qui façonnent le développement, le déploiement et l'utilisation de l'intelligence artificielle au sein d'une organisation ou de la société. Elle vise à assurer que l'IA est développée et utilisée de manière responsable, éthique, équitable, transparente et bénéfique.",
+        "category": "IA"
+      },
+      {
+        "id": "hallucination-ia",
+        "term": "Hallucination (IA)",
+        "definition": "Erreur où le modèle génère des informations qui sont fausses, incorrectes, inventées, sans fondement dans ses données d'entraînement, ou qui ne correspondent pas à la réalité, tout en les présentant souvent avec une grande assurance. C'est un défi majeur pour la fiabilité des IA génératives.",
+        "category": "GenAI"
+      },
+      {
+        "id": "long-context-llms",
+        "term": "Long-Context LLMs (LLM à Long Contexte)",
+        "definition": "Grands modèles de langage qui ont été spécifiquement conçus ou entraînés pour pouvoir traiter et prendre en compte des séquences de texte (des prompts ou des documents) beaucoup plus longues que les LLM traditionnels. Cette capacité leur permet de mieux comprendre des contextes complexes, de maintenir la cohérence sur de longs textes, et d'analyser des documents volumineux.",
+        "category": "GenAI"
+      },
+      {
+        "id": "multimodal-ai",
+        "term": "Multimodal (IA)",
+        "definition": "Système d'intelligence artificielle capable de traiter, de comprendre, de combiner et/ou de générer des informations provenant de plusieurs types de données ou 'modalités' différentes, telles que le texte, les images, l'audio, la vidéo, ou les données tabulaires. Les IA multimodales visent une compréhension du monde plus riche et plus holistique, à l'instar de l'intelligence humaine.",
+        "category": "GenAI"
+      },
+      {
+        "id": "personalized-genai-avatars",
+        "term": "Personalized GenAI Avatars (Avatars GenAI Personnalisés)",
+        "definition": "Représentations numériques d'individus (ou de personnages fictifs), souvent photoréalistes ou stylisées, qui sont créées et/ou animées par des technologies d'intelligence artificielle générative. Ces avatars peuvent interagir de manière dynamique, parler avec une voix synthétisée, et adapter leurs expressions et comportements en fonction du contexte ou de l'utilisateur.",
+        "category": "GenAI"
+      },
+      {
+        "id": "prompt",
+        "term": "Prompt",
+        "definition": "Instruction, question, ou entrée de texte (parfois accompagnée d'images ou d'autres données) fournie par un utilisateur à un système d'intelligence artificielle générative (comme un LLM ou un modèle texte-vers-image) pour guider sa réponse ou sa création. La qualité et la précision du prompt sont déterminantes pour la pertinence et la qualité du résultat généré par l'IA.",
+        "category": "GenAI"
+      },
+      {
+        "id": "prompt-injection",
+        "term": "Prompt Injection (Injection de Prompt)",
+        "definition": "Type d'attaque ou de manipulation des systèmes d'IA basés sur des prompts (notamment les LLM). Elle consiste à insérer des instructions cachées ou malveillantes dans un prompt, soit directement par l'utilisateur, soit indirectement via des données externes que le LLM traite, afin de contourner les garde-fous du modèle, de lui faire exécuter des actions non désirées, ou de lui faire divulguer des informations sensibles.",
+        "category": "GenAI"
+      },
+      {
+        "id": "prompt-marketplace",
+        "term": "Prompt Marketplace (Marché de Prompts)",
+        "definition": "Plateforme en ligne où des utilisateurs, des créateurs ou des entreprises peuvent acheter, vendre, échanger ou partager des prompts optimisés et efficaces pour divers modèles d'intelligence artificielle générative. Ces prompts sont souvent conçus pour des tâches spécifiques ou pour obtenir des styles de sortie particuliers.",
+        "category": "GenAI"
+      },
+      {
+        "id": "rag-advanced-patterns",
+        "term": "Retrieval-Augmented Generation (RAG) - Advanced Patterns",
+        "definition": "Technique qui améliore la pertinence et la factualité des réponses des grands modèles de langage (LLM) en leur donnant accès à des informations à jour provenant de sources de connaissances externes (bases de données, documents, internet) au moment de la génération. Les Advanced Patterns (Modèles Avancés) de RAG désignent des architectures et des stratégies RAG plus sophistiquées (ex: réécriture de requête, multiples sources, combinaison de résultats) pour optimiser davantage la qualité des réponses.",
+        "category": "GenAI"
+      },
+      {
+        "id": "structured-output-generation",
+        "term": "Structured Output Generation (Génération de Sortie Structurée)",
+        "definition": "Capacité des grands modèles de langage (LLM) et d'autres IA génératives à produire des réponses ou des contenus qui respectent un format de données spécifique et prédéfini, tel que JSON, XML, CSV, Markdown, ou une structure de base de données. Cela facilite l'intégration des sorties de l'IA dans d'autres applications et workflows.",
+        "category": "GenAI"
+      },
+      {
+        "id": "style-transfer",
+        "term": "Style Transfer (Transfert de Style)",
+        "definition": "Technique, souvent utilisée avec des images mais applicable à d'autres médias (texte, audio), qui consiste à prendre le contenu d'un élément (ex: la structure d'une photo) et à lui appliquer le style artistique d'un autre élément (ex: la palette de couleurs et les coups de pinceau d'un tableau célèbre), créant ainsi une nouvelle œuvre qui combine les deux.",
+        "category": "GenAI"
+      },
+      {
+        "id": "text-to-code",
+        "term": "Text-to-Code (Texte vers Code)",
+        "definition": "Systèmes d'intelligence artificielle, généralement basés sur des LLM spécialisés, capables de générer du code source dans divers langages de programmation (Python, JavaScript, SQL, etc.) à partir de descriptions des fonctionnalités souhaitées formulées en langage naturel (des prompts). C'est un pilier du vibe coding.",
+        "category": "GenAI"
+      },
+      {
+        "id": "text-to-image",
+        "term": "Text-to-Image (Texte vers Image)",
+        "definition": "Modèles d'intelligence artificielle générative (comme DALL-E, Midjourney, Stable Diffusion) qui peuvent créer des images numériques originales et souvent complexes à partir de descriptions textuelles (des prompts) fournies par un utilisateur. Ces modèles ont révolutionné la création d'images assistée par IA.",
+        "category": "GenAI"
+      },
+      {
+        "id": "text-to-video",
+        "term": "Text-to-Video (Texte vers Vidéo)",
+        "definition": "Branche de l'IA générative qui permet de créer de courtes séquences vidéo à partir de descriptions textuelles (des prompts). Les modèles apprennent à associer des concepts textuels à des représentations visuelles en mouvement, ouvrant de nouvelles perspectives pour la création de contenu vidéo.",
+        "category": "GenAI"
+      },
+      {
+        "id": "transformer",
+        "term": "Transformer",
+        "definition": "Architecture de réseau de neurones profonds introduite en 2017 qui a révolutionné le traitement du langage naturel (NLP) et qui est à la base de la plupart des grands modèles de langage (LLM) actuels, comme GPT. Sa principale innovation est le mécanisme d'attention (self-attention), qui permet au modèle de peser l'importance des différents mots dans une séquence de texte pour mieux comprendre le contexte et les relations à longue distance.",
+        "category": "GenAI"
+      },
+      {
+        "id": "world-models",
+        "term": "World Models (Modèles du Monde pour IA)",
+        "definition": "Modèles d'intelligence artificielle, souvent utilisés en apprentissage par renforcement, qui tentent d'apprendre une représentation interne (un modèle prédictif) du fonctionnement de leur environnement. En construisant un 'modèle du monde', l'IA peut simuler les conséquences de ses actions, planifier à l'avance, et apprendre de manière plus efficiente, même dans des environnements complexes ou partiellement observables.",
+        "category": "GenAI"
+      },
+      {
+        "id": "zero-shot-learning",
+        "term": "Zero-Shot Learning (Apprentissage Zéro-Coup)",
+        "definition": "Capacité des modèles d'intelligence artificielle, en particulier les grands modèles de langage pré-entraînés, à effectuer une tâche pour laquelle ils n'ont reçu aucun exemple d'entraînement spécifique. Le modèle y parvient en généralisant les connaissances acquises lors de son pré-entraînement sur une vaste quantité de données diverses. Par exemple, un LLM peut traduire une phrase dans une langue qu'il n'a jamais explicitement apprise à traduire, simplement en comprenant le concept de traduction.",
+        "category": "GenAI"
+      },
+      {
+        "id": "accelerateur",
+        "term": "Accélérateur",
+        "definition": "Un Accélérateur (Startup Accelerator) est un programme de courte durée, généralement intensif (quelques mois), conçu pour aider les startups en phase de démarrage ou de croissance précoce à accélérer leur développement et à atteindre leurs objectifs plus rapidement. Les accélérateurs offrent souvent du mentorat, des formations, un accès à un réseau d'experts et d'investisseurs, un espace de travail, et parfois un petit financement initial en échange d'une participation minoritaire au capital.",
+        "category": "Startup"
+      },
+      {
+        "id": "async-first",
+        "term": "Async-First (Priorité à l'Asynchrone)",
+        "definition": "Une culture Async-First (Priorité à l'Asynchrone ou Asynchrone par Défaut) est un mode d'organisation du travail, particulièrement populaire dans les entreprises tech distribuées ou en télétravail, où la communication et la collaboration asynchrones (par écrit, via des outils partagés, sans attente de réponse immédiate) sont privilégiées par rapport à la communication synchrone (réunions en temps réel, appels). L'objectif est de favoriser la concentration, la flexibilité et l'autonomie.",
+        "category": "Startup"
+      },
+      {
+        "id": "chief-ai-officer",
+        "term": "Chief AI Officer (CAIO) / VP of AI",
+        "definition": "Un Chief AI Officer (CAIO) ou VP of AI (Vice-Président de l'IA) est un rôle de direction exécutive au sein d'une entreprise, dont la responsabilité principale est de définir, de piloter et de superviser la stratégie globale en matière d'intelligence artificielle. Cela inclut l'identification des opportunités d'application de l'IA, la gestion des initiatives IA, l'éthique, la gouvernance des données, et l'alignement de l'IA avec les objectifs métier.",
+        "category": "Startup"
+      },
+      {
+        "id": "churn-rate",
+        "term": "Churn Rate (Taux d'Attrition)",
+        "definition": "Le Churn Rate (Taux d'Attrition ou Taux de Désabonnement) est une métrique qui mesure le pourcentage de clients ou d'utilisateurs qui cessent d'utiliser un produit ou un service (ou annulent leur abonnement) sur une période donnée. Un taux d'attrition élevé peut indiquer des problèmes avec le produit, le service client, ou l'adéquation produit-marché, et il est un indicateur clé de la santé d'une entreprise, en particulier pour les modèles SaaS.",
+        "category": "Startup"
+      },
+      {
+        "id": "climate-tech",
+        "term": "Climate Tech (Technologie Climatique)",
+        "definition": "La Climate Tech (Technologie Climatique ou Greentech axée sur le climat) désigne le secteur d'activité et l'ensemble des startups et entreprises qui développent et appliquent des technologies innovantes pour lutter contre le changement climatique et ses effets. Cela inclut des solutions dans les domaines des énergies renouvelables, de l'efficacité énergétique, de la capture du carbone, de l'agriculture durable, de la mobilité propre, etc.",
+        "category": "Startup"
+      },
+      {
+        "id": "crowdfunding",
+        "term": "Crowdfunding (Financement Participatif)",
+        "definition": "Le Crowdfunding (Financement Participatif) est une méthode de financement de projets ou d'entreprises qui consiste à solliciter des contributions financières auprès d'un grand nombre de personnes (la 'foule' ou 'crowd'), généralement via des plateformes en ligne dédiées. Il existe plusieurs formes de crowdfunding : basé sur le don, la récompense (prévente), le prêt (crowdlending), ou l'investissement en capital (equity crowdfunding).",
+        "category": "Startup"
+      },
+      {
+        "id": "dao",
+        "term": "Decentralized Autonomous Organization (DAO - Organisation Autonome Décentralisée)",
+        "definition": "Une Decentralized Autonomous Organization (DAO), ou Organisation Autonome Décentralisée, est une forme d'organisation ou de 'startup' dont la gouvernance et les opérations sont gérées de manière décentralisée par des règles codées sur une blockchain (sous forme de smart contracts) et par les votes de ses membres (souvent détenteurs de tokens de gouvernance), plutôt que par une structure hiérarchique traditionnelle.",
+        "category": "Startup"
+      },
+      {
+        "id": "deep-tech",
+        "term": "Deep Tech (Technologie de Rupture)",
+        "definition": "La Deep Tech (Technologie de Rupture ou Technologie Profonde) fait référence à des startups et des entreprises qui développent des solutions basées sur des découvertes scientifiques ou des innovations technologiques de pointe, souvent protégées par des brevets, et qui ont le potentiel de transformer radicalement des industries ou de créer de nouveaux marchés. Les domaines typiques de la Deep Tech incluent l'IA avancée, la biotechnologie, les nanotechnologies, la robotique, l'informatique quantique. Ces entreprises nécessitent souvent une R&D longue et intensive.",
+        "category": "Startup"
+      },
+      {
+        "id": "developer-experience-moat",
+        "term": "Developer Experience (DX) as a Business Moat (L'Expérience Développeur comme Avantage Concurrentiel)",
+        "definition": "L'idée de 'Developer Experience (DX) as a Business Moat' (L'Expérience Développeur comme Avantage Concurrentiel Durable) est une stratégie où une entreprise investit massivement pour offrir une expérience exceptionnellement fluide, productive et agréable aux développeurs qui utilisent ses outils, ses plateformes, ou ses API. Une DX supérieure peut devenir un différenciateur clé, favorisant l'adoption, la fidélité, et créant des barrières à l'entrée pour les concurrents.",
+        "category": "Startup"
+      },
+      {
+        "id": "ecosystem-mapping",
+        "term": "Ecosystem Mapping (Cartographie de l'Écosystème)",
+        "definition": "L'Ecosystem Mapping (Cartographie de l'Écosystème) est le processus d'identification, d'analyse et de visualisation des différents acteurs (startups, investisseurs, incubateurs, universités, grandes entreprises, institutions publiques, etc.) et des relations qui existent entre eux au sein d'un écosystème entrepreneurial, technologique ou d'innovation spécifique (ex: l'écosystème Fintech de Paris).",
+        "category": "Startup"
+      },
+      {
+        "id": "founder-wellness",
+        "term": "Founder Wellness (Bien-être du Fondateur)",
+        "definition": "Le Founder Wellness (Bien-être du Fondateur) désigne l'ensemble des initiatives, des programmes et des préoccupations axés sur la santé mentale, physique et émotionnelle des entrepreneurs et des fondateurs de startups. Reconnaissant les défis et le stress inhérents à l'entrepreneuriat, le Founder Wellness vise à promouvoir des pratiques saines, à prévenir l'épuisement (burnout), et à soutenir la résilience des fondateurs.",
+        "category": "Startup"
+      },
+      {
+        "id": "founder-market-fit",
+        "term": "Founder-Market Fit (Adéquation Fondateur-Marché)",
+        "definition": "Le Founder-Market Fit (Adéquation Fondateur-Marché) est un concept qui décrit l'alignement et la synergie entre les compétences, l'expérience, la passion, le réseau et la vision d'un fondateur (ou d'une équipe fondatrice) et les caractéristiques, les besoins et les opportunités du marché qu'il cible. Un bon Founder-Market Fit augmente significativement les chances de succès d'une startup.",
+        "category": "Startup"
+      },
+      {
+        "id": "french-tech",
+        "term": "French Tech",
+        "definition": "La French Tech est une initiative et un label lancés par le gouvernement français pour promouvoir et soutenir l'écosystème des startups technologiques en France. Elle vise à fédérer les acteurs de l'innovation (entrepreneurs, investisseurs, ingénieurs, designers, etc.), à attirer les talents et les investissements internationaux, et à favoriser l'émergence de champions technologiques français à l'échelle mondiale.",
+        "category": "Startup"
+      },
+      {
+        "id": "gig-economy-startup",
+        "term": "Gig Economy Startup (Startup de l'Économie des Petits Boulots)",
+        "definition": "Une Gig Economy Startup (Startup de l'Économie des Petits Boulots ou de l'Économie à la Tâche) est une entreprise, souvent une plateforme numérique, dont le modèle économique repose sur la mise en relation de travailleurs indépendants (freelances, auto-entrepreneurs) avec des clients pour des missions ou des tâches ponctuelles et de courte durée (les 'gigs'). Uber, Deliveroo, ou Malt sont des exemples de telles startups.",
+        "category": "Startup"
+      },
+      {
+        "id": "hustle-culture",
+        "term": "Hustle Culture (Culture du Labeur Intense)",
+        "definition": "La Hustle Culture (Culture du Labeur Intense ou Culture de l'Acharnement) est une philosophie et un mode de vie entrepreneurial qui valorise le travail acharné, l'engagement total, les longues heures, et une persévérance quasi obsessionnelle pour atteindre le succès et les objectifs de croissance, souvent au détriment de l'équilibre vie professionnelle/vie personnelle. Elle est parfois critiquée pour ses effets sur le bien-être.",
+        "category": "Startup"
+      },
+      {
+        "id": "hyperlocal-startup",
+        "term": "Hyperlocal Startup (Startup Hyperlocale)",
+        "definition": "Une Hyperlocal Startup (Startup Hyperlocale) est une entreprise dont les produits, les services et les opérations sont spécifiquement conçus pour cibler et servir une communauté géographique très restreinte et bien définie (ex: un quartier, une petite ville, une zone spécifique d'une métropole). Elle s'appuie sur la proximité et la connaissance fine des besoins locaux.",
+        "category": "Startup"
+      },
+      {
+        "id": "impact-investing",
+        "term": "Impact Investing (Investissement à Impact)",
+        "definition": "L'Impact Investing (Investissement à Impact) est une stratégie d'investissement qui vise à générer un impact social ou environnemental positif et mesurable, en plus d'un retour financier. Les investisseurs à impact allouent leur capital à des entreprises, des organisations ou des fonds qui contribuent activement à résoudre des défis sociétaux (pauvreté, éducation, santé, climat, etc.).",
+        "category": "Startup"
+      },
+      {
+        "id": "incubateur",
+        "term": "Incubateur",
+        "definition": "Un Incubateur (Startup Incubator) est une structure d'accompagnement (publique, privée, ou universitaire) qui aide les entrepreneurs et les porteurs de projet à transformer leurs idées en entreprises viables, généralement en phase de pré-création ou de démarrage (très en amont). Les incubateurs fournissent des ressources telles que des bureaux, du mentorat, des formations, un accès à un réseau, et un soutien pour structurer le projet et valider le business model.",
+        "category": "Startup"
+      },
+      {
+        "id": "innovation-sandbox",
+        "term": "Innovation Sandbox (Bac à Sable d'Innovation)",
+        "definition": "Un Innovation Sandbox (Bac à Sable d'Innovation ou Espace d'Expérimentation Réglementaire) est un environnement contrôlé et supervisé, souvent mis en place par des régulateurs ou des autorités, qui permet aux startups et aux entreprises (en particulier dans des secteurs très réglementés comme la Fintech ou la santé) de tester des produits, services ou modèles d'affaires innovants et potentiellement risqués, avec des règles assouplies ou adaptées, pendant une période limitée et sous observation.",
+        "category": "Startup"
+      },
+      {
+        "id": "micro-saas",
+        "term": "Micro-SaaS (Micro Logiciel en tant que Service)",
+        "definition": "Un Micro-SaaS (Micro Software as a Service) est une petite entreprise de logiciel en tant que service (SaaS) qui se concentre sur la résolution d'un problème de niche très spécifique pour un public cible bien défini. Les Micro-SaaS sont souvent gérés par une seule personne ou une très petite équipe, avec des coûts opérationnels faibles, et visent une rentabilité rapide plutôt qu'une hyper-croissance.",
+        "category": "Startup"
+      },
+      {
+        "id": "ospo",
+        "term": "Open Source Program Office (OSPO)",
+        "definition": "Un Open Source Program Office (OSPO) est une équipe ou une fonction dédiée au sein d'une entreprise dont la mission est de définir, de gérer, de coordonner et de soutenir la stratégie et les activités liées à l'open source. Cela inclut la contribution à des projets open source externes, la publication de projets internes en open source, la gestion des licences, la conformité, et l'engagement avec la communauté open source.",
+        "category": "Startup"
+      },
+      {
+        "id": "open-startup",
+        "term": "Open Startup (Startup Ouverte)",
+        "definition": "Une Open Startup est un modèle d'entreprise, souvent une startup, qui adopte une transparence radicale en partageant publiquement et régulièrement ses métriques clés de performance (revenus, nombre d'utilisateurs, dépenses, etc.), ses succès, ses échecs, et ses apprentissages. L'objectif est de construire la confiance, d'engager une communauté, et de bénéficier de retours d'information.",
+        "category": "Startup"
+      },
+      {
+        "id": "pivot",
+        "term": "Pivot",
+        "definition": "Un Pivot dans le contexte d'une startup est un changement stratégique fondamental dans son business model, son produit, son marché cible, ou sa proposition de valeur, effectué en réponse à des apprentissages du marché, à des résultats décevants, ou à de nouvelles opportunités. Un pivot n'est pas un simple ajustement, mais une réorientation majeure pour tenter de trouver un chemin vers la croissance et la viabilité.",
+        "category": "Startup"
+      },
+      {
+        "id": "regenerative-business-models",
+        "term": "Regenerative Business Models (Modèles d'Affaires Régénératifs)",
+        "definition": "Les Regenerative Business Models (Modèles d'Affaires Régénératifs ou Économie Régénérative) sont des approches entrepreneuriales qui vont au-delà de la simple durabilité (minimiser les impacts négatifs) pour viser activement à restaurer, renouveler et revitaliser les systèmes sociaux, écologiques et économiques dont elles dépendent et sur lesquels elles ont un impact. L'objectif est de créer plus de valeur qu'on n'en consomme.",
+        "category": "Startup"
+      },
+      {
+        "id": "saas-startup",
+        "term": "SaaS (Software as a Service - Logiciel en tant que Service)",
+        "definition": "SaaS (Software as a Service), ou Logiciel en tant que Service, est un modèle de distribution de logiciels où les applications sont hébergées par un fournisseur de services et rendues accessibles aux clients via Internet (généralement par un navigateur web) sur la base d'un abonnement (mensuel ou annuel), plutôt que d'être achetées et installées localement sur les ordinateurs des utilisateurs.",
+        "category": "Startup"
+      },
+      {
+        "id": "sovereign-ai-cloud",
+        "term": "Sovereign AI / Sovereign Cloud (IA Souveraine / Cloud Souverain)",
+        "definition": "Les concepts d'Sovereign AI (IA Souveraine) et de Sovereign Cloud (Cloud Souverain) désignent des initiatives et des infrastructures technologiques (plateformes IA, services cloud) qui sont développées, hébergées et opérées de manière à garantir la souveraineté numérique d'un pays ou d'une région. Cela implique le contrôle des données, la conformité aux réglementations locales, la sécurité nationale, et la réduction de la dépendance vis-à-vis de fournisseurs étrangers.",
+        "category": "Startup"
+      },
+      {
+        "id": "startup-diaspora",
+        "term": "Startup Diaspora (Diaspora de Startups)",
+        "definition": "La Startup Diaspora fait référence au réseau mondial d'entrepreneurs, d'investisseurs, de talents technologiques et de professionnels qui sont originaires d'un même pays ou d'une même région culturelle, mais qui opèrent ou résident à l'étranger, tout en maintenant des liens (économiques, culturels, de mentorat) avec leur écosystème d'origine et en contribuant potentiellement à son développement.",
+        "category": "Startup"
+      },
+      {
+        "id": "startup-ecosystem-resilience",
+        "term": "Startup Ecosystem Resilience (Résilience de l'Écosystème Startup)",
+        "definition": "La Startup Ecosystem Resilience (Résilience de l'Écosystème Startup) est la capacité d'un écosystème entrepreneurial (une ville, une région) à anticiper, à absorber, à s'adapter et à se rétablir rapidement face à des chocs externes majeurs (crises économiques, pandémies, changements technologiques disruptifs), tout en maintenant sa vitalité et sa capacité à générer de l'innovation et de la croissance.",
+        "category": "Startup"
+      },
+      {
+        "id": "startup-studio",
+        "term": "Startup Studio (Studio de Startups)",
+        "definition": "Un Startup Studio (également appelé Venture Builder ou Company Builder) est une organisation qui se spécialise dans la création et le lancement en série de nouvelles startups. Contrairement à un incubateur ou un accélérateur qui accompagne des projets externes, un startup studio développe souvent ses propres idées en interne, assemble les équipes fondatrices, fournit le financement initial, et offre un soutien opérationnel intensif pour accélérer la croissance des entreprises qu'il co-crée.",
+        "category": "Startup"
+      },
+      {
+        "id": "startup-visa",
+        "term": "Startup Visa (Visa Startup)",
+        "definition": "Un Startup Visa (Visa pour Startup ou Visa pour Entrepreneur Technologique) est un type de visa ou de programme d'immigration mis en place par certains pays pour attirer et faciliter l'installation sur leur territoire de fondateurs de startups étrangers, d'entrepreneurs innovants, et de talents technologiques, en leur offrant des conditions d'entrée et de séjour simplifiées, souvent sous réserve de critères d'investissement, de création d'emplois, ou de potentiel d'innovation.",
+        "category": "Startup"
+      },
+      {
+        "id": "talent-density",
+        "term": "Talent Density (Densité de Talent)",
+        "definition": "La Talent Density (Densité de Talent) est une philosophie de gestion des ressources humaines, popularisée notamment par Netflix, qui consiste à s'efforcer de recruter, de développer et de retenir uniquement des individus très performants, talentueux et motivés au sein d'une équipe ou d'une entreprise. L'idée est qu'une forte densité de talent crée un environnement stimulant, améliore la productivité globale et réduit le besoin de supervision et de processus complexes.",
+        "category": "Startup"
+      },
+      {
+        "id": "unicorne",
+        "term": "Unicorne",
+        "definition": "Une Unicorne (Unicorn en anglais) est une startup privée (non cotée en bourse) dont la valorisation est estimée à plus d'un milliard de dollars américains. Ce terme a été popularisé pour souligner la rareté et le succès exceptionnel de telles entreprises.",
+        "category": "Startup"
+      },
+      {
+        "id": "venture-builder",
+        "term": "Venture Builder (Constructeur de Ventures)",
+        "definition": "Un Venture Builder (Constructeur de Ventures), souvent synonyme de Startup Studio, est une organisation qui construit des entreprises à partir de zéro. Elle identifie des opportunités de marché, développe des idées de produits, recrute des équipes, fournit un financement initial et un soutien opérationnel pour lancer et faire croître de nouvelles startups, dont elle est souvent co-fondatrice et actionnaire majoritaire au début.",
+        "category": "Startup"
+      },
+      {
+        "id": "vertical-saas",
+        "term": "Vertical SaaS (SaaS Vertical)",
+        "definition": "Un Vertical SaaS (SaaS Vertical) est un logiciel en tant que service spécifiquement conçu et adapté pour répondre aux besoins et processus métier d'un secteur d'activité particulier (une « verticale » de marché), par opposition aux SaaS horizontaux qui s'adressent à un large éventail de fonctions ou d'industries. Un SaaS vertical offre des fonctionnalités très spécialisées pour son industrie cible.",
+        "category": "Startup"
+      }
+] 

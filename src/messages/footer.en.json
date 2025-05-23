@@ -1,0 +1,41 @@
+{
+  "tagline": "Build your digital product faster with AI and human expertise.",
+  "copyright": "© {year} Vibecodr. All rights reserved.",
+  "navSections": {
+    "product": "Product",
+    "resources": "Resources",
+    "company": "Company"
+  },
+  "product": {
+    "visionFirst": "Vision-First",
+    "marketplace": "Marketplace",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "faq": "FAQ"
+  },
+  "resources": {
+    "blog": "Blog",
+    "glossary": "Glossary",
+    "knowledgeBase": "Knowledge Base",
+    "community": "Community",
+    "support": "Support",
+    "apiDocs": "API Documentation"
+  },
+  "company": {
+    "about": "About Us",
+    "careers": "Careers",
+    "partners": "Partners",
+    "contact": "Contact",
+    "legal": "Legal"
+  },
+  "legal": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookies Policy",
+    "notice": "Legal Notice" 
+  },
+  "socials": {
+    "twitter": "Follow us on Twitter",
+    "linkedin": "Follow us on LinkedIn"
+  }
+} 

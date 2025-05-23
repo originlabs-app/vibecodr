@@ -1,0 +1,583 @@
+{
+  "Header": {
+    "visionFirst": "Vision-First",
+    "marketplace": "Marketplace",
+    "academy": "Academy",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "languageSelector": "Language"
+  },
+  "HeroSection": {
+    "titlePart1": "From Idea to Impact, with ",
+    "titleVibecodr": "vibecodr",
+    "subtitle": "A unique synergy between AI and human expertise to create custom digital products for SMEs and startups, quickly and without compromise.",
+    "ctaCommencer": "Get Started Free",
+    "ctaComment": "How it Works",
+    "joinUs": "Join 200+ entrepreneurs turning their visions into reality",
+    "interfaceMockup": {
+      "title": "CodeGuide - Product Vision",
+      "tagVisionFirst": "Vision-First",
+      "tagSaaS": "SaaS",
+      "tagMVP": "MVP",
+      "iaAnalysisTitle": "AI Analysis of Your Vision",
+      "iaAnalysisSubtitle": "Your product vision, structured by AI"
+    }
+  },
+  "VisionFirstSection": {
+    "mainTitle": {
+      "gradient": "Vision-First",
+      "rest": "Product Creation"
+    },
+    "mainSubtitle": "A suite of AI SaaS tools, like CodeGuide for product requirements, to define and validate your product vision before starting development.",
+    "features": {
+      "exploreText": "Explore",
+      "codeGuide": {
+        "title": "CodeGuide",
+        "description": "AI assistant that guides you step-by-step in structuring your product vision"
+      },
+      "wireframeGenerator": {
+        "title": "Wireframe Generator",
+        "description": "Create simple mockups to visualize your product and its interface"
+      },
+      "projectBlueprint": {
+        "title": "Project Blueprint",
+        "description": "Automatically generate a draft technical architecture tailored to your needs"
+      },
+      "visionValidator": {
+        "title": "Vision Validator",
+        "description": "Check the consistency and feasibility of your product vision"
+      },
+      "launchReadiness": {
+        "title": "Launch Readiness",
+        "description": "Prepare for launch with an interactive checklist"
+      }
+    },
+    "codeGuideInAction": {
+      "title": "CodeGuide in Action",
+      "description": "The AI assistant that transforms your ideas into a structured PRD, personas, user stories, and wireframes. Ask questions, refine your vision, and generate clear documentation for your product.",
+      "testimonial": {
+        "text": "\"CodeGuide saved me weeks of work by structuring my product vision, and the Wireframe Generator allowed me to quickly visualize my interface.\"",
+        "author": "— Frédérique M., SME Manager"
+      }
+    },
+    "codeGuideInterface": {
+      "title": "CodeGuide",
+      "userQuery": "How can I create a wireframe for my time management application?",
+      "aiResponse": {
+        "intro": "I will help you create your wireframe. Go to the \"Wireframes\" tab in CodeGuide and follow these steps:",
+        "step1": "Create a new screen",
+        "step2": "Add interface elements (buttons, text fields, etc.)",
+        "step3": "Organize them according to your vision",
+        "step4": "Export or share your mockup",
+        "followUp": "Would you like to start with a time management dashboard template?"
+      }
+    }
+  },
+  "MarketplaceSection": {
+    "mainTitle": {
+      "gradient": "Marketplace",
+      "rest": "of Vibe Coders"
+    },
+    "mainSubtitle": "Find your certified French AI developer on our marketplace. Experts trained and AI-augmented for high-quality execution.",
+    "entrepreneurs": {
+      "title": "For Entrepreneurs",
+      "feature1": {
+        "title": "Find your ideal Vibe Coder",
+        "description": "Search by skills, experience, and availability"
+      },
+      "feature2": {
+        "title": "Publish your mission",
+        "description": "Import directly from your PRD with CodeGuide"
+      },
+      "feature3": {
+        "title": "Security and transparency",
+        "description": "Secure milestone payments (Escrow) and simplified contracts"
+      },
+      "coderProfile": {
+        "name": "Jean Breton",
+        "rating": "5.0",
+        "certification": "Vibecodr Certified",
+        "skills": {
+          "react": "React",
+          "nodejs": "Node.js",
+          "typescript": "TypeScript",
+          "supabase": "Supabase"
+        },
+        "description": "Full-stack developer specializing in SaaS applications. 6 years of experience, certified in cloud architecture and AI integration."
+      },
+      "ctaButton": "Explore the Marketplace"
+    },
+    "coders": {
+      "title": "For Vibe Coders",
+      "feature1": {
+        "title": "Vibe Coding Engine",
+        "description": "Integrated AI tools to maximize your productivity"
+      },
+      "feature2": {
+        "title": "Access to training",
+        "description": "Bootcamps and certifications to stand out"
+      },
+      "feature3": {
+        "title": "Active community",
+        "description": "Connect with other Vibe Coders and grow your network"
+      },
+      "featuredMission": {
+        "title": "Featured Mission",
+        "missionName": "HR Management Application",
+        "missionDescription": "Creation of an analytics dashboard for SMEs",
+        "skills": {
+          "react": "React",
+          "typescript": "TypeScript",
+          "recharts": "Recharts"
+        },
+        "budget": "Budget: €2000-€3000",
+        "duration": "Estimated duration: 3-4 weeks",
+        "ctaButton": "View details"
+      },
+      "ctaButton": "Join the Marketplace"
+    }
+  },
+  "HowItWorksSection": {
+    "mainTitle": {
+      "part1": "How it",
+      "gradient": "works"
+    },
+    "mainSubtitle": "A simple and transparent process, from idea to product",
+    "steps": {
+      "defineVision": {
+        "title": "Define your vision",
+        "description": "Use Vision-First tools to structure your idea, generate your product requirements (PRD) and initial wireframes with AI assistance."
+      },
+      "findCoder": {
+        "title": "Find your Vibe Coder",
+        "description": "Publish your mission on the Marketplace and find the expert French developer that matches your needs."
+      },
+      "coPilot": {
+        "title": "Co-pilot development",
+        "description": "Track your project's progress in real-time with a shared dashboard and validate each step."
+      },
+      "launchProduct": {
+        "title": "Launch your product",
+        "description": "Receive quality, maintainable, and scalable code, with no vendor lock-in. Your vision becomes reality."
+      }
+    },
+    "whyChooseUs": {
+      "title": "Why choose Vibecodr?",
+      "points": {
+        "synergy": {
+          "title": "Human + AI Synergy",
+          "description": "Our Vibe Coding AI development approach combines human expertise and AI for effective AI-assisted software development services."
+        },
+        "madeInFrance": {
+          "title": "Made in France",
+          "description": "Certified and verified French developers, for maximum proximity and trust."
+        },
+        "transparency": {
+          "title": "Radical transparency",
+          "description": "Track your project's progress in real-time and maintain control at every stage."
+        },
+        "noLockIn": {
+          "title": "No Vendor Lock-In",
+          "description": "Quality, maintainable code that you own 100%."
+        }
+      }
+    },
+    "stats": {
+      "timeToMarket": {
+        "value": "+60%",
+        "label": "Time-to-market"
+      },
+      "costReduction": {
+        "value": "-40%",
+        "label": "Development costs"
+      },
+      "clientSatisfaction": {
+        "value": "97%",
+        "label": "Client satisfaction"
+      }
+    }
+  },
+  "CtaSection": {
+    "title": "Ready to turn your vision into reality?",
+    "subtitle": "Join Vibecodr today and discover how our unique approach can help you bring your custom digital product to life.",
+    "ctaButton1": "Get Started Free",
+    "ctaButton2": "Request a Demo"
+  },
+  "Footer": {
+    "tagline": "Democratizing access to quality custom development for VSEs, SMEs, and startups.",
+    "socials": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn"
+    },
+    "navSections": {
+      "product": "Product",
+      "resources": "Resources",
+      "company": "Company"
+    },
+    "product": {
+      "visionFirst": "Vision-First",
+      "marketplace": "Marketplace",
+      "pricing": "Pricing",
+      "testimonials": "Testimonials",
+      "faq": "FAQ"
+    },
+    "resources": {
+      "blog": "Blog",
+      "glossary": "Glossary",
+      "knowledgeBase": "Knowledge Base",
+      "community": "Community",
+      "support": "Support",
+      "apiDocs": "API Documentation"
+    },
+    "company": {
+      "about": "About Us",
+      "careers": "Careers",
+      "partners": "Partners",
+      "contact": "Contact",
+      "legal": "Legal Notice"
+    },
+    "copyright": "© {year} Vibecodr. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookies Policy",
+      "notice": "Legal Notice"
+    }
+  },
+  "Metadata": {
+    "title": "Build your digital product faster with AI | Vibecodr",
+    "description": "Turn your idea into a digital product with Vibecodr. Vision-First SaaS tools (CodeGuide, AI PRD) & expert Vibe Coder marketplace. Get started!"
+  },
+  "WaitingListModal": {
+    "title": "Join Our Waiting List",
+    "subtitle": "Be the first to know when Vibecodr launches and receive exclusive early access.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your.email@example.com",
+    "nameLabel": "Full Name (Optional)",
+    "namePlaceholder": "John Smith",
+    "consentText": "I agree to receive updates and marketing communications about Vibecodr products and services. You can unsubscribe at any time.",
+    "submit": "Join the Waiting List",
+    "submitting": "Processing...",
+    "errorValidation": "Please provide your email and agree to the terms.",
+    "errorGeneric": "Something went wrong. Please try again later.",
+    "successTitle": "Thank You!",
+    "successMessage": "You've been successfully added to our waiting list. We'll keep you updated on our progress and notify you when we launch.",
+    "closeButton": "Close",
+    "privacyNote": "We respect your privacy and won't share your information with third parties.",
+    "benefitsTitle": "Benefits of joining our waiting list:",
+    "benefit1": "Get early access to our platform before public launch",
+    "benefit2": "Receive exclusive offers and discounts for early adopters",
+    "benefit3": "Help shape our product with your valuable feedback"
+  },
+  "BlogIndex": {
+    "title": "Vibecodr Blog",
+    "titleStart": "Blog",
+    "description": "Discover our latest articles on development, innovation, and best practices to bring your digital vision to life.",
+    "noArticlesFoundTitle": "No Articles Found",
+    "noArticlesFoundDescription": "No articles currently match your criteria. Please check back later!",
+    "searchPlaceholder": "Search for an article...",
+    "allCategories": "All categories",
+    "all": "All",
+    "recent": "Recent",
+    "resetFilters": "Reset filters",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "pageInfo": "Page {currentPage} of {totalPages}"
+  },
+  "BlogIndexPage": {
+    "metaTitle": "Vibecodr Blog | AI, Digital Product Development & Strategy",
+    "metaDescription": "Expert advice, trends, and news on AI-powered digital product development, the Vision-First methodology, and agile project management by Vibecodr."
+  },
+  "BlogPost": {
+    "backToBlog": "Back to Blog",
+    "publishedOn": "Published on {date}",
+    "unknownDate": "Date unknown",
+    "tags": "Tags",
+    "relatedPosts": "Related Articles",
+    "readingTimeSuffixEn": "min read",
+    "readingTimeSuffixFr": "min de lecture",
+    "shareArticleTitle": "Share this article",
+    "linkCopied": "Link copied to clipboard!",
+    "linkCopyFailed": "Failed to copy link.",
+    "copyLinkTooltip": "Copy link"
+  },
+  "BlogCard": {
+    "readArticle": "Read article"
+  },
+  "GlossaryPage": {
+    "title": "Glossary",
+    "description": "Explore our comprehensive glossary of terms related to development, artificial intelligence, and methodologies used at Vibecodr. This glossary will help you better understand the technical jargon and key concepts of our ecosystem.",
+    "searchPlaceholder": "Search for a term...",
+    "allCategories": "All",
+    "noTermsFound": "No terms found for this search. Try other keywords or categories.",
+    "categories": {
+      "IA": "AI",
+      "Developpement": "Development",
+      "Vibecodr": "Vibecodr",
+      "General": "General",
+      "Producty": "Product",
+      "Entrepreneuriat": "Entrepreneurship",
+      "GenAI": "Generative AI",
+      "Startup": "Startup"
+    },
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "pageInfo": "Page {currentPage} of {totalPages}",
+    "return": "Return to Glossary",
+    "categoryLabel": "Category"
+  },
+  "VisionFirstPage": {
+    "metaTitle": "Vision-First Approach & AI Tools | Vibecodr - Structure Your Product",
+    "metaDescription": "Explore Vibecodr's Vision-First approach: CodeGuide (AI PRD assistant), Wireframes, Technical Blueprint. Define, validate, and structure your digital product before development.",
+    "hero": {
+      "badge": "Unique methodological approach",
+      "title": {
+        "span": "Vision-First",
+        "main": "Product Creation"
+      },
+      "description": "The methodology that transforms your ideas into structured, validated digital products ready for development.",
+      "cta": {
+        "startFree": "Start for free",
+        "exploreCodeGuide": "Explore CodeGuide"
+      }
+    },
+    "problem": {
+      "title": "An alarming observation",
+      "description": "70% of digital projects fail before launch. Why? A poorly defined product vision, unrealistic expectations, and poor communication with developers.",
+      "cards": {
+        "documentation": {
+          "title": "Insufficient documentation",
+          "description": "Poorly documented needs lead to costly misunderstandings and products that don't meet expectations."
+        },
+        "misunderstanding": {
+          "title": "Mutual misunderstanding",
+          "description": "The gap between entrepreneurs and developers creates frustration, delays, and budget overruns."
+        },
+        "unsuitable": {
+          "title": "Unsuitable solutions",
+          "description": "Generic or overly complex solutions do not solve your company's specific problems."
+        }
+      }
+    },
+    "approach": {
+      "title": "The Vision-First Approach",
+      "description": "Our unique methodology guides you step-by-step to define, structure, and validate your product vision before starting development.",
+      "structuredDefinition": {
+        "title": "Structured Definition",
+        "description": "Intelligent tools help you formalize your idea into a clear and structured PRD.",
+        "item1": "AI assistant for writing and structuring",
+        "item2": "Templates adapted to your sector",
+        "item3": "Personalized concrete examples"
+      },
+      "smartValidation": {
+        "title": "Smart Validation",
+        "description": "Analysis tools that identify inconsistencies and validate the feasibility of your project.",
+        "item1": "Detection of ambiguities and inconsistencies",
+        "item2": "Technical risk assessment",
+        "item3": "Improvement recommendations"
+      },
+      "technicalBlueprint": {
+        "title": "Technical Blueprint",
+        "description": "Translation of your vision into understandable technical specifications.",
+        "item1": "Simplified system architecture",
+        "item2": "Adapted technological recommendations",
+        "item3": "Initial data model"
+      },
+      "concreteVisualization": {
+        "title": "Concrete Visualization",
+        "description": "Wireframes and user journeys to visualize your product before its development.",
+        "item1": "Interactive wireframes",
+        "item2": "User journey mapping",
+        "item3": "Identification of friction points"
+      }
+    },
+    "tools": {
+      "title": "Our Vision-First Tools",
+      "description": "A complete suite of intelligent tools to structure and validate your product vision, from the initial idea to development.",
+      "codeguide": {
+        "title": "CodeGuide",
+        "description": "AI assistant that guides you step-by-step in structuring your product vision",
+        "cta": "Explore"
+      },
+      "wireframeGenerator": {
+        "title": "Wireframe Generator",
+        "description": "Create simple mockups to visualize your product and its interface",
+        "cta": "Explore"
+      },
+      "projectBlueprint": {
+        "title": "Project Blueprint",
+        "description": "Automatically generate a draft technical architecture tailored to your needs",
+        "cta": "Explore"
+      },
+      "visionValidator": {
+        "title": "Vision Validator",
+        "description": "Check the consistency and feasibility of your product vision",
+        "cta": "Explore"
+      },
+      "launchReadiness": {
+        "title": "Launch Readiness",
+        "description": "Prepare for launch with an interactive checklist",
+        "cta": "Explore"
+      }
+    },
+    "testimonials": {
+      "title": "They turned their vision into reality",
+      "description": "Discover how entrepreneurs like you succeeded thanks to our Vision-First approach",
+      "frederiqueM": {
+        "quote": "CodeGuide saved me weeks of work by structuring my product vision. The Vibe Coders immediately understood what I wanted thanks to the quality of the generated documentation.",
+        "name": "Frédérique M.",
+        "title": "Innovative SME Manager"
+      },
+      "fredericT": {
+        "quote": "The Project Blueprint was a revelation! For the first time, I understood the technical implications of my project without incomprehensible jargon. Development was 40% faster.",
+        "name": "Frédéric T.",
+        "title": "Fintech startup founder"
+      },
+      "fredericL": {
+        "quote": "As a consultant, I use Vibecodr for all my clients. The Vision Validator saved several projects by identifying critical inconsistencies we had missed.",
+        "name": "Frédéric L.",
+        "title": "Digital strategy consultant"
+      }
+    },
+    "demo": {
+      "title": "CodeGuide in action",
+      "description": "The AI assistant that transforms your ideas into a structured PRD, personas, user stories, and wireframes. Ask questions, refine your vision, and generate clear documentation for your product.",
+      "cta": "Try CodeGuide",
+      "chat": {
+        "user1": "How can I create a wireframe for my time management application?",
+        "ai1": {
+          "line1": "I will help you create your wireframe. Go to the \"Wireframes\" tab in CodeGuide and follow these steps:",
+          "item1": "Create a new screen",
+          "item2": "Add interface elements (buttons, text fields, etc.)",
+          "item3": "Organize them according to your vision",
+          "item4": "Export or share your mockup",
+          "line2": "Would you like to start with a time management dashboard template?"
+        },
+        "user2": "Yes, please. And can you also show me how to link this wireframe to my user stories?",
+        "ai2": {
+          "line1": "I've added a dashboard template to your project. To link your wireframes to user stories:",
+          "item1": "Open the relevant wireframe screen",
+          "item2": "Click on \"Link to user stories\" in the menu",
+          "item3": "Select the corresponding user stories",
+          "item4": "Validate the links",
+          "line2": "This bidirectional traceability helps your development team understand how each feature should be visually implemented."
+        }
+      }
+    },
+    "cta": {
+      "title": {
+        "line1": "Ready to transform your ",
+        "span": "vision",
+        "line2": " into reality?"
+      },
+      "description": "Join Vibecodr today and start building impactful digital products with a solid foundation thanks to our Vision-First approach.",
+      "startFree": "Start for free",
+      "talkToExpert": "Talk to an expert"
+    }
+  },
+  "FaqPage": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to your questions about Vibecodr.",
+    "searchPlaceholder": "Search for a question...",
+    "allCategories": "All Questions",
+    "noResultsTitle": "No Results",
+    "noResultsDescription": "No questions match your search.",
+    "categories": {
+      "General": "General",
+      "Features": "Features",
+      "Marketplace": "Marketplace",
+      "Quality": "Quality",
+      "Billing": "Billing",
+      "Support": "Support",
+      "Technical": "Technical"
+    },
+    "metaTitle": "FAQ | Vibecodr - Answers to Your Questions",
+    "metaDescription": "Find answers to frequently asked questions about Vibecodr, pricing, features, support and more."
+  },
+  "FaqPageMeta": {
+    "title": "FAQ | Vibecodr - Answers to Your Questions",
+    "description": "Find answers to frequently asked questions about Vibecodr, pricing, features, support and more."
+  },
+  "Global": {
+    "homeBreadcrumb": "Home",
+    "blogBreadcrumb": "Blog"
+  },
+  "BlogCategories": {
+    "metaTitle": "Category: {category} | Vibecodr Blog",
+    "metaDescription": "Explore articles in the {category} category on Vibecodr blog."
+  },
+  "BlogTags": {
+    "metaTitle": "Tag: {tag} | Vibecodr Blog", 
+    "metaDescription": "Articles tagged with {tag} on Vibecodr blog."
+  },
+  "LegalPage": {
+    "metaTitle": "Legal Notice - Vibecodr",
+    "metaDescription": "Legal notice and privacy policy of Vibecodr. Information about the publisher, hosting and protection of your personal data.",
+    "title": "Legal Notice",
+    "legal": {
+      "title": "Legal Notice",
+      "publisher": {
+        "title": "Site Publisher",
+        "company": "Company",
+        "status": "Status",
+        "statusValue": "Individual business",
+        "address": "Address",
+        "email": "Email"
+      },
+      "hosting": {
+        "title": "Hosting",
+        "provider": "Host",
+        "address": "Address",
+        "website": "Website"
+      },
+      "intellectual": {
+        "title": "Intellectual Property",
+        "content": "This entire site is subject to French and international legislation on copyright and intellectual property. All reproduction rights are reserved, including for downloadable documents and iconographic and photographic representations."
+      },
+      "liability": {
+        "title": "Liability",
+        "content": "The information contained on this site is as accurate as possible and the site is updated at different times of the year, but may however contain inaccuracies or omissions. If you notice a gap, error or what appears to be a malfunction, please report it by email to contact@vibecodr.ai, describing the problem as precisely as possible."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": {
+        "title": "Introduction",
+        "content": "Vibecodr is committed to protecting the confidentiality of your personal data. This policy describes the information we collect, how we use it and your rights regarding this data."
+      },
+      "dataCollection": {
+        "title": "Data Collected",
+        "content": "We collect the following information:",
+        "email": "Your email address (newsletter subscription form)",
+        "name": "Your name (optional, subscription form)",
+        "preferences": "Your communication preferences"
+      },
+      "dataUsage": {
+        "title": "Use of Data",
+        "content": "We use your data to:",
+        "newsletter": "Send you our newsletter (with your consent)",
+        "updates": "Inform you of important updates",
+        "improvements": "Improve our services"
+      },
+      "dataSharing": {
+        "title": "Data Sharing",
+        "content": "We do not sell, exchange or transfer your personal data to third parties, except for legal obligations or for technical service providers necessary for the operation of the service (hosting, email)."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "In accordance with GDPR, you have the following rights:",
+        "access": "Right of access to your data",
+        "rectification": "Right of rectification",
+        "deletion": "Right to erasure",
+        "portability": "Right to portability"
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "To exercise your rights or for any questions regarding this policy, contact us at: contact@vibecodr.ai"
+      }
+    },
+    "lastUpdated": "Last updated: {date}"
+  }
+} 

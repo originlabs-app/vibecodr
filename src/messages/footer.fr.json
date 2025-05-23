@@ -1,0 +1,41 @@
+{
+  "tagline": "Accélérez votre produit digital avec l'IA et l'expertise humaine.",
+  "copyright": "© {year} Vibecodr. Tous droits réservés.",
+  "navSections": {
+    "product": "Produit",
+    "resources": "Ressources",
+    "company": "Entreprise"
+  },
+  "product": {
+    "visionFirst": "Vision-First",
+    "marketplace": "Marketplace",
+    "pricing": "Tarifs",
+    "testimonials": "Témoignages",
+    "faq": "FAQ"
+  },
+  "resources": {
+    "blog": "Blog",
+    "glossary": "Glossaire",
+    "knowledgeBase": "Base de connaissances",
+    "community": "Communauté",
+    "support": "Support",
+    "apiDocs": "Documentation API"
+  },
+  "company": {
+    "about": "À propos",
+    "careers": "Carrières",
+    "partners": "Partenaires",
+    "contact": "Contact",
+    "legal": "Légal"
+  },
+  "legal": {
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Politique de cookies",
+    "notice": "Mentions légales"
+  },
+  "socials": {
+    "twitter": "Suivez-nous sur Twitter",
+    "linkedin": "Suivez-nous sur LinkedIn"
+  }
+} 

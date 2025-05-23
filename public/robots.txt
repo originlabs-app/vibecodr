@@ -1,0 +1,11 @@
+# robots.txt pour vibecodr.ai
+
+User-agent: *
+Disallow: /_next/ # Empêche l'exploration des fichiers internes de Next.js
+Disallow: /api/ # Si vous avez des routes API que vous ne voulez pas indexer
+
+# Autoriser l'exploration de tout le reste (implicite si pas de Disallow spécifique)
+# Allow: /
+
+# Emplacement du Sitemap (à adapter quand il sera généré)
+Sitemap: https://vibecodr.ai/sitemap.xml 

@@ -1,0 +1,374 @@
+[
+  {
+    "id": "faq-general-1",
+    "categoryKey": "General",
+    "question": "Qu'est-ce que Vibecodr et à qui s'adresse la plateforme ?",
+    "answer": "Vibecodr est une plateforme innovante qui s'adresse aux entrepreneurs, startups, TPE/PME et développeurs souhaitant créer, piloter ou rejoindre des projets digitaux sur-mesure. Elle combine des outils SaaS intelligents pour structurer la vision produit et une marketplace de développeurs français certifiés, augmentés par l'IA. Vibecodr vise à démocratiser l'accès à l'innovation logicielle, à accélérer le time-to-market et à garantir la qualité et la transparence pour tous les acteurs du projet."
+  },
+  {
+    "id": "faq-general-2",
+    "categoryKey": "General",
+    "question": "Quelle est la différence entre Vibecodr et une agence classique ou une plateforme de freelances ?",
+    "answer": "Contrairement à une agence classique, Vibecodr propose une approche hybride : outils SaaS pour structurer votre projet, IA pour accélérer et fiabiliser la conception, et une marketplace de développeurs sélectionnés. La transparence, la rapidité, la propriété du code et l'accompagnement sont au cœur de l'expérience. Par rapport à une plateforme de freelances, Vibecodr garantit la qualité (sélection, formation, IA), la contractualisation sécurisée (escrow, milestones) et un support continu."
+  },
+  {
+    "id": "faq-general-3",
+    "categoryKey": "General",
+    "question": "Quels sont les avantages de l'approche « Vision-First » ?",
+    "answer": "L'approche Vision-First permet de clarifier, structurer et valider votre vision produit avant même de lancer le développement. Grâce à des outils guidés et à l'IA, vous pouvez rédiger un PRD, cartographier les parcours utilisateurs, anticiper les risques et obtenir des recommandations personnalisées. Cela réduit les erreurs, accélère la mise en œuvre et garantit un alignement optimal entre vos besoins et la solution livrée."
+  },
+  {
+    "id": "faq-general-4",
+    "categoryKey": "General",
+    "question": "Puis-je utiliser Vibecodr si je n'ai aucune compétence technique ?",
+    "answer": "Oui, Vibecodr a été conçu pour être accessible à tous, même sans background technique. Les outils sont guidés, pédagogiques, et l'IA vous accompagne à chaque étape. Vous pouvez structurer votre projet, dialoguer avec des experts, et suivre l'avancement sans jargon complexe."
+  },
+  {
+    "id": "faq-general-5",
+    "categoryKey": "General",
+    "question": "Vibecodr est-il adapté aux projets de toutes tailles (MVP, refonte, scale-up…) ?",
+    "answer": "Absolument. Que vous souhaitiez lancer un MVP, refondre une application existante ou scaler un produit, Vibecodr s'adapte à vos besoins. Les outils sont modulaires et la marketplace permet de trouver des experts pour chaque étape du cycle de vie produit."
+  },
+  {
+    "id": "faq-general-6",
+    "categoryKey": "General",
+    "question": "Comment Vibecodr garantit-il la confidentialité de mon projet ?",
+    "answer": "La confidentialité est une priorité. Vos données sont hébergées en Europe, protégées par chiffrement, et seuls les membres autorisés de votre projet y ont accès. Les Vibe Coders signent des engagements de confidentialité et la plateforme est conforme au RGPD."
+  },
+  {
+    "id": "faq-saas-1",
+    "categoryKey": "Features",
+    "question": "Comment fonctionne le module CodeGuide ?",
+    "answer": "CodeGuide est un assistant intelligent qui vous guide dans la structuration de votre projet digital. Il pose des questions ciblées, suggère des approches pour définir vos personas, user stories et PRD (Product Requirements Document). Grâce à l'IA, il vous aide à clarifier vos besoins, à générer des documents structurés et à les exporter dans différents formats."
+  },
+  {
+    "id": "faq-saas-2",
+    "categoryKey": "Features",
+    "question": "Que puis-je générer avec le Project Blueprint Generator ?",
+    "answer": "Le Project Blueprint Generator vous permet de créer une ébauche d'architecture technique pour votre projet. Il vous guide à travers un questionnaire sur vos besoins, propose des stacks technologiques adaptées, et génère des schémas d'architecture, des structures de base de données et des checklists de conformité."
+  },
+  {
+    "id": "faq-saas-3",
+    "categoryKey": "Features",
+    "question": "L'IA de Vibecodr peut-elle m'aider à rédiger un PRD ou des user stories ?",
+    "answer": "Oui, l'IA intégrée à Vibecodr analyse vos réponses, suggère des formulations, détecte les incohérences et propose des améliorations pour vos PRD, user stories et parcours utilisateurs. Elle vous fait gagner du temps et améliore la qualité de vos documents."
+  },
+  {
+    "id": "faq-saas-4",
+    "categoryKey": "Features",
+    "question": "Puis-je exporter mes documents (PRD, user stories, blueprints) ? Sous quels formats ?",
+    "answer": "Vous pouvez exporter tous vos documents en PDF, Word, Markdown ou JSON. Cela vous permet de les partager facilement avec vos équipes, partenaires ou investisseurs."
+  },
+  {
+    "id": "faq-saas-5",
+    "categoryKey": "Features",
+    "question": "Comment fonctionne l'analyse de cohérence (Vision Validator) ?",
+    "answer": "Le Vision Validator utilise l'IA pour analyser la cohérence, la clarté et la faisabilité de votre vision produit. Il détecte les ambiguïtés, les risques, et vous propose des recommandations pour renforcer votre projet avant de passer à l'exécution."
+  },
+  {
+    "id": "faq-saas-6",
+    "categoryKey": "Features",
+    "question": "Puis-je cartographier le parcours utilisateur (Customer Journey Mapping) sur la plateforme ?",
+    "answer": "Oui, un outil visuel vous permet de cartographier les étapes clés du parcours utilisateur, d'identifier les points de friction et d'opportunité, et de lier ces éléments à vos user stories ou fonctionnalités."
+  },
+  {
+    "id": "faq-saas-7",
+    "categoryKey": "Features",
+    "question": "Est-il possible de générer des wireframes ou des maquettes avec Vibecodr ?",
+    "answer": "Oui, un générateur de wireframes basique est intégré pour vous permettre de visualiser rapidement l'ergonomie de vos écrans et de les partager avec vos équipes ou Vibe Coders."
+  },
+  {
+    "id": "faq-saas-8",
+    "categoryKey": "Features",
+    "question": "Comment la checklist de pré-lancement m'aide-t-elle à préparer mon go-live ?",
+    "answer": "La checklist de pré-lancement recense toutes les étapes critiques (technique, marketing, légal, opérationnel) à valider avant de lancer votre produit. Elle vous permet de suivre l'avancement, d'assigner des tâches et de garantir que rien n'est oublié."
+  },
+  {
+    "id": "faq-saas-9",
+    "categoryKey": "Features",
+    "question": "Puis-je simuler la roadmap et la scalabilité de mon projet ?",
+    "answer": "Oui, Vibecodr propose des outils pour planifier votre roadmap, visualiser les releases, et anticiper les besoins de scalabilité grâce à des questionnaires et des recommandations IA."
+  },
+  {
+    "id": "faq-marketplace-1",
+    "categoryKey": "Marketplace",
+    "question": "Comment trouver un Vibe Coder adapté à mon projet ?",
+    "answer": "Vous pouvez rechercher des Vibe Coders selon leurs compétences, expériences, Vibe Score, disponibilité et secteur d'expertise. La plateforme propose aussi un matching intelligent pour vous suggérer les profils les plus pertinents."
+  },
+  {
+    "id": "faq-marketplace-2",
+    "categoryKey": "Marketplace",
+    "question": "Comment sont sélectionnés et certifiés les Vibe Coders ?",
+    "answer": "Les Vibe Coders sont sélectionnés via un processus de vetting rigoureux, un bootcamp obligatoire et des certifications. Ils sont évalués en continu sur la qualité, la communication et la satisfaction client."
+  },
+  {
+    "id": "faq-marketplace-3",
+    "categoryKey": "Marketplace",
+    "question": "Puis-je publier une mission sans avoir finalisé mon PRD ?",
+    "answer": "Oui, mais il est fortement recommandé de structurer votre vision avec CodeGuide pour maximiser la clarté et l'efficacité de la mission. Vous pouvez publier une mission à tout moment et l'enrichir au fil de l'eau."
+  },
+  {
+    "id": "faq-marketplace-4",
+    "categoryKey": "Marketplace",
+    "question": "Comment fonctionne le matching entre porteurs de projet et Vibe Coders ?",
+    "answer": "Le matching s'appuie sur vos besoins, le contenu de votre PRD, les compétences recherchées et la disponibilité des Vibe Coders. L'IA vous propose les meilleurs profils et vous pouvez comparer, contacter et sélectionner en toute transparence."
+  },
+  {
+    "id": "faq-marketplace-5",
+    "categoryKey": "Marketplace",
+    "question": "Comment se déroule la contractualisation et le paiement (escrow, milestones) ?",
+    "answer": "Une fois le Vibe Coder sélectionné, un contrat est généré et signé électroniquement. Les paiements sont sécurisés via un système d'escrow (dépôt bloqué) et libérés à chaque étape validée (milestone). Cela protège à la fois le porteur de projet et le Vibe Coder."
+  },
+  {
+    "id": "faq-marketplace-6",
+    "categoryKey": "Marketplace",
+    "question": "Que se passe-t-il si un Vibe Coder ne termine pas la mission ?",
+    "answer": "En cas de problème, la plateforme propose un système de médiation et de gestion des litiges. Les paiements sont bloqués tant que la mission n'est pas validée, et un support humain intervient si besoin."
+  },
+  {
+    "id": "faq-marketplace-7",
+    "categoryKey": "Marketplace",
+    "question": "Puis-je travailler avec plusieurs Vibe Coders sur un même projet ?",
+    "answer": "Oui, vous pouvez constituer une équipe de Vibe Coders, répartir les tâches et suivre l'avancement de chacun via le tableau de bord collaboratif."
+  },
+  {
+    "id": "faq-marketplace-8",
+    "categoryKey": "Marketplace",
+    "question": "Comment sont gérés les litiges ou désaccords ?",
+    "answer": "Un système de médiation est prévu pour résoudre les litiges. La plateforme agit en tiers de confiance, analyse les échanges et propose une solution équitable."
+  },
+  {
+    "id": "faq-marketplace-9",
+    "categoryKey": "Marketplace",
+    "question": "Puis-je évaluer un Vibe Coder après la mission ?",
+    "answer": "Oui, chaque mission terminée donne lieu à une évaluation croisée (porteur de projet et Vibe Coder). Les avis sont publics et contribuent à la réputation de chacun."
+  },
+  {
+    "id": "faq-marketplace-10",
+    "categoryKey": "Marketplace",
+    "question": "Qu'est-ce que le Vibe Score et comment est-il calculé ?",
+    "answer": "Le Vibe Score est un indicateur de performance et de fiabilité d'un Vibe Coder sur la plateforme. Il est calculé en fonction de plusieurs critères, incluant la qualité des livrables, le respect des délais, la communication avec le porteur de projet, et les évaluations reçues lors des missions précédentes. Un Vibe Score élevé témoigne d'un professionnalisme et d'une expertise reconnus par la communauté Vibecodr."
+  },
+  {
+    "id": "faq-qualite-1",
+    "categoryKey": "Quality",
+    "question": "Comment Vibecodr garantit-il la qualité du code livré ?",
+    "answer": "La qualité est assurée par la sélection des Vibe Coders, l'utilisation d'outils IA pour la revue de code, des checklists de validation, et un feedback systématique après chaque mission."
+  },
+  {
+    "id": "faq-qualite-2",
+    "categoryKey": "Quality",
+    "question": "Quels outils IA sont utilisés pour la revue de code ?",
+    "answer": "Vibecodr intègre des outils d'analyse statique, de détection d'erreurs, de suggestions d'optimisation et de génération de tests, tous assistés par IA."
+  },
+  {
+    "id": "faq-qualite-3",
+    "categoryKey": "Quality",
+    "question": "Puis-je accéder à l'historique des versions et des livrables ?",
+    "answer": "Oui, chaque livrable est versionné et archivé. Vous pouvez consulter l'historique, restaurer une version antérieure et suivre l'évolution du projet."
+  },
+  {
+    "id": "faq-qualite-4",
+    "categoryKey": "Quality",
+    "question": "Qui possède la propriété intellectuelle du code produit ?",
+    "answer": "Le porteur de projet reste propriétaire de l'ensemble du code et des livrables produits. Vibecodr s'engage sur le principe du No Vendor Lock-In."
+  },
+  {
+    "id": "faq-qualite-5",
+    "categoryKey": "Quality",
+    "question": "Vibecodr propose-t-il un engagement « No Vendor Lock-In » ?",
+    "answer": "Oui, vous gardez la pleine propriété de votre code et de vos données. Vous pouvez tout exporter à tout moment, sans dépendance technique."
+  },
+  {
+    "id": "faq-qualite-6",
+    "categoryKey": "Quality",
+    "question": "Comment mes données sont-elles protégées (GDPR, chiffrement, backups) ?",
+    "answer": "Les données sont hébergées en Europe, chiffrées, sauvegardées régulièrement et soumises à des politiques strictes de sécurité et de conformité RGPD."
+  },
+  {
+    "id": "faq-facturation-1",
+    "categoryKey": "Billing",
+    "question": "Quels sont les modèles de facturation proposés par Vibecodr ?",
+    "answer": "Vibecodr propose un abonnement SaaS pour l'accès aux outils, et une commission sur les missions réalisées via la marketplace. Les paiements sont transparents et sécurisés."
+  },
+  {
+    "id": "faq-facturation-2",
+    "categoryKey": "Billing",
+    "question": "Comment fonctionne l'abonnement SaaS ? Quelles fonctionnalités sont incluses ?",
+    "answer": "L'abonnement SaaS donne accès à tous les outils Vision-First (CodeGuide, Blueprint, Validator, etc.), à la gestion de projet, et à un support prioritaire. Les détails des plans sont disponibles sur la page Tarifs."
+  },
+  {
+    "id": "faq-facturation-3",
+    "categoryKey": "Billing",
+    "question": "Comment sont gérés les paiements des missions (escrow, milestones, Stripe) ?",
+    "answer": "Les paiements sont déposés sur un compte séquestre (escrow) et libérés à chaque étape validée. Stripe assure la sécurité et la traçabilité des transactions."
+  },
+  {
+    "id": "faq-facturation-4",
+    "categoryKey": "Billing",
+    "question": "Puis-je obtenir une facture détaillée pour chaque mission ou abonnement ?",
+    "answer": "Oui, chaque transaction génère une facture téléchargeable depuis votre espace client."
+  },
+  {
+    "id": "faq-facturation-5",
+    "categoryKey": "Billing",
+    "question": "Quels moyens de paiement sont acceptés ?",
+    "answer": "Les paiements s'effectuent par carte bancaire (Visa, Mastercard, etc.) via Stripe. D'autres moyens pourront être ajoutés à l'avenir."
+  },
+  {
+    "id": "faq-facturation-6",
+    "categoryKey": "Billing",
+    "question": "Y a-t-il des frais cachés ou des commissions ?",
+    "answer": "Non, la tarification est transparente. Les commissions et frais éventuels sont clairement indiqués avant toute validation."
+  },
+  {
+    "id": "faq-porteur-1",
+    "categoryKey": "General",
+    "question": "Comment démarrer un projet sur Vibecodr ?",
+    "answer": "Il suffit de créer un compte, de lancer un nouveau projet via CodeGuide, et de vous laisser guider étape par étape. Vous pouvez ensuite publier une mission ou contacter un Vibe Coder."
+  },
+  {
+    "id": "faq-porteur-2",
+    "categoryKey": "General",
+    "question": "Puis-je être accompagné dans la structuration de ma vision produit ?",
+    "answer": "Oui, l'IA et les experts Vibecodr vous accompagnent à chaque étape, de la définition du besoin à la validation de la solution."
+  },
+  {
+    "id": "faq-porteur-3",
+    "categoryKey": "General",
+    "question": "Comment suivre l'avancement de mon projet et communiquer avec mon Vibe Coder ?",
+    "answer": "Un tableau de bord centralisé vous permet de suivre l'avancement, d'échanger des messages, de partager des fichiers et de valider chaque étape du projet."
+  },
+  {
+    "id": "faq-porteur-4",
+    "categoryKey": "General",
+    "question": "Puis-je inviter des membres de mon équipe ou des consultants externes ?",
+    "answer": "Oui, vous pouvez inviter des collaborateurs, leur attribuer des rôles et partager l'accès aux documents et au suivi du projet."
+  },
+  {
+    "id": "faq-porteur-5",
+    "categoryKey": "General",
+    "question": "Comment puis-je récupérer l'ensemble de mes livrables et données ?",
+    "answer": "Vous pouvez exporter tous vos livrables et données à tout moment depuis votre espace client, sans restriction."
+  },
+  {
+    "id": "faq-porteur-6",
+    "categoryKey": "General",
+    "question": "Que faire si j'ai besoin de faire évoluer mon projet après la livraison initiale ?",
+    "answer": "Vous pouvez rouvrir une mission, ajouter de nouvelles fonctionnalités ou contacter un Vibe Coder pour une évolution. La plateforme est conçue pour accompagner la croissance de votre projet."
+  },
+  {
+    "id": "faq-vibecoder-1",
+    "categoryKey": "General",
+    "question": "Comment devenir Vibe Coder et être certifié ?",
+    "answer": "Il suffit de postuler via la plateforme, de passer le processus de sélection (test technique, entretien, bootcamp) et d'obtenir la certification Vibecodr."
+  },
+  {
+    "id": "faq-vibecoder-2",
+    "categoryKey": "General",
+    "question": "Quels sont les avantages à rejoindre la communauté Vibecodr ?",
+    "answer": "Vous accédez à des missions qualifiées, à des outils IA pour booster votre productivité, à une communauté active et à des formations continues."
+  },
+  {
+    "id": "faq-vibecoder-3",
+    "categoryKey": "General",
+    "question": "Comment postuler à une mission et soumettre une proposition ?",
+    "answer": "Vous pouvez consulter les missions disponibles, soumettre une proposition détaillée (approche, budget, délai), et échanger avec le porteur de projet avant contractualisation."
+  },
+  {
+    "id": "faq-vibecoder-4",
+    "categoryKey": "General",
+    "question": "Comment fonctionne le bootcamp et la formation continue ?",
+    "answer": "Le bootcamp est un parcours d'intégration obligatoire pour valider vos compétences et vous familiariser avec les outils Vibecodr. Des formations continues sont proposées pour rester à la pointe."
+  },
+  {
+    "id": "faq-vibecoder-5",
+    "categoryKey": "General",
+    "question": "Puis-je proposer mes propres stacks ou outils sur un projet ?",
+    "answer": "Oui, la plateforme encourage l'innovation et la proposition de solutions adaptées. Toute stack doit cependant être validée avec le porteur de projet."
+  },
+  {
+    "id": "faq-vibecoder-6",
+    "categoryKey": "General",
+    "question": "Comment sont gérés les paiements et la facturation pour les Vibe Coders ?",
+    "answer": "Les paiements sont sécurisés via Stripe Connect. Vous pouvez suivre vos gains, télécharger vos factures et recevoir des paiements à chaque milestone validée."
+  },
+  {
+    "id": "faq-vibecoder-7",
+    "categoryKey": "General",
+    "question": "Puis-je accéder à des outils IA pour accélérer mon développement ?",
+    "answer": "Oui, des outils IA sont intégrés pour la génération de code, la revue, l'optimisation et la documentation technique."
+  },
+  {
+    "id": "faq-vibecoder-8",
+    "categoryKey": "General",
+    "question": "Comment valoriser mon portfolio et obtenir des avis clients ?",
+    "answer": "Chaque mission terminée enrichit votre portfolio et vous permet de recevoir des avis publics, valorisant votre expertise auprès de futurs clients."
+  },
+  {
+    "id": "faq-vibecoder-9",
+    "categoryKey": "General",
+    "question": "Que faire en cas de problème avec un porteur de projet ?",
+    "answer": "Un support dédié et un système de médiation sont à votre disposition pour résoudre tout litige de manière équitable."
+  },
+  {
+    "id": "faq-support-1",
+    "categoryKey": "Support",
+    "question": "Où puis-je trouver de la documentation ou des guides d'utilisation ?",
+    "answer": "Une base de connaissance et des guides détaillés sont accessibles depuis votre espace client. Vous pouvez également contacter le support pour toute question."
+  },
+  {
+    "id": "faq-support-2",
+    "categoryKey": "Support",
+    "question": "Existe-t-il une base de connaissance ou un glossaire technique intégré ?",
+    "answer": "Oui, un glossaire technique et une base de connaissance sont intégrés pour vous aider à comprendre les termes et concepts clés."
+  },
+  {
+    "id": "faq-support-3",
+    "categoryKey": "Support",
+    "question": "Comment contacter le support ou obtenir de l'aide ?",
+    "answer": "Vous pouvez contacter le support via chat, email ou ticket depuis la plateforme. Une équipe réactive est à votre disposition."
+  },
+  {
+    "id": "faq-support-4",
+    "categoryKey": "Support",
+    "question": "Vibecodr propose-t-il des webinars, des formations ou des événements communautaires ?",
+    "answer": "Oui, des webinars, ateliers et événements sont régulièrement organisés pour la communauté Vibecodr."
+  },
+  {
+    "id": "faq-support-5",
+    "categoryKey": "Support",
+    "question": "Comment rejoindre la communauté des Vibe Coders ou des porteurs de projet ?",
+    "answer": "Vous pouvez rejoindre la communauté en créant un compte, en participant aux forums, ou en assistant aux événements organisés par Vibecodr."
+  },
+  {
+    "id": "faq-tech-1",
+    "categoryKey": "Technical",
+    "question": "Puis-je connecter Vibecodr à d'autres outils (Notion, Slack, Zapier…) ?",
+    "answer": "Des intégrations sont prévues avec les principaux outils du marché. Vous pouvez suggérer des intégrations via le support."
+  },
+  {
+    "id": "faq-tech-2",
+    "categoryKey": "Technical",
+    "question": "Existe-t-il une API publique pour accéder à mes données ?",
+    "answer": "Une API publique est en cours de développement pour permettre l'accès et l'export de vos données."
+  },
+  {
+    "id": "faq-tech-3",
+    "categoryKey": "Technical",
+    "question": "Vibecodr est-il compatible avec GitHub/GitLab pour la gestion de version ?",
+    "answer": "Oui, l'intégration avec GitHub et GitLab est prévue pour faciliter la gestion de version et le suivi des livrables."
+  },
+  {
+    "id": "faq-tech-4",
+    "categoryKey": "Technical",
+    "question": "Comment sont gérés les accès et permissions sur les projets ?",
+    "answer": "Vous pouvez gérer les accès, inviter des membres, et attribuer des rôles (lecture, écriture, admin) pour chaque projet."
+  },
+  {
+    "id": "faq-tech-5",
+    "categoryKey": "Technical",
+    "question": "Puis-je exporter l'ensemble de mes données à tout moment ?",
+    "answer": "Oui, vous pouvez exporter toutes vos données et livrables à tout moment, sans restriction ni frais cachés."
+  }
+] 
