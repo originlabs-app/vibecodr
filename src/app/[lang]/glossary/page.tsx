@@ -11,11 +11,11 @@ import { locales, defaultLocale } from '../../../../next-intl.config';
 // ==============================================
 // METADATA GENERATION (SERVER)
 // ==============================================
-interface GlossaryPageServerProps {
-  params: { lang: string };
+interface GlossaryPageProps {
+  params: Promise<{ lang: string }>;
 }
 
-export async function generateMetadata({ params }: { params: Promise<GlossaryPageServerProps['params']> }) {
+export async function generateMetadata({ params }: GlossaryPageProps) {
   const { lang } = await params;
   const t = await getTranslations({ locale: lang, namespace: 'GlossaryPage' });
 
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: { params: Promise<GlossaryPag
 // ==============================================
 // SERVER COMPONENT (Wrapper)
 // ==============================================
-export default async function GlossaryPage({ params: paramsPromise }: { params: Promise<GlossaryPageServerProps['params']> }) {
+export default async function GlossaryPage({ params: paramsPromise }: { params: Promise<GlossaryPageProps['params']> }) {
   const { lang } = await paramsPromise;
   const termsFromLib = getAllGlossaryTerms(lang);
   

@@ -10,13 +10,14 @@ import CustomFooter from '@/components/CustomFooter';
 import { locales, defaultLocale } from '../../../../../../next-intl.config';
 
 interface TagPageProps {
-  params: {
+  params: Promise<{
     lang: string;
     tagSlug: string;
-  };
+  }>;
 }
 
-export async function generateStaticParams({ params: { lang } }: { params: { lang: string } }) {
+export async function generateStaticParams({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
   const tags = getAllTags(lang);
   return tags.map(tag => ({ tagSlug: tag.slug }));
 }

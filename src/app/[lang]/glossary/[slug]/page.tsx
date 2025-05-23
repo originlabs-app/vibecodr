@@ -18,7 +18,8 @@ interface GlossaryTermPageProps {
 }
 
 // Générer les chemins statiques pour chaque terme du glossaire
-export async function generateStaticParams({ params: { lang } }: { params: { lang: string } }) {
+export async function generateStaticParams({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
   const terms = getAllGlossaryTerms(lang);
   return terms.map(term => ({ slug: term.slug }));
 }

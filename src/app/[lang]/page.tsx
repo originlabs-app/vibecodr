@@ -8,8 +8,9 @@ import CtaSection from "@/components/CtaSection";
 import CustomFooter from "@/components/CustomFooter";
 
 // La page reçoit les params, y compris `lang`
-export default function LandingPage({ params }: { params: { lang: string } }) {
-  // Le paramètre `lang` est disponible via params.lang et sera utilisé par les composants enfants via useParams()
+export default async function LandingPage({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  
   return (
     <>
       <Header />

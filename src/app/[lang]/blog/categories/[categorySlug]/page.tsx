@@ -10,13 +10,14 @@ import CustomFooter from '@/components/CustomFooter';
 import { locales, defaultLocale } from '../../../../../../next-intl.config'; // Ajout de cet import
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     lang: string;
     categorySlug: string;
-  };
+  }>;
 }
 
-export async function generateStaticParams({ params: { lang } }: { params: { lang: string } }) {
+export async function generateStaticParams({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
   const categories = getAllCategories(lang);
   return categories.map(category => ({ categorySlug: category.slug }));
 }
