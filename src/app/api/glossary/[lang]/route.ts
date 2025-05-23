@@ -5,7 +5,7 @@ import fs from 'fs/promises';
 // Version compatible avec les exigences de Next.js pour les paramètres dynamiques
 export async function GET(
   request: Request,
-  context: { params: { lang: string } }
+  context: { params: Promise<{ lang: string }> }
 ) {
   // Next.js dynamique : params peut nécessiter await
   const { lang } = await context.params;
