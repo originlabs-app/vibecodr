@@ -11,10 +11,10 @@ import { ArrowLeft } from 'lucide-react';
 // import { locales, defaultLocale } from '../../../../../next-intl.config';
 
 interface GlossaryTermPageProps {
-  params: {
+  params: Promise<{
     lang: string;
     slug: string;
-  };
+  }>;
 }
 
 // Générer les chemins statiques pour chaque terme du glossaire
