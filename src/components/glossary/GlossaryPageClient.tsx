@@ -152,36 +152,122 @@ const GlossaryPageClient: React.FC<GlossaryPageClientProps> = ({ initialTerms })
   }, [groupedByLetter, selectedLetter]);
 
   const AlphabetBar = () => (
-    <div className="sticky top-0 z-10 bg-white dark:bg-gray-900 py-2 border-b border-gray-200 dark:border-gray-800 flex flex-wrap gap-1 mb-8">
-      {LETTERS.map(letter => (
-        <Button key={letter} size="sm" variant={selectedLetter === letter ? 'default' : availableLetters.includes(letter) ? 'outline' : 'ghost'} disabled={!availableLetters.includes(letter)} onClick={() => setSelectedLetter(letter)}>
-          {letter}
+    <div className="sticky top-0 z-10 bg-white dark:bg-gray-900 py-3 border-b border-gray-200 dark:border-gray-800 mb-6">
+      {/* Mobile : Menu déroulant */}
+      <div className="block sm:hidden">
+        <div className="mb-3">
+          <select 
+            value={selectedLetter || ''} 
+            onChange={(e) => setSelectedLetter(e.target.value)}
+            className="w-full px-3 py-2 text-sm border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+          >
+            <option value="">{t('allCategories')}</option>
+            {availableLetters.map(letter => (
+              <option key={letter} value={letter}>{letter}</option>
+            ))}
+            {hasOther && <option value="#">#</option>}
+          </select>
+        </div>
+        <div className="flex justify-center">
+          <Button 
+            size="sm" 
+            variant="outline"
+            onClick={() => { setSelectedLetter(''); setSelectedCategory(t('allCategories')); }}
+            className="text-xs px-3 py-1"
+          >
+            {t('allCategories')}
+          </Button>
+        </div>
+      </div>
+      
+      {/* Desktop : Boutons en ligne */}
+      <div className="hidden sm:flex flex-wrap gap-1">
+        {LETTERS.map(letter => (
+          <Button 
+            key={letter} 
+            size="sm" 
+            variant={selectedLetter === letter ? 'default' : availableLetters.includes(letter) ? 'outline' : 'ghost'} 
+            disabled={!availableLetters.includes(letter)} 
+            onClick={() => setSelectedLetter(letter)}
+            className="h-8 w-8 p-0 text-xs"
+          >
+            {letter}
+          </Button>
+        ))}
+        {hasOther && (
+          <Button 
+            key="#" 
+            size="sm" 
+            variant={selectedLetter === '#' ? 'default' : 'outline'} 
+            onClick={() => setSelectedLetter('#')}
+            className="h-8 w-8 p-0 text-xs"
+          >
+            #
+          </Button>
+        )}
+        <Button 
+          size="sm" 
+          variant={!selectedLetter && selectedCategory === (t.rich('allCategories') ? t('allCategories') : "All") ? 'default' : 'outline'} 
+          onClick={() => { setSelectedLetter(''); setSelectedCategory(t('allCategories')); }}
+          className="ml-2 text-xs px-3"
+        >
+          {t('allCategories')}
         </Button>
-      ))}
-      {hasOther && <Button key="#" size="sm" variant={selectedLetter === '#' ? 'default' : 'outline'} onClick={() => setSelectedLetter('#')}>
-        #
-      </Button>}
-      <Button size="sm" variant={!selectedLetter && selectedCategory === (t.rich('allCategories') ? t('allCategories') : "All") ? 'default' : 'outline'} onClick={() => { setSelectedLetter(''); setSelectedCategory(t('allCategories')); }}>
-        {t('allCategories')}
-      </Button>
+      </div>
     </div>
   );
 
   const CategoryBar = () => (
-    <div className="flex flex-wrap gap-2 mb-6">
-      {categoriesForFilter.map(cat => (
-        <Button key={cat} size="sm" variant={selectedCategory === cat ? 'default' : 'outline'} onClick={() => setSelectedCategory(cat)}>{cat}</Button>
-      ))}
+    <div className="mb-6">
+      {/* Mobile : Menu déroulant */}
+      <div className="block sm:hidden">
+        <select 
+          value={selectedCategory || ''} 
+          onChange={(e) => setSelectedCategory(e.target.value)}
+          className="w-full px-3 py-2 text-sm border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+        >
+          {categoriesForFilter.map(cat => (
+            <option key={cat} value={cat}>{cat}</option>
+          ))}
+        </select>
+      </div>
+      
+      {/* Desktop : Boutons en ligne */}
+      <div className="hidden sm:flex flex-wrap gap-2">
+        {categoriesForFilter.map(cat => (
+          <Button 
+            key={cat} 
+            size="sm" 
+            variant={selectedCategory === cat ? 'default' : 'outline'} 
+            onClick={() => setSelectedCategory(cat)}
+            className="text-xs px-3 py-1"
+          >
+            {cat}
+          </Button>
+        ))}
+      </div>
     </div>
   );
 
   const LetterPagination = () => totalLetterPages > 1 && (
-    <div className="mt-6 flex justify-center items-center space-x-4">
-      <Button onClick={() => setCurrentLetterPage(prev => Math.max(1, prev - 1))} disabled={currentLetterPage === 1} variant="outline">
+    <div className="mt-6 flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-4">
+      <Button 
+        onClick={() => setCurrentLetterPage(prev => Math.max(1, prev - 1))} 
+        disabled={currentLetterPage === 1} 
+        variant="outline"
+        className="w-full sm:w-auto"
+      >
         <ChevronLeft className="h-4 w-4 mr-2" />{t('previousPage')}
       </Button>
-      <span className="text-sm text-gray-700 dark:text-gray-300">{t('pageInfo', { currentPage: currentLetterPage, totalPages: totalLetterPages })}</span>
-      <Button onClick={() => setCurrentLetterPage(prev => Math.min(totalLetterPages, prev + 1))} disabled={currentLetterPage === totalLetterPages} variant="outline">
+      <span className="text-sm text-gray-700 dark:text-gray-300 px-2 text-center">
+        {t('pageInfo', { currentPage: currentLetterPage, totalPages: totalLetterPages })}
+      </span>
+      <Button 
+        onClick={() => setCurrentLetterPage(prev => Math.min(totalLetterPages, prev + 1))} 
+        disabled={currentLetterPage === totalLetterPages} 
+        variant="outline"
+        className="w-full sm:w-auto"
+      >
         {t('nextPage')}<ChevronRight className="h-4 w-4 ml-2" />
       </Button>
     </div>
@@ -193,45 +279,69 @@ const GlossaryPageClient: React.FC<GlossaryPageClientProps> = ({ initialTerms })
   if (!selectedCategory) { // Attendre que selectedCategory soit initialisé par le useEffect
     return (
       <main className="flex-grow">
-         <div className="container mx-auto py-12 px-4 md:px-6 flex justify-center items-center"><p className="text-xl">Loading glossary...</p></div>
+         <div className="container mx-auto py-8 sm:py-12 px-4 sm:px-6 flex justify-center items-center min-h-[50vh]">
+           <div className="text-center">
+             <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600 mx-auto mb-4"></div>
+             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400">Chargement du glossaire...</p>
+           </div>
+         </div>
       </main>
     );
   }
 
   return (
     <main className="flex-grow">
-      <div className="container mx-auto py-12 px-4 md:px-6">
+      <div className="container mx-auto py-8 sm:py-12 px-4 sm:px-6">
         {/* Retrait de la condition isLoading ici, car les données initiales sont synchrones */}
         {/* Le contenu s'affiche si selectedCategory est défini */}
-        <div className="flex items-center mb-8"><Book className="h-8 w-8 mr-3 text-indigo-600" /><h1 className="text-4xl font-bold">{t('title')}</h1></div>
-        <p className="text-xl text-gray-600 dark:text-gray-300 mb-12">{t('description')}</p>
+        <div className="flex flex-col sm:flex-row sm:items-center mb-6 sm:mb-8 gap-3 sm:gap-0">
+          <Book className="h-6 w-6 sm:h-8 sm:w-8 mr-0 sm:mr-3 text-indigo-600 self-start sm:self-auto" />
+          <h1 className="text-2xl sm:text-4xl font-bold">{t('title')}</h1>
+        </div>
+        <p className="text-base sm:text-xl text-gray-600 dark:text-gray-300 mb-8 sm:mb-12 leading-relaxed">{t('description')}</p>
         <CategoryBar />
         <AlphabetBar />
         {selectedLetter ? (
           <>
-            <h2 className="text-2xl font-bold mb-4 border-b border-gray-200 dark:border-gray-700 pb-2">{selectedLetter === '#' ? '#' : selectedLetter}<span className="ml-2 text-base font-normal text-gray-500 dark:text-gray-400">({groupedByLetter[selectedLetter]?.length || 0} termes)</span></h2>
-            {termsForSelectedLetter.length === 0 ? <div className="text-center py-12"><p className="text-lg text-gray-600 dark:text-gray-400">{t('noTermsFound')}</p></div> : (<><div className="space-y-4">
-              {termsForSelectedLetter.map(term => {
-                // console.log('[DEBUG] Rendering term for selectedLetter:', term); // Nettoyé
-                return (
-                  <GlossaryTerm key={term.id} term={term.term} definition={term.definition} category={term.category} displayCategory={term.displayCategory} />
-                );
-              })}
-              </div><LetterPagination /></>)}
+            <h2 className="text-xl sm:text-2xl font-bold mb-4 border-b border-gray-200 dark:border-gray-700 pb-2 break-words">
+              {selectedLetter === '#' ? '#' : selectedLetter}
+              <span className="ml-2 text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400">
+                ({groupedByLetter[selectedLetter]?.length || 0} termes)
+              </span>
+            </h2>
+            {termsForSelectedLetter.length === 0 ? (
+              <div className="text-center py-8 sm:py-12">
+                <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400">{t('noTermsFound')}</p>
+              </div>
+            ) : (
+              <>
+                <div className="space-y-3 sm:space-y-4">
+                  {termsForSelectedLetter.map(term => {
+                    // console.log('[DEBUG] Rendering term for selectedLetter:', term); // Nettoyé
+                    return (
+                      <GlossaryTerm key={term.id} term={term.term} definition={term.definition} category={term.category} displayCategory={term.displayCategory} />
+                    );
+                  })}
+                </div>
+                <LetterPagination />
+              </>
+            )}
           </>
         ) : (
-          <div className="space-y-12">
+          <div className="space-y-8 sm:space-y-12">
             {LETTERS.concat(hasOther ? ['#'] : [])
               .filter(letter => groupedByLetter[letter]?.length > 0)
               .map(letter => {
                 // console.log(`[DEBUG] Rendering letter section: ${letter}`, groupedByLetter[letter]); // Nettoyé
                 return (
                   <div key={letter}>
-                    <h2 className="text-2xl font-bold mb-4 border-b border-gray-200 dark:border-gray-700 pb-2">
+                    <h2 className="text-xl sm:text-2xl font-bold mb-4 border-b border-gray-200 dark:border-gray-700 pb-2 break-words">
                       {letter}
-                      <span className="ml-2 text-base font-normal text-gray-500 dark:text-gray-400">({groupedByLetter[letter].length} termes)</span>
+                      <span className="ml-2 text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400">
+                        ({groupedByLetter[letter].length} termes)
+                      </span>
                     </h2>
-                    <div className="space-y-4">
+                    <div className="space-y-3 sm:space-y-4">
                       {groupedByLetter[letter].map(termData => {
                         // console.log(`[DEBUG] Rendering term for letter ${letter} in all-letters view:`, termData); // Nettoyé
                         return (

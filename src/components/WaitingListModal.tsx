@@ -95,33 +95,24 @@ export function WaitingListModal({ isOpen, onClose }: WaitingListModalProps) {
 
   return (
     <Dialog open={isOpen} onOpenChange={handleClose}>
-      <DialogContent className="sm:max-w-lg w-[95vw] max-h-[90vh] overflow-y-auto bg-white dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-700/50 shadow-xl p-4 sm:p-8 mx-2">
+      <DialogContent className="max-w-md w-[calc(100vw-2rem)] sm:max-w-lg max-h-[85vh] sm:max-h-[90vh] overflow-y-auto bg-white dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-700/50 shadow-xl p-4 sm:p-6 mx-auto">
         {submitStatus !== 'success' ? (
           <>
-            <DialogHeader>
-              <div className="flex items-center justify-between">
-                <DialogTitle className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
-                  {t('title')}
-                </DialogTitle>
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  onClick={handleClose}
-                  className="h-8 w-8 p-0 hover:bg-gray-100 dark:hover:bg-gray-800"
-                >
-                  <XIcon className="h-4 w-4" />
-                  <span className="sr-only">Fermer</span>
-                </Button>
-              </div>
-              <DialogDescription className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mt-2">
+            <DialogHeader className="space-y-3">
+              <DialogTitle className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 dark:text-white text-center sm:text-left">
+                {t('title')}
+              </DialogTitle>
+              <DialogDescription className="text-sm sm:text-base text-gray-600 dark:text-gray-300 text-center sm:text-left">
                 {t('subtitle')}
               </DialogDescription>
             </DialogHeader>
 
-            <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6 py-4">
-              <div className="space-y-3 sm:space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5 py-2 sm:py-4">
+              <div className="space-y-4">
                 <div className="space-y-2">
-                  <Label htmlFor="email" className="text-gray-700 dark:text-gray-300 font-medium">{t('emailLabel')} *</Label>
+                  <Label htmlFor="email" className="text-sm sm:text-base text-gray-700 dark:text-gray-300 font-medium">
+                    {t('emailLabel')} *
+                  </Label>
                   <Input
                     id="email"
                     type="email"
@@ -129,37 +120,41 @@ export function WaitingListModal({ isOpen, onClose }: WaitingListModalProps) {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    className="w-full h-11"
+                    className="w-full h-10 sm:h-11 text-sm sm:text-base"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="name" className="text-gray-700 dark:text-gray-300 font-medium">{t('nameLabel')}</Label>
+                  <Label htmlFor="name" className="text-sm sm:text-base text-gray-700 dark:text-gray-300 font-medium">
+                    {t('nameLabel')}
+                  </Label>
                   <Input
                     id="name"
                     type="text"
                     placeholder={t('namePlaceholder')}
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    className="w-full h-11"
+                    className="w-full h-10 sm:h-11 text-sm sm:text-base"
                   />
                 </div>
 
-                <div className="flex items-start space-x-2 pt-2">
+                <div className="flex items-start space-x-3 pt-1">
                   <Checkbox
                     id="consent"
                     checked={isConsenting}
                     onCheckedChange={(checked) => setIsConsenting(checked as boolean)}
-                    className="mt-1"
+                    className="mt-0.5 flex-shrink-0"
                   />
-                  <Label htmlFor="consent" className="text-sm font-normal leading-tight text-gray-700 dark:text-gray-300">
+                  <Label htmlFor="consent" className="text-xs sm:text-sm font-normal leading-relaxed text-gray-700 dark:text-gray-300 cursor-pointer">
                     {t('consentText')}
                   </Label>
                 </div>
 
                 {submitStatus === 'error' && (
-                  <div className="text-red-500 text-sm pt-1">
-                    {errorMessage || t('errorGeneric')}
+                  <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-md p-3">
+                    <p className="text-red-600 dark:text-red-400 text-sm">
+                      {errorMessage || t('errorGeneric')}
+                    </p>
                   </div>
                 )}
 
@@ -167,32 +162,36 @@ export function WaitingListModal({ isOpen, onClose }: WaitingListModalProps) {
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full h-12 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-8 font-medium shadow-xl transition-all duration-300"
+                    className="w-full h-11 sm:h-12 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-medium shadow-lg transition-all duration-300 text-sm sm:text-base"
                     disabled={isSubmitting}
                     aria-disabled={isSubmitting}
                   >
-                    <Sparkles className="mr-2 h-5 w-5" />
+                    <Sparkles className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                     {isSubmitting ? t('submitting') : t('submit')}
                   </Button>
                 </div>
 
-                <p className="text-xs text-gray-500 dark:text-gray-400 text-center pt-2">
+                <p className="text-xs text-gray-500 dark:text-gray-400 text-center leading-relaxed">
                   {t('privacyNote')}
                 </p>
               </div>
             </form>
 
-            <div className="mt-6 sm:mt-8">
+            <div className="mt-4 sm:mt-6">
               <Card className="bg-gray-50 dark:bg-gray-800/30 border-none shadow-none">
                 <CardContent className="p-3 sm:p-4">
-                  <h4 className="font-semibold mb-2 text-gray-900 dark:text-white text-sm sm:text-base">{t('benefitsTitle')}</h4>
-                  <ul className="space-y-2">
+                  <h4 className="font-semibold mb-3 text-gray-900 dark:text-white text-sm sm:text-base">
+                    {t('benefitsTitle')}
+                  </h4>
+                  <ul className="space-y-2 sm:space-y-3">
                     {['benefit1', 'benefit2', 'benefit3'].map((key) => (
-                      <li key={key} className="flex items-start space-x-2">
-                        <span className="bg-green-100 dark:bg-green-900/30 p-0.5 rounded-full text-green-700 dark:text-green-400 mt-0.5 flex-shrink-0">
+                      <li key={key} className="flex items-start space-x-2 sm:space-x-3">
+                        <span className="bg-green-100 dark:bg-green-900/30 p-0.5 sm:p-1 rounded-full text-green-700 dark:text-green-400 mt-0.5 flex-shrink-0">
                           <CheckIcon className="h-3 w-3 sm:h-4 sm:w-4" />
                         </span>
-                        <span className="text-xs sm:text-sm text-gray-700 dark:text-gray-300">{t(key)}</span>
+                        <span className="text-xs sm:text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                          {t(key)}
+                        </span>
                       </li>
                     ))}
                   </ul>
@@ -205,9 +204,17 @@ export function WaitingListModal({ isOpen, onClose }: WaitingListModalProps) {
             <div className="bg-green-100 dark:bg-green-900/30 p-3 sm:p-4 rounded-full text-green-700 dark:text-green-400 mb-4">
               <CheckIcon className="h-6 w-6 sm:h-8 sm:w-8" />
             </div>
-            <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-900 dark:text-white">{t('successTitle')}</h3>
-            <p className="mb-4 sm:mb-6 text-sm sm:text-base text-gray-700 dark:text-gray-300 px-2">{t('successMessage')}</p>
-            <Button onClick={handleClose} size="lg" className="h-12 px-8 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-medium shadow-xl transition-all duration-300">
+            <h3 className="text-lg sm:text-xl font-semibold mb-3 text-gray-900 dark:text-white">
+              {t('successTitle')}
+            </h3>
+            <p className="mb-6 text-sm sm:text-base text-gray-700 dark:text-gray-300 px-2 leading-relaxed max-w-sm">
+              {t('successMessage')}
+            </p>
+            <Button 
+              onClick={handleClose} 
+              size="lg" 
+              className="h-11 sm:h-12 px-6 sm:px-8 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-medium shadow-lg transition-all duration-300 text-sm sm:text-base"
+            >
               {t('closeButton')}
             </Button>
           </div>

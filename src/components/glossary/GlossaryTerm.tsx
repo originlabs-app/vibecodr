@@ -31,25 +31,27 @@ const GlossaryTerm: React.FC<GlossaryTermProps> = ({ term, definition, category,
   return (
     <div className="mb-2 border border-gray-200 dark:border-gray-700 hover:shadow-sm transition-shadow overflow-hidden rounded-md bg-white dark:bg-gray-800">
       <div 
-        className="h-14 px-4 flex items-center justify-between cursor-pointer"
+        className="min-h-[3.5rem] px-3 sm:px-4 py-3 sm:py-0 sm:h-14 flex flex-col sm:flex-row sm:items-center justify-between cursor-pointer gap-2 sm:gap-0"
         onClick={() => setIsExpanded(!isExpanded)}
       >
-        <div className="flex items-center">
-          <h3 className="text-lg font-semibold mr-3">{term}</h3>
-          <span className={`text-xs px-2 py-0.5 rounded-full ${getCategoryColor(category)}`}>
+        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 min-w-0 flex-1">
+          <h3 className="text-base sm:text-lg font-semibold break-words">{term}</h3>
+          <span className={`text-xs px-2 py-0.5 rounded-full self-start sm:self-auto flex-shrink-0 ${getCategoryColor(category)}`}>
             {displayCategory || category}
           </span>
         </div>
-        {isExpanded ? (
-          <ChevronUp className="h-5 w-5 text-gray-500" />
-        ) : (
-          <ChevronDown className="h-5 w-5 text-gray-500" />
-        )}
+        <div className="flex-shrink-0 self-end sm:self-auto">
+          {isExpanded ? (
+            <ChevronUp className="h-5 w-5 text-gray-500" />
+          ) : (
+            <ChevronDown className="h-5 w-5 text-gray-500" />
+          )}
+        </div>
       </div>
       
       {isExpanded && (
-        <div className="border-t border-gray-100 dark:border-gray-800 p-3">
-          <p className="text-gray-700 dark:text-gray-300 text-base">{definition}</p>
+        <div className="border-t border-gray-100 dark:border-gray-800 p-3 sm:p-4">
+          <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base leading-relaxed">{definition}</p>
         </div>
       )}
     </div>
