@@ -80,18 +80,22 @@ export default async function TagPage({ params }: TagPageProps) {
   return (
     <>
       <Header />
-      <JsonLdBreadcrumbs items={breadcrumbItems} baseUrl={baseUrl} />
-      <JsonLdCollectionPage 
-        name={tagName} 
-        description={tagPageDescription}
-        url={collectionPageUrl}
-        items={collectionItems} 
-        baseUrl={baseUrl} 
-      />
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-8">Tag: {tagName}</h1>
-        <BlogIndexClient posts={posts} lang={lang} />
-      </div>
+      <main className="flex-grow">
+        <JsonLdBreadcrumbs items={breadcrumbItems} baseUrl={baseUrl} />
+        <JsonLdCollectionPage 
+          name={tagName} 
+          description={tagPageDescription}
+          url={collectionPageUrl}
+          items={collectionItems} 
+          baseUrl={baseUrl} 
+        />
+        <BlogIndexClient 
+          posts={posts} 
+          lang={lang} 
+          customTitle={`Tag: ${tagName}`}
+          showMainTitle={false}
+        />
+      </main>
       <CustomFooter />
     </>
   );

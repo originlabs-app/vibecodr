@@ -205,10 +205,11 @@ export function getPostsByTag(tagSlug: string, lang: string): PostFrontmatter[] 
   const allPosts = getAllPostsMetadata(lang);
   return allPosts.filter(post => {
     if (!post.tags || !Array.isArray(post.tags)) return false;
-    return post.tags.some(tag => {
-      const currentTagSlug = tag.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
-      return currentTagSlug === tagSlug;
-    });
+    // Générer les slugs pour les tags du post de la même manière que getAllTags
+    const postTagSlugs = post.tags.map(tag => 
+      typeof tag === 'string' ? tag.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '') : ''
+    );
+    return postTagSlugs.includes(tagSlug);
   });
 }
 

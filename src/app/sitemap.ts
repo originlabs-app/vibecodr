@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPagesReady = [
     '', // Page d'accueil
     '/vision-first',
+    '/mvp-development', // Nouvelle page MVP Development
     '/faq',
     '/glossary',
     '/legal' // Page légale maintenant prête
@@ -31,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${BASE_URL}/${lang}${page}`,
         lastModified: new Date(), 
         changeFrequency: page === '' || page === '/glossary' ? 'weekly' : 'monthly', 
-        priority: page === '' ? 1 : (page === '/glossary' ? 0.8 : 0.7),
+        priority: page === '' ? 1 : (page === '/mvp-development' ? 0.9 : (page === '/glossary' ? 0.8 : 0.7)),
       });
     });
     // Page principale du blog

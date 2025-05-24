@@ -1,6 +1,7 @@
 {
   "Header": {
     "visionFirst": "Vision-First",
+    "mvpDevelopment": "MVP Development",
     "marketplace": "Marketplace",
     "academy": "Academy",
     "blog": "Blog",
@@ -218,6 +219,7 @@
     },
     "product": {
       "visionFirst": "Vision-First",
+      "mvpDevelopment": "MVP Development",
       "marketplace": "Marketplace",
       "pricing": "Pricing",
       "testimonials": "Testimonials",
@@ -506,11 +508,15 @@
   },
   "BlogCategories": {
     "metaTitle": "Category: {category} | Vibecodr Blog",
-    "metaDescription": "Explore articles in the {category} category on Vibecodr blog."
+    "metaDescription": "Explore articles in the {category} category on Vibecodr blog.",
+    "categoryTitle": "Category: {categoryName} | Vibecodr Blog",
+    "categoryDescription": "Browse all articles in the {categoryName} category on Vibecodr blog."
   },
   "BlogTags": {
     "metaTitle": "Tag: {tag} | Vibecodr Blog", 
-    "metaDescription": "Articles tagged with {tag} on Vibecodr blog."
+    "metaDescription": "Articles tagged with {tag} on Vibecodr blog.",
+    "tagTitle": "Tag: {tagName} | Vibecodr Blog",
+    "tagDescription": "Discover all articles tagged with {tagName} on Vibecodr blog."
   },
   "LegalPage": {
     "metaTitle": "Legal Notice - Vibecodr",
@@ -579,5 +585,450 @@
       }
     },
     "lastUpdated": "Last updated: {date}"
+  },
+  "Legal": {
+    "title": "Legal Notice",
+    "description": "Legal and regulatory information regarding the use of Vibecodr.",
+    "sections": {
+      "company": {
+        "title": "Company Information",
+        "content": "Vibecodr SAS\nSIRET: [Coming soon]\nShare capital: [Coming soon]\nHeadquarters: [To be defined]\nEmail: contact@vibecodr.com"
+      },
+      "hosting": {
+        "title": "Hosting",
+        "content": "This site is hosted by Vercel Inc.\n340 S Lemon Ave #4133\nWalnut, CA 91789\nUnited States"
+      },
+      "intellectualProperty": {
+        "title": "Intellectual Property",
+        "content": "All content on this site (texts, images, videos, logos, etc.) is protected by copyright. Any reproduction, even partial, is prohibited without prior authorization."
+      },
+      "personalData": {
+        "title": "Personal Data",
+        "content": "In accordance with GDPR, you have the right to access, rectify and delete your personal data. To exercise these rights, contact us at: privacy@vibecodr.com"
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "This site uses cookies to improve your experience. By continuing to browse, you accept their use. For more information, consult our cookie policy."
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "Vibecodr cannot be held responsible for direct or indirect damages resulting from the use of this site or the inability to use it."
+      }
+    }
+  },
+  "MvpDevelopmentPageMeta": {
+    "title": "MVP Development Services | Vibecodr - French Expertise + AI Technology",
+    "description": "Build your MVP in 2-3 weeks with Vibecodr. French developers + AI tools, scalable code, 30-day guarantee. Transform your vision into reality. Get a free quote.",
+    "keywords": "MVP development, MVP development services, MVP builder, MVP developer, MVP agency, custom MVP, cheap MVP, fast MVP, digital product development, startup MVP, SaaS MVP, marketplace MVP, mobile app MVP, agile development, Vision-First, Vibecodr",
+    "ogImageAlt": "Vibecodr - Expert MVP Development Services in France"
+  },
+  "MvpDevelopmentPage": {
+    "hero": {
+      "badge": "4 spots available per month - MVP Development Expert",
+      "title": {
+        "part1": "Your vision deserves",
+        "highlight": "flawless execution",
+        "part2": "not compromises"
+      },
+      "subtitle": "We are your specialized MVP Development partner. Our French expertise powered by AI transforms your ideas into robust, scalable, market-ready digital products.",
+      "cta": {
+        "start": "Start my project",
+        "discover": "Our unique approach"
+      }
+    },
+    "value": {
+      "title": "MVP Development innovation can't wait for yesterday's methods",
+      "subtitle": "Discover why our Vision-First approach revolutionizes MVP development",
+      "traditional": {
+        "title": "Traditional agencies",
+        "item1": "Unclear specifications = costly misunderstandings and guaranteed delays",
+        "item2": "Opaque communication: you discover problems too late",
+        "item3": "Disposable code: complete rebuild needed to scale",
+        "item4": "Vendor lock-in: hostage to proprietary technologies",
+        "item5": "Inflated prices from middlemen and heavy processes"
+      },
+      "our": {
+        "title": "The Vibecodr approach",
+        "item1": "Vision-First: your idea clarified and structured before the first line of code",
+        "item2": "Total transparency: real-time dashboard and direct communication",
+        "item3": "Scalable code: architecture designed to grow with your business",
+        "item4": "Technology freedom: modern open-source stack, you keep control",
+        "item5": "Fair pricing: direct expertise without unnecessary middlemen"
+      }
+    },
+    "process": {
+      "title": "A structured path to success",
+      "subtitle": "Our Vision-First methodology ensures every step adds value to your project",
+      "steps": {
+        "consultation": {
+          "title": "Vision Workshop",
+          "description": "Strategic session to align business vision and technical feasibility"
+        },
+        "planning": {
+          "title": "Technical Blueprint",
+          "description": "Custom architecture and clear roadmap with precise milestones"
+        },
+        "development": {
+          "title": "Agile Development",
+          "description": "Short sprints with incremental deliveries and continuous feedback"
+        },
+        "delivery": {
+          "title": "Production Launch",
+          "description": "Secure deployment with complete documentation and training"
+        },
+        "support": {
+          "title": "Partnership Support",
+          "description": "Post-launch support to ensure successful adoption"
+        }
+      }
+    },
+    "features": {
+      "title": "What makes us MVP Development experts",
+      "subtitle": "Beyond code, we build the foundations of your digital success with our premium MVP Development service",
+      "items": {
+        "fast": {
+          "title": "Vision-First Development",
+          "description": "Our unique approach clarifies your vision before development, avoiding costly mistakes and accelerating delivery"
+        },
+        "quality": {
+          "title": "French excellence",
+          "description": "Certified French developers combining rigor, creativity and mastery of international standards"
+        },
+        "support": {
+          "title": "Partnership, not service",
+          "description": "Direct relationship with founding team, strategic advice and business support included"
+        },
+        "tech": {
+          "title": "AI serving quality",
+          "description": "Our proprietary AI tools accelerate development without compromising code quality"
+        },
+        "scalable": {
+          "title": "Built for tomorrow",
+          "description": "Modular architecture and comprehensive documentation to facilitate evolution and handover"
+        },
+        "time": {
+          "title": "Immediate ROI",
+          "description": "Functional MVP in 2-3 weeks to test your market and iterate quickly"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Trust is built project by project",
+      "subtitle": "Discover how we transformed visions into tangible success",
+      "items": {
+        "testimonial1": {
+          "quote": "Their Vision-First approach completely changed the game. In 3 sessions, we had a clear roadmap and in 3 weeks, our platform was live. Never seen in 15 years of entrepreneurship.",
+          "name": "Isabelle Moreau",
+          "role": "Founder, HealthTech Innovations"
+        },
+        "testimonial2": {
+          "quote": "What amazed me? The code quality. 6 months after launch, we could evolve the platform without touching the foundations. It's solid, sustainable.",
+          "name": "Thomas Lefevre",
+          "role": "CTO, LogiFlow Solutions"
+        },
+        "testimonial3": {
+          "quote": "Finally a team that speaks business AND tech! They understood our business challenges and proposed adapted technical solutions. The real-time dashboard is absolute transparency.",
+          "name": "Céline Rousseau",
+          "role": "Digital Director, RetailNext"
+        }
+      }
+    },
+    "pricing": {
+      "title": "Invest in your MVP Development",
+      "subtitle": "Transparent MVP Development plans adapted to your growth phase",
+      "mvp": {
+        "badge": "Recommended to start",
+        "title": "Vision-First MVP",
+        "subtitle": "Complete and functional MVP to validate your market",
+        "price": "Starting at €6,000",
+        "period": "complete project",
+        "features": {
+          "feature1": "Vision-First workshop and technical blueprint included",
+          "feature2": "Complete MVP delivered in 2-3 weeks",
+          "feature3": "Scalable architecture and documented code",
+          "feature4": "Training and knowledge transfer",
+          "feature5": "30-day warranty and support included"
+        },
+        "cta": "Launch my MVP"
+      },
+      "growth": {
+        "title": "Evolution Partnership",
+        "subtitle": "Continuous support to scale",
+        "price": "€4000",
+        "period": "/month",
+        "features": {
+          "feature1": "60h of flexible monthly development",
+          "feature2": "Weekly strategic meetings",
+          "feature3": "Absolute priority on evolutions",
+          "feature4": "Quarterly architecture review",
+          "feature5": "Direct technical hotline 7/7"
+        },
+        "cta": "Discuss my project"
+      }
+    },
+    "cta": {
+      "title": "Your vision deserves the best",
+      "subtitle": "Don't leave your revolutionary idea in just anyone's hands. Choose French excellence powered by AI.",
+      "button": {
+        "start": "Book my Vision workshop",
+        "contact": "Chat with a founder"
+      },
+      "note": "Free Vision workshop for confirmed projects. No commitment."
+    },
+    "guarantees": {
+      "title": "Our guarantees for your peace of mind",
+      "subtitle": "We commit to quality and transparency in our MVP Development service",
+      "items": {
+        "satisfaction": {
+          "title": "30-day satisfaction guarantee",
+          "description": "If you're not satisfied, we fix it for free or refund you completely"
+        },
+        "source": {
+          "title": "100% proprietary source code",
+          "description": "You own all the source code, without restrictions or licenses"
+        },
+        "documentation": {
+          "title": "Complete technical documentation",
+          "description": "Comprehensive documentation to facilitate maintenance and evolution of your MVP"
+        },
+        "quality": {
+          "title": "No technical debt",
+          "description": "Clean, tested and optimized code following industry best practices"
+        },
+        "rgpd": {
+          "title": "GDPR compliance included",
+          "description": "Your MVP respects all data protection standards from day one"
+        },
+        "legal": {
+          "title": "Legal protection",
+          "description": "Clear contract and systematic NDA to protect your intellectual property"
+        }
+      }
+    },
+    "technologies": {
+      "title": "Cutting-edge technologies for your MVP Development",
+      "subtitle": "We use the most modern and reliable technologies to build your MVP",
+      "architecture": {
+        "title": "Typical architecture of a modern MVP",
+        "frontend": {
+          "title": "Frontend",
+          "description": "React/Next.js with TypeScript for a fast and maintainable interface"
+        },
+        "backend": {
+          "title": "Backend",
+          "description": "Node.js/Python with REST API or GraphQL for robust business logic"
+        },
+        "data": {
+          "title": "Database",
+          "description": "PostgreSQL/MongoDB based on your needs, with Supabase for real-time"
+        }
+      },
+      "why": {
+        "performance": {
+          "title": "Optimal performance",
+          "description": "Our technology choices guarantee fast loading times and smooth user experience, essential for your MVP's success"
+        },
+        "scalability": {
+          "title": "Guaranteed scalability",
+          "description": "Architecture designed to grow with your business, without major refactoring needed when scaling"
+        }
+      }
+    },
+    "calculator": {
+      "title": "Estimate the cost of your MVP Development",
+      "subtitle": "Get an instant estimate based on your specific needs",
+      "form": {
+        "projectType": {
+          "label": "Project type",
+          "saas": "SaaS / Web application",
+          "saasIncludes": "Includes auth, admin dashboard, responsive",
+          "ecommerce": "E-commerce",
+          "ecommerceIncludes": "Includes cart, catalog, order management",
+          "mobile": "Mobile application",
+          "mobileIncludes": "Includes navigation, notifications, offline",
+          "marketplace": "Marketplace",
+          "marketplaceIncludes": "Includes multi-vendor, transactions, commissions"
+        },
+        "complexity": {
+          "label": "Project complexity",
+          "simple": "Simple",
+          "standard": "Standard",
+          "complex": "Complex",
+          "description": "Evaluate complexity based on number of screens and features"
+        },
+        "timeline": {
+          "label": "Desired timeline",
+          "normal": "Normal (3 weeks)",
+          "normalDesc": "Optimal development with comprehensive testing",
+          "urgent": "Urgent (2 weeks)",
+          "urgentDesc": "Accelerated delivery, dedicated team"
+        },
+        "features": {
+          "label": "Additional features",
+          "auth": "Authentication",
+          "payment": "Online payment",
+          "realtime": "Real-time",
+          "admin": "Admin dashboard",
+          "api": "Documented API",
+          "mobile": "Mobile version"
+        },
+        "optional": {
+          "label": "Optional features",
+          "payment": "Advanced payment (Stripe/PayPal)",
+          "realtime": "Real-time (Chat, push notifications)",
+          "api": "Public documented API",
+          "analytics": "Advanced analytics dashboard",
+          "multiLanguage": "Multi-language support",
+          "emailNotifications": "Transactional emails",
+          "fileUpload": "File upload & management",
+          "search": "Advanced search",
+          "social": "Social media integration",
+          "export": "PDF/Excel export"
+        }
+      },
+      "included": {
+        "title": "Included in all projects",
+        "auth": "Secure authentication",
+        "admin": "Admin interface",
+        "responsive": "Responsive design",
+        "database": "Optimized database",
+        "hosting": "Deployment & hosting",
+        "ssl": "SSL certificate & security",
+        "versioning": "Git versioning",
+        "documentation": "Complete documentation"
+      },
+      "results": {
+        "title": "Your personalized estimate",
+        "cost": "Total investment",
+        "weeks": "weeks of development",
+        "roi": "Potential ROI (1 year)",
+        "savings": "Savings vs internal team",
+        "roiNote": "Based on our clients' average after 12 months"
+      },
+      "comparison": {
+        "title": "Real cost comparison",
+        "internal": "Internal team",
+        "agency": "Traditional agency",
+        "vibecodr": "Vibecodr MVP + AI",
+        "economy": "Your savings",
+        "yourAdvantage": "Your advantage with Vibecodr",
+        "saved": "saved",
+        "weeksSaved": "weeks saved"
+      },
+      "cta": "Book my free discovery call",
+      "disclaimer": "This is an indicative estimate. The final price will be defined after our free Vision Workshop."
+    },
+    "faq": {
+      "title": "Frequently asked questions about MVP Development",
+      "subtitle": "Everything you need to know to start your project with confidence",
+      "items": {
+        "cost": {
+          "question": "How much does MVP development cost?",
+          "answer": "MVP cost ranges from €6,000 to €15,000 depending on complexity. Our transparent approach gives you a precise estimate from the first exchange. The price includes design, development, testing and deployment."
+        },
+        "difference": {
+          "question": "What's the difference between POC, prototype and MVP?",
+          "answer": "A POC (Proof of Concept) validates technical feasibility. A prototype is an interactive mockup without backend. An MVP is a functional product with essential features, ready to be used by real users. We focus on MVPs because they allow real market validation."
+        },
+        "features": {
+          "question": "How to choose my MVP features?",
+          "answer": "Our Vision-First approach guides you to identify essential features. We use the MoSCoW method (Must have, Should have, Could have, Won't have) to prioritize. The goal: solve your users' main problem with minimum features."
+        },
+        "patent": {
+          "question": "Should I patent my idea before developing an MVP?",
+          "answer": "In most cases, no. A patent is expensive and takes time to obtain. We systematically sign an NDA to protect your idea. The important thing is to launch quickly to validate the market. You can patent later if necessary."
+        },
+        "timeline": {
+          "question": "Why 2-3 weeks for an MVP?",
+          "answer": "This optimal timeframe allows quality development without rushing thanks to AI. Week 1: Vision Workshop and architecture. Week 2: AI-powered intensive development. Week 3: Testing, adjustments and deployment. A shorter timeline would compromise quality."
+        },
+        "technologies": {
+          "question": "What technologies do you use for MVP Development?",
+          "answer": "We use modern and proven technologies: React/Next.js for frontend, Node.js/Python for backend, PostgreSQL/MongoDB for database. The exact choice depends on your specific needs. All are open-source to avoid vendor lock-in."
+        },
+        "ownership": {
+          "question": "Do I own the code of my MVP?",
+          "answer": "Yes, 100%. Upon delivery, you receive all source code, documentation and access. You can modify it, evolve it with other developers or resell it. No license, no restrictions."
+        },
+        "support": {
+          "question": "What support after MVP delivery?",
+          "answer": "30-day warranty is included to fix any bugs. Beyond that, we offer maintenance plans or our Evolution Partnership for continuous support. You remain free to manage maintenance internally or with other providers."
+        }
+      }
+    },
+    "methodology": {
+      "title": "Our Vision-First methodology in detail",
+      "subtitle": "A proven process that guarantees the success of your MVP Development",
+      "timeline": {
+        "title": "Detailed MVP development timeline",
+        "phases": {
+          "discovery": {
+            "title": "Day 1-3: Discovery & Architecture",
+            "description": "Express Vision Workshop, needs analysis, AI-generated technical architecture, automated wireframes"
+          },
+          "design": {
+            "title": "Day 4-5: Design & Setup",
+            "description": "UI/UX design with AI templates, automated infrastructure setup, tools configuration"
+          },
+          "development": {
+            "title": "Week 2: AI Development Sprint",
+            "description": "Features development with AI code generation, automated API integrations, continuous reviews"
+          },
+          "testing": {
+            "title": "Day 10-12: Testing & Optimization",
+            "description": "Automated tests, AI-powered performance optimization, quick fixes"
+          },
+          "launch": {
+            "title": "Day 13-15: Deployment & Training",
+            "description": "Automated production deployment, monitoring setup, express training and documentation"
+          }
+        }
+      },
+      "tools": {
+        "title": "Tools & Communication"
+      },
+      "deliverables": {
+        "title": "Deliverables at each stage",
+        "item1": "Complete technical documentation",
+        "item2": "Source code with tests",
+        "item3": "User guide",
+        "item4": "Access and credentials"
+      }
+    },
+    "afterMvp": {
+      "title": "What happens after your MVP?",
+      "subtitle": "We support you through all growth phases of your product",
+      "services": {
+        "scaling": {
+          "title": "Scaling & Performance",
+          "description": "Optimization to handle user growth",
+          "feature1": "Database optimization",
+          "feature2": "Cache implementation",
+          "feature3": "Microservices architecture"
+        },
+        "fundraising": {
+          "title": "Fundraising Support",
+          "description": "Technical documentation for investors and due diligence",
+          "feature1": "Complete technical dossier",
+          "feature2": "Technical roadmap",
+          "feature3": "Due diligence support"
+        },
+        "recruitment": {
+          "title": "Tech Recruitment",
+          "description": "Help recruiting your internal technical team",
+          "feature1": "Profile definition",
+          "feature2": "Technical tests",
+          "feature3": "Developer onboarding"
+        },
+        "architecture": {
+          "title": "Architecture Evolution",
+          "description": "Migration to more complex architecture as needed",
+          "feature1": "Cloud native migration",
+          "feature2": "API Gateway",
+          "feature3": "Containerization"
+        }
+      },
+      "cta": "Plan my MVP evolution"
+    }
   }
 } 

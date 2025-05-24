@@ -9,17 +9,17 @@ import { FileText, Search, Calendar, Filter, ChevronLeft, ChevronRight } from 'l
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 
 interface BlogIndexClientProps {
   posts: PostFrontmatter[];
   lang: string;
+  customTitle?: string;
+  showMainTitle?: boolean;
 }
 
 const ITEMS_PER_PAGE = 6;
 
-export default function BlogIndexClient({ posts, lang }: BlogIndexClientProps) {
+export default function BlogIndexClient({ posts, lang, customTitle, showMainTitle = true }: BlogIndexClientProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [activeFilter, setActiveFilter] = useState<'latest' | 'all'>('latest');
@@ -80,130 +80,132 @@ export default function BlogIndexClient({ posts, lang }: BlogIndexClientProps) {
   };
   
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-950">
-      <Header />
-      <main className="flex-grow">
-        <div className="container mx-auto py-12 px-4 md:px-6">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4">
-              {t('titleStart')} <span className="text-gradient">vibecodr</span>
-            </h1>
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              {t('description')}
-            </p>
-          </div>
-
-          <div className="flex flex-col md:flex-row gap-4 bg-white dark:bg-gray-800 p-4 rounded-xl shadow-sm mt-8">
-            <div className="relative flex-grow">
-              <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-              <Input
-                placeholder={t('searchPlaceholder')}
-                onChange={handleSearch}
-                value={searchTerm}
-                className="pl-9"
-              />
-            </div>
-            <div className="w-full md:w-[200px]">
-              <Select value={selectedCategory || "all"} onValueChange={handleCategoryChange}>
-                <SelectTrigger>
-                  <SelectValue placeholder={t('allCategories')} />
-                </SelectTrigger>
-                <SelectContent className="min-w-[200px]">
-                  <SelectItem value="all">{t('allCategories')}</SelectItem>
-                  {categories.map((category) => (
-                    <SelectItem key={category} value={category || ""}>
-                      {category}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-          </div>
-
-          {categories.length > 0 && (
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mt-8 gap-4 sm:gap-0">
-              <div className="flex gap-2 overflow-x-auto py-2">
-                <Button 
-                  variant={selectedCategory === null ? "default" : "outline"} 
-                  size="sm"
-                  onClick={() => setSelectedCategory(null)}
-                >
-                  {t('all')}
-                </Button>
-                {categories.map((category) => (
-                  <Button
-                    key={category}
-                    variant={selectedCategory === category ? "default" : "outline"}
-                    size="sm"
-                    onClick={() => setSelectedCategory(category)}
-                  >
-                    {category}
-                  </Button>
-                ))}
-              </div>
-              <div className="flex items-center border rounded-lg overflow-hidden self-start sm:self-center">
-                <Button 
-                  variant="ghost" 
-                  size="sm" 
-                  className={`px-3 py-1 rounded-none ${activeFilter === 'latest' ? 'bg-muted' : ''}`}
-                  onClick={() => setActiveFilter('latest')}
-                >
-                  <Calendar className="h-4 w-4 mr-2" />
-                  {t('recent')}
-                </Button>
-              </div>
-            </div>
-          )}
-
-          {paginatedPosts.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-8 mt-8">
-              {paginatedPosts.map((post) => (
-                <BlogCard key={post.slug} post={post} lang={lang} readMoreText={tCard('readArticle')} />
-              ))}
-            </div>
-          ) : (
-            <div className="border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm rounded-lg mt-8">
-              <div className="flex flex-col items-center justify-center py-12 px-6 text-center">
-                <FileText className="h-12 w-12 text-muted-foreground mb-4" />
-                <h3 className="text-xl font-medium mb-2">{t('noArticlesFoundTitle')}</h3>
-                <p className="text-muted-foreground mb-6 max-w-md">
-                  {t('noArticlesFoundDescription')}
-                </p>
-                <Button onClick={() => { setSearchTerm(""); setSelectedCategory(null); }}>
-                  {t('resetFilters')}
-                </Button>
-              </div>
-            </div>
-          )}
-
-          {totalPages > 1 && (
-            <div className="flex justify-center items-center space-x-4 mt-12">
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={() => handlePageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-                aria-label={t('previousPage')}
-              >
-                <ChevronLeft className="h-5 w-5" />
-              </Button>
-              <span className="text-sm text-muted-foreground">
-                {t('pageInfo', { currentPage, totalPages })}
-              </span>
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={() => handlePageChange(currentPage + 1)}
-                disabled={currentPage === totalPages}
-                aria-label={t('nextPage')}
-              >
-                <ChevronRight className="h-5 w-5" />
-              </Button>
-            </div>
-          )}
+    <div className="container mx-auto py-12 px-4 md:px-6">
+      {showMainTitle && (
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4">
+            {t('titleStart')} <span className="text-gradient">vibecodr</span>
+          </h1>
+          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            {t('description')}
+          </p>
         </div>
-      </main>
-      <Footer />
+      )}
+      {customTitle && (
+        <h1 className="text-3xl font-bold mb-8">{customTitle}</h1>
+      )}
+
+      {/* Filtres */}
+      <div className="flex flex-col md:flex-row gap-4 bg-white dark:bg-gray-800 p-4 rounded-xl shadow-sm mt-8">
+        <div className="relative flex-grow">
+          <Search className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
+          <Input
+            placeholder={t('searchPlaceholder')}
+            onChange={handleSearch}
+            value={searchTerm}
+            className="pl-9"
+          />
+        </div>
+        <div className="w-full md:w-[200px]">
+          <Select value={selectedCategory || "all"} onValueChange={handleCategoryChange}>
+            <SelectTrigger>
+              <SelectValue placeholder={t('allCategories')} />
+            </SelectTrigger>
+            <SelectContent className="min-w-[200px]">
+              <SelectItem value="all">{t('allCategories')}</SelectItem>
+              {categories.map((category) => (
+                <SelectItem key={category} value={category || ""}>
+                  {category}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+
+      {categories.length > 0 && (
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mt-8 gap-4 sm:gap-0">
+          <div className="flex gap-2 overflow-x-auto py-2">
+            <Button 
+              variant={selectedCategory === null ? "default" : "outline"} 
+              size="sm"
+              onClick={() => setSelectedCategory(null)}
+            >
+              {t('all')}
+            </Button>
+            {categories.map((category) => (
+              <Button
+                key={category}
+                variant={selectedCategory === category ? "default" : "outline"}
+                size="sm"
+                onClick={() => setSelectedCategory(category)}
+              >
+                {category}
+              </Button>
+            ))}
+          </div>
+          <div className="flex items-center border rounded-lg overflow-hidden self-start sm:self-center">
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className={`px-3 py-1 rounded-none ${activeFilter === 'latest' ? 'bg-muted' : ''}`}
+              onClick={() => setActiveFilter('latest')}
+            >
+              <Calendar className="h-4 w-4 mr-2" />
+              {t('recent')}
+            </Button>
+          </div>
+        </div>
+      )}
+
+      {/* Liste des posts */}
+      {paginatedPosts.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-8 mt-8">
+          {paginatedPosts.map((post) => (
+            <BlogCard key={post.slug} post={post} lang={lang} readMoreText={tCard('readArticle')} />
+          ))}
+        </div>
+      ) : (
+        <div className="border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm rounded-lg mt-8">
+          <div className="flex flex-col items-center justify-center py-12 px-6 text-center">
+            <FileText className="h-12 w-12 text-muted-foreground mb-4" />
+            <h3 className="text-xl font-medium mb-2">{t('noArticlesFoundTitle')}</h3>
+            <p className="text-muted-foreground mb-6 max-w-md">
+              {t('noArticlesFoundDescription')}
+            </p>
+            <Button onClick={() => { setSearchTerm(""); setSelectedCategory(null); }}>
+              {t('resetFilters')}
+            </Button>
+          </div>
+        </div>
+      )}
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="flex justify-center items-center space-x-4 mt-12">
+          <Button
+            variant="outline"
+            size="icon"
+            onClick={() => handlePageChange(currentPage - 1)}
+            disabled={currentPage === 1}
+            aria-label={t('previousPage')}
+          >
+            <ChevronLeft className="h-5 w-5" />
+          </Button>
+          <span className="text-sm text-muted-foreground">
+            {t('pageInfo', { currentPage, totalPages })}
+          </span>
+          <Button
+            variant="outline"
+            size="icon"
+            onClick={() => handlePageChange(currentPage + 1)}
+            disabled={currentPage === totalPages}
+            aria-label={t('nextPage')}
+          >
+            <ChevronRight className="h-5 w-5" />
+          </Button>
+        </div>
+      )}
     </div>
   );
 } 

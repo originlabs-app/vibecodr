@@ -50,6 +50,7 @@ const Footer: React.FC<FooterProps> = ({ additionalLinks = [] }) => {
 
   const productLinks: FooterLink[] = [
     { key: "product.visionFirst", href: "#vision-first" },
+    { key: "product.mvpDevelopment", href: "/mvp-development" },
     { key: "product.marketplace", href: "#", disabled: true },
     { key: "product.pricing", href: "#", disabled: true },
     { key: "product.testimonials", href: "#", disabled: true },

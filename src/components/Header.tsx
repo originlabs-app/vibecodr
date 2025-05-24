@@ -16,6 +16,7 @@ import { useTranslations } from 'next-intl'; // Ajout de useTranslations
 // TODO: Déplacer les constantes de liens dans un fichier de configuration ou de constantes
 const navLinks = [
   { href: '/vision-first', labelKey: 'visionFirst', icon: null },
+  { href: '/mvp-development', labelKey: 'mvpDevelopment', icon: null },
   // { href: '/marketplace', labelKey: 'marketplace', icon: Store }, // Mis en attente
   // { href: '/academy', labelKey: 'academy', icon: BookOpen }, // Mis en attente
   { href: '/blog', labelKey: 'blog', icon: null },

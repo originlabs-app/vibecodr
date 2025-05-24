@@ -4,6 +4,8 @@ import BlogIndexClient from '@/components/blog/BlogIndexClient';
 import JsonLdBreadcrumbs from '@/components/JsonLdBreadcrumbs';
 import JsonLdCollectionPage from '@/components/JsonLdCollectionPage';
 import { locales, defaultLocale } from '../../../../next-intl.config';
+import Header from '@/components/Header';
+import CustomFooter from '@/components/CustomFooter';
 
 interface BlogIndexPageProps {
   params: Promise<{
@@ -60,15 +62,19 @@ export default async function BlogIndexPage({ params }: BlogIndexPageProps) {
   
   return (
     <>
-      <JsonLdBreadcrumbs items={breadcrumbItems} baseUrl={baseUrl} />
-      <JsonLdCollectionPage 
-        name={collectionName}
-        description={collectionDescription}
-        url={collectionPageUrl}
-        items={collectionItems}
-        baseUrl={baseUrl}
-      />
-      <BlogIndexClient posts={posts} lang={lang} />
+      <Header />
+      <main className="flex-grow">
+        <JsonLdBreadcrumbs items={breadcrumbItems} baseUrl={baseUrl} />
+        <JsonLdCollectionPage 
+          name={collectionName}
+          description={collectionDescription}
+          url={collectionPageUrl}
+          items={collectionItems}
+          baseUrl={baseUrl}
+        />
+        <BlogIndexClient posts={posts} lang={lang} />
+      </main>
+      <CustomFooter />
     </>
   );
 } 

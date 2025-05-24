@@ -85,18 +85,22 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   return (
     <>
       <Header />
-      <JsonLdBreadcrumbs items={breadcrumbItems} baseUrl={baseUrl} />
-      <JsonLdCollectionPage 
-        name={categoryName} 
-        description={categoryPageDescription}
-        url={collectionPageUrl}
-        items={collectionItems} 
-        baseUrl={baseUrl} 
-      />
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-8">{categoryName}</h1>
-        <BlogIndexClient posts={posts} lang={lang} />
-      </div>
+      <main className="flex-grow">
+        <JsonLdBreadcrumbs items={breadcrumbItems} baseUrl={baseUrl} />
+        <JsonLdCollectionPage 
+          name={categoryName} 
+          description={categoryPageDescription}
+          url={collectionPageUrl}
+          items={collectionItems} 
+          baseUrl={baseUrl} 
+        />
+        <BlogIndexClient 
+          posts={posts} 
+          lang={lang} 
+          customTitle={categoryName}
+          showMainTitle={false}
+        />
+      </main>
       <CustomFooter />
     </>
   );

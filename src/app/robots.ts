@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 export default function robots(): MetadataRoute.Robots {
   // Assurez-vous que NEXT_PUBLIC_SITE_URL est défini dans vos variables d'environnement
   // et qu'il correspond à l'URL de base de votre site en production.
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.votresite.com'; 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://vibecodr.ai'; 
 
   return {
     rules: [ // La propriété 'rules' doit être un tableau d'objets
