@@ -26,10 +26,7 @@ import {
   Database,
   Server,
   Smartphone,
-  ChevronDown,
-  ChevronUp,
   Calculator,
-  BarChart,
   Layers,
   GitBranch,
   FileText,
@@ -170,7 +167,7 @@ const MvpDevelopmentPage = () => {
       };
     };
     
-    const { estimatedCost, developmentWeeks, potentialRevenue, savings, savingsPercent, agencyCost, internalTeamCost, traditionalWeeks } = calculateROI();
+    const { estimatedCost, developmentWeeks, savings, savingsPercent, agencyCost, internalTeamCost, traditionalWeeks } = calculateROI();
     
     return (
       <div className="space-y-10">
@@ -864,7 +861,7 @@ const MvpDevelopmentPage = () => {
                       ))}
                     </div>
                     <p className="text-muted-foreground mb-6 italic text-lg leading-relaxed">
-                      "{t(`testimonials.items.testimonial${i}.quote`)}"
+                      &ldquo;{t(`testimonials.items.testimonial${i}.quote`)}&rdquo;
                     </p>
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 bg-gradient-to-br from-primary to-purple-600 rounded-full flex items-center justify-center text-white font-bold">
@@ -1128,12 +1125,12 @@ const MvpDevelopmentPage = () => {
               { icon: Users, key: 'fundraising', gradient: 'from-blue-500 to-cyan-500' },
               { icon: Code, key: 'recruitment', gradient: 'from-purple-500 to-pink-500' },
               { icon: Layers, key: 'architecture', gradient: 'from-orange-500 to-red-500' }
-            ].map((service, index) => (
+            ].map((service, _index) => (
               <motion.div
                 key={service.key}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                transition={{ duration: 0.5, delay: _index * 0.1 }}
               >
                 <Card className="h-full hover:shadow-2xl transition-all hover:-translate-y-1">
                   <CardContent className="p-6">
