@@ -339,8 +339,8 @@ const MvpDevelopmentPage = () => {
                 { icon: Lock, text: t('calculator.included.ssl') },
                 { icon: GitBranch, text: t('calculator.included.versioning') },
                 { icon: FileText, text: t('calculator.included.documentation') }
-              ].map((item, index) => (
-                <div key={index} className="flex items-center gap-3 p-3 rounded-lg bg-background/50 backdrop-blur">
+              ].map((item, _index) => (
+                <div key={_index} className="flex items-center gap-3 p-3 rounded-lg bg-background/50 backdrop-blur">
                   <div className="p-2 bg-green-100 dark:bg-green-900/30 rounded-lg">
                     <item.icon className="h-4 w-4 text-green-600 dark:text-green-400" />
                   </div>

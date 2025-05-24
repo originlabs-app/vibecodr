@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 type Props = {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function Page({ params }: Props) {
+export default async function Page({ params: _params }: Props) {
   return (
     <>
       <Header />
