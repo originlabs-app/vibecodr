@@ -1,45 +1,41 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import Header from '@/components/Header';
-import CustomFooter from '@/components/CustomFooter';
-import Cal, { getCalApi } from "@calcom/embed-react";
-import { useEffect } from "react";
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { Textarea } from '@/components/ui/textarea';
+import { Progress } from '@/components/ui/progress';
+import { Badge } from '@/components/ui/badge';
 import { 
-  Rocket, 
-  Code, 
-  Users, 
-  Shield, 
-  Calendar,
-  CheckCircle,
-  Send,
-  Building,
   Mail,
   Phone,
+  Building,
+  Target,
   MessageSquare,
-  Euro,
-  Timer,
-  CheckSquare,
   ChevronRight,
   ChevronLeft,
-  Target,
-  Briefcase,
-  Lock,
+  Sparkles,
   ArrowLeft,
-  Sparkles
+  Loader2,
+  Users,
+  Briefcase,
+  Euro,
+  Timer,
+  Rocket,
+  CheckCircle,
+  Lock,
+  Shield,
+  Calendar
 } from 'lucide-react';
 import Link from 'next/link';
-import { useParams, useRouter } from 'next/navigation';
-import { Slider } from '@/components/ui/slider';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
-import { Label } from '@/components/ui/label';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Checkbox } from '@/components/ui/checkbox';
+import { useParams } from 'next/navigation';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import Cal, { getCalApi } from "@calcom/embed-react";
 import {
   Select,
   SelectContent,
@@ -47,13 +43,10 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { Progress } from '@/components/ui/progress';
-import { useState } from 'react';
 
 export default function DiscoveryPage() {
   const t = useTranslations('MvpDevelopmentPage');
   const params = useParams();
-  const router = useRouter();
   const currentLang = params.lang as string || 'fr';
 
   const [currentStep, setCurrentStep] = useState(1);
@@ -75,8 +68,7 @@ export default function DiscoveryPage() {
     additionalInfo: ''
   });
 
-  const [errors, setErrors] = useState<any>({});
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmittingToSupabase, setIsSubmittingToSupabase] = useState(false);
   
   // Initialiser Cal.com quand on arrive à l'étape 4
@@ -90,7 +82,7 @@ export default function DiscoveryPage() {
   }, [currentStep]);
 
   const validateStep = (step: number) => {
-    const newErrors: any = {};
+    const newErrors: Record<string, string> = {};
     
     switch (step) {
       case 1:
@@ -147,11 +139,13 @@ export default function DiscoveryPage() {
             }),
           });
 
+          const result = await response.json();
+          
           if (!response.ok) {
-            console.error('Erreur lors de l\'envoi du formulaire');
+            console.error('Erreur lors de l\'envoi du formulaire:', result.error);
             // On continue quand même vers Cal.com même si l'enregistrement échoue
           } else {
-            console.log('Formulaire enregistré avec succès dans Supabase');
+            // Formulaire enregistré avec succès dans Supabase
           }
         } catch (error) {
           console.error('Erreur réseau:', error);
@@ -171,12 +165,6 @@ export default function DiscoveryPage() {
     if (currentStep > 1) {
       setCurrentStep(currentStep - 1);
     }
-  };
-
-  const handleSubmit = async () => {
-    // Pour l'étape 4, rien à faire car Cal.com gère tout
-    // On pourrait ajouter un tracking ou une notification ici
-    console.log('Form completed:', formData);
   };
 
   const renderStep = () => {
@@ -600,7 +588,7 @@ export default function DiscoveryPage() {
           </div>
         </div>
       </main>
-      <CustomFooter />
+      <Footer />
     </>
   );
 } 
