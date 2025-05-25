@@ -1029,6 +1029,153 @@
         }
       },
       "cta": "Plan my MVP evolution"
+    },
+    "discovery": {
+      "title": "Let's talk about your project",
+      "subtitle": "A few minutes is all it takes to understand your needs and propose a tailored solution",
+      "badge": "Discovery form",
+      "back": "Back",
+      "form": {
+        "step": "Step",
+        "errors": {
+          "required": "This field is required",
+          "invalidEmail": "Invalid email",
+          "selectOne": "Select at least one option"
+        },
+        "steps": {
+          "contact": {
+            "title": "Let's start by getting to know each other",
+            "subtitle": "This information will allow us to contact you quickly"
+          },
+          "project": {
+            "title": "Your project in a few words",
+            "subtitle": "Help us understand your vision and goals"
+          },
+          "budget": {
+            "title": "Budget and timeline",
+            "subtitle": "Let's define your project framework together"
+          },
+          "needs": {
+            "title": "Budget and timeline",
+            "subtitle": "Let's define your project framework together"
+          },
+          "state": {
+            "title": "Your resources and constraints",
+            "subtitle": "Help us understand your current context"
+          },
+          "additional": {
+            "title": "Additional information",
+            "subtitle": "Extra details to better support you"
+          },
+          "booking": {
+            "title": "Choose your time slot",
+            "subtitle": "Select the best time for you for a 15-minute discovery call"
+          }
+        },
+        "fields": {
+          "name": "Full name",
+          "company": "Company",
+          "email": "Business email",
+          "phone": "Phone",
+          "projectType": "Project type",
+          "projectStatus": "Where are you at?",
+          "projectDescription": "Project description",
+          "budget": "Estimated budget",
+          "timeline": "Desired timeline",
+          "mainGoal": "Main goal",
+          "additionalInfo": "Additional information"
+        },
+        "placeholders": {
+          "name": "John Doe",
+          "company": "My Startup",
+          "email": "john@mystartup.com",
+          "phone": "+1 234 567 8900",
+          "projectType": "Select a type",
+          "projectStatus": "Select your situation",
+          "projectDescription": "Describe your project in a few sentences...",
+          "budget": "Select a range",
+          "timeline": "Select a timeline",
+          "mainGoal": "Select your goal",
+          "additionalInfo": "Is there anything else we should know?"
+        },
+        "options": {
+          "projectTypes": {
+            "saas": "SaaS / Web application",
+            "marketplace": "Marketplace",
+            "ecommerce": "E-commerce",
+            "mobile": "Mobile application",
+            "web": "Complex website",
+            "other": "Other"
+          },
+          "projectStatus": {
+            "idea": "I have an idea but no code yet",
+            "inProgress": "I have an ongoing project to finish or unblock",
+            "readyToDeploy": "My project is ready to be deployed"
+          },
+                      "features": {
+              "fromScratch": "Starting from scratch - I have an idea but no code yet",
+              "takeOver": "I have an ongoing project - I need help to continue or unblock",
+              "launchProduction": "My project is ready - I need help with deployment"
+            },
+            "budgets": {
+            "small": "Less than €5,000",
+            "medium": "€5,000 - €10,000",
+            "large": "€10,000 - €25,000",
+            "enterprise": "More than €25,000"
+          },
+          "timelines": {
+            "asap": "As soon as possible",
+            "month": "Within a month",
+            "quarter": "Within 3 months",
+            "semester": "Within 6 months"
+          },
+          "yes": "Yes",
+          "no": "No",
+          "partial": "Partially",
+          "teams": {
+            "internal": "Internal team",
+            "external": "External contractors",
+            "none": "No technical team"
+          },
+          "goals": {
+            "validate": "Validate my idea",
+            "launch": "Launch my product",
+            "scale": "Scale my business",
+            "pivot": "Pivot my activity",
+            "fundraise": "Raise funds"
+          },
+          "contact": {
+            "email": "Email",
+            "phone": "Phone",
+            "whatsapp": "WhatsApp"
+          },
+          "times": {
+            "morning": "Morning (9am-12pm)",
+            "afternoon": "Afternoon (2pm-6pm)",
+            "evening": "Evening (6pm-8pm)",
+            "flexible": "Flexible"
+          }
+        },
+        "buttons": {
+          "previous": "Previous",
+          "next": "Next",
+          "submit": "Submit and book appointment",
+          "submitting": "Submitting..."
+        },
+        "summary": {
+          "title": "Summary",
+                      "project": "Project type",
+            "status": "Status",
+            "goal": "Goal",
+            "budget": "Budget",
+            "timeline": "Timeline"
+        },
+        "trust": {
+          "secure": "Secure data",
+          "gdpr": "GDPR compliant",
+          "response": "Response within 24h"
+        }
+      }
     }
   }
 } 

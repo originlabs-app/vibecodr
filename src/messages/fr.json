@@ -1030,6 +1030,153 @@
         }
       },
       "cta": "Planifier l'évolution de mon MVP"
+    },
+    "discovery": {
+      "title": "Parlons de votre projet",
+      "subtitle": "Quelques minutes suffisent pour comprendre vos besoins et vous proposer une solution adaptée",
+      "badge": "Formulaire de découverte",
+      "back": "Retour",
+      "form": {
+        "step": "Étape",
+        "errors": {
+          "required": "Ce champ est requis",
+          "invalidEmail": "Email invalide",
+          "selectOne": "Sélectionnez au moins une option"
+        },
+        "steps": {
+          "contact": {
+            "title": "Commençons par faire connaissance",
+            "subtitle": "Ces informations nous permettront de vous contacter rapidement"
+          },
+          "project": {
+            "title": "Votre projet en quelques mots",
+            "subtitle": "Aidez-nous à comprendre votre vision et vos objectifs"
+          },
+          "budget": {
+            "title": "Budget et planning",
+            "subtitle": "Définissons ensemble le cadre de votre projet"
+          },
+          "needs": {
+            "title": "Budget et planning",
+            "subtitle": "Définissons ensemble le cadre de votre projet"
+          },
+          "state": {
+            "title": "Vos ressources et contraintes",
+            "subtitle": "Aidez-nous à comprendre votre contexte actuel"
+          },
+          "additional": {
+            "title": "Informations complémentaires",
+            "subtitle": "Des détails supplémentaires pour mieux vous accompagner"
+          },
+          "booking": {
+            "title": "Choisissez votre créneau",
+            "subtitle": "Sélectionnez le moment qui vous convient le mieux pour un appel de découverte de 15 minutes"
+          }
+        },
+        "fields": {
+          "name": "Nom complet",
+          "company": "Entreprise",
+          "email": "Email professionnel",
+          "phone": "Téléphone",
+          "projectType": "Type de projet",
+          "projectStatus": "Où en êtes-vous ?",
+          "projectDescription": "Description du projet",
+          "budget": "Budget estimé",
+          "timeline": "Délai souhaité",
+          "mainGoal": "Objectif principal",
+          "additionalInfo": "Informations complémentaires"
+        },
+        "placeholders": {
+          "name": "Jean Dupont",
+          "company": "Ma Startup",
+          "email": "jean@mastartup.com",
+          "phone": "+33 6 12 34 56 78",
+          "projectType": "Sélectionnez un type",
+          "projectStatus": "Sélectionnez votre situation",
+          "projectDescription": "Décrivez votre projet en quelques phrases...",
+          "budget": "Sélectionnez une fourchette",
+          "timeline": "Sélectionnez un délai",
+          "mainGoal": "Sélectionnez votre objectif",
+          "additionalInfo": "Y a-t-il autre chose que nous devrions savoir ?"
+        },
+        "options": {
+          "projectTypes": {
+            "saas": "SaaS / Application web",
+            "marketplace": "Marketplace",
+            "ecommerce": "E-commerce",
+            "mobile": "Application mobile",
+            "web": "Site web complexe",
+            "other": "Autre"
+          },
+          "projectStatus": {
+            "idea": "J'ai une idée mais pas encore de code",
+            "inProgress": "J'ai un projet en cours à terminer ou débloquer",
+            "readyToDeploy": "Mon projet est prêt à être mis en production"
+          },
+                      "features": {
+              "fromScratch": "Je démarre de zéro - J'ai une idée mais pas encore de code",
+              "takeOver": "J'ai un projet en cours - J'ai besoin d'aide pour continuer ou débloquer",
+              "launchProduction": "Mon projet est prêt - J'ai besoin d'aide pour le déploiement"
+            },
+            "budgets": {
+            "small": "Moins de 5 000€",
+            "medium": "5 000€ - 10 000€",
+            "large": "10 000€ - 25 000€",
+            "enterprise": "Plus de 25 000€"
+          },
+          "timelines": {
+            "asap": "Dès que possible",
+            "month": "Dans le mois",
+            "quarter": "Dans 3 mois",
+            "semester": "Dans 6 mois"
+          },
+          "yes": "Oui",
+          "no": "Non",
+          "partial": "En partie",
+          "teams": {
+            "internal": "Équipe interne",
+            "external": "Prestataires externes",
+            "none": "Pas d'équipe technique"
+          },
+          "goals": {
+            "validate": "Valider mon idée",
+            "launch": "Lancer mon produit",
+            "scale": "Scaler mon business",
+            "pivot": "Pivoter mon activité",
+            "fundraise": "Lever des fonds"
+          },
+          "contact": {
+            "email": "Email",
+            "phone": "Téléphone",
+            "whatsapp": "WhatsApp"
+          },
+          "times": {
+            "morning": "Matin (9h-12h)",
+            "afternoon": "Après-midi (14h-18h)",
+            "evening": "Soir (18h-20h)",
+            "flexible": "Flexible"
+          }
+        },
+        "buttons": {
+          "previous": "Précédent",
+          "next": "Suivant",
+          "submit": "Envoyer et prendre RDV",
+          "submitting": "Envoi en cours..."
+        },
+        "summary": {
+          "title": "Récapitulatif",
+                      "project": "Type de projet",
+            "status": "Situation",
+            "goal": "Objectif",
+            "budget": "Budget",
+            "timeline": "Délai"
+        },
+        "trust": {
+          "secure": "Données sécurisées",
+          "gdpr": "Conforme RGPD",
+          "response": "Réponse sous 24h"
+        }
+      }
     }
   }
 } 
