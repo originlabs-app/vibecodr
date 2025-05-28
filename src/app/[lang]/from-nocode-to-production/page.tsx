@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import { getMessages } from 'next-intl/server';
 
 type Props = {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
