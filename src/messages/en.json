@@ -220,6 +220,7 @@
     "product": {
       "visionFirst": "Vision-First",
       "mvpDevelopment": "MVP Development",
+      "fromNocodeToProd": "No-Code to Prod",
       "marketplace": "Marketplace",
       "pricing": "Pricing",
       "testimonials": "Testimonials",
@@ -1112,12 +1113,12 @@
             "inProgress": "I have an ongoing project to finish or unblock",
             "readyToDeploy": "My project is ready to be deployed"
           },
-                      "features": {
-              "fromScratch": "Starting from scratch - I have an idea but no code yet",
-              "takeOver": "I have an ongoing project - I need help to continue or unblock",
-              "launchProduction": "My project is ready - I need help with deployment"
-            },
-            "budgets": {
+          "features": {
+            "fromScratch": "Starting from scratch - I have an idea but no code yet",
+            "takeOver": "I have an ongoing project - I need help to continue or unblock",
+            "launchProduction": "My project is ready - I need help with deployment"
+          },
+          "budgets": {
             "small": "Less than €5,000",
             "medium": "€5,000 - €10,000",
             "large": "€10,000 - €25,000",
@@ -1164,16 +1165,131 @@
         },
         "summary": {
           "title": "Summary",
-                      "project": "Project type",
-            "status": "Status",
-            "goal": "Goal",
-            "budget": "Budget",
-            "timeline": "Timeline"
+          "project": "Project type",
+          "status": "Status",
+          "goal": "Goal",
+          "budget": "Budget",
+          "timeline": "Timeline"
         },
         "trust": {
           "secure": "Secure data",
           "gdpr": "GDPR compliant",
           "response": "Response within 24h"
+        }
+      }
+    }
+  },
+  "FromNocodeToProductionPageMeta": {
+    "title": "Bolt, Lovable, Replit Limits? VibeCodr Completes Your Production App",
+    "description": "Hit the wall with Bolt, Lovable or Replit? Limited backend, performance issues, poor security? VibeCodr transforms your no-code prototype into production-ready app with robust backend. Migration in 2-3 weeks.",
+    "keywords": "bolt limitations, lovable backend issues, replit scalability problems, bubble limits reached, flutterflow production ready, webflow backend integration, no-code stuck, no-code to production, no-code migration, bolt complex backend, bolt api limitations, lovable performance issues, replit security concerns, no-code customization limits, no-code migration agency, no-code developer help, no-code platform limitations, bolt alternative, lovable alternative, replit alternative",
+    "ogImageAlt": "VibeCodr - Solution to Bolt, Lovable and Replit limitations"
+  },
+  "FromNocodeToProduction": {
+    "hero": {
+      "badge": "From prototype to production",
+      "title": "Your no-code mockup deserves a real backend",
+      "subtitle": "Hit the limits of Bolt, Lovable or Replit? We transform your prototype into a robust and scalable application.",
+      "cta": "Complete my project",
+      "ctaSecondary": "See our process"
+    },
+    "problem": {
+      "title": "No-code limits holding you back?",
+      "subtitle": "These platforms are excellent for prototyping, but insufficient for production"
+    },
+    "limitations": {
+      "backend": "Limited backend on Bolt, Lovable, Replit?",
+      "backendDesc": "Unable to implement complex workflows, multiple API integrations, or sophisticated business logic typical of Bolt, Lovable, or Replit limitations.",
+      "scale": "Scalability issues with your no-code app?",
+      "scaleDesc": "Degraded performance with user growth on Bubble or Glide, slow response times, exploding infrastructure costs.",
+      "security": "Insufficient no-code security and authentication?",
+      "securityDesc": "Basic authentication often seen on Replit or Webflow, no fine-grained permission management (RLS), potential vulnerabilities for your project.",
+      "customization": "Customization blocked by no-code templates?",
+      "customizationDesc": "Impossible to break free from FlutterFlow or Softr templates, custom features unfeasible, strong dependency and vendor lock-in."
+    },
+    "solution": {
+      "title": "The VibeCodr Solution: Overcome Bolt and Replit Limits",
+      "subtitle": "We take your no-code prototype where platforms like Bubble or Webflow stop, offering true backend scalability."
+    },
+    "solutions": {
+      "backend": "Custom Backend Post-Replit",
+      "backendDesc": "Robust backend architecture with Node.js, Python, or your preferred stack, for true scalability beyond Replit's limitations.",
+      "backendFeature1": "Complete REST/GraphQL API",
+      "backendFeature2": "Complex business logic",
+      "backendFeature3": "Unlimited integrations",
+      "performance": "Optimal Performance Beyond Bubble",
+      "performanceDesc": "Scalable infrastructure designed for growth, far exceeding the capabilities of platforms like Bubble or Glide.",
+      "performanceFeature1": "Response time < 200ms",
+      "performanceFeature2": "Smart caching",
+      "performanceFeature3": "Auto-scaling",
+      "security": "Enhanced Security After No-Code",
+      "securityDesc": "Enterprise-level data protection, much more robust than the default security of no-code tools.",
+      "securityFeature1": "Advanced auth (OAuth, 2FA)",
+      "securityFeature2": "End-to-end encryption",
+      "securityFeature3": "GDPR compliance"
+    },
+    "process": {
+      "title": "Our Migration Process from Bolt, Lovable, Replit",
+      "subtitle": "From your no-code prototype to a production application in 4 key steps",
+      "audit": "Technical audit",
+      "auditDesc": "We analyze your prototype, identify features to migrate and define the optimal target architecture",
+      "architecture": "Scalable architecture",
+      "architectureDesc": "Design of a modular architecture that preserves your assets while enabling future evolution",
+      "migration": "Smart migration",
+      "migrationDesc": "Taking over existing design and features, developing backend and advanced logic",
+      "optimization": "Production optimization",
+      "optimizationDesc": "Load testing, performance optimization, monitoring setup and secure deployment"
+    },
+    "benefits": {
+      "title": "Why choose VibeCodr?",
+      "speed": "Speed of execution",
+      "speedDesc": "Your prototype becomes a production app in 2-3 weeks, not 6 months",
+      "scalability": "Guaranteed scalability",
+      "scalabilityDesc": "Architecture designed to support your growth without major refactoring",
+      "expertise": "Recognized expertise",
+      "expertiseDesc": "French team expert in prototype transformation and complex architectures"
+    },
+    "cta": {
+      "title": "Ready to level up?",
+      "subtitle": "Let's transform your prototype into a success story together",
+      "button": "Discuss my project",
+      "buttonSecondary": "See our work"
+    },
+    "faq": {
+      "title": "FAQ: Leaving Bolt, Lovable, Replit for Custom Code",
+      "subtitle": "We answer your questions about migrating your no-code project to a VibeCodr solution.",
+      "items": {
+        "q1": {
+          "question": "Will I lose my work done on Bolt, Lovable, or Replit?",
+          "answer": "No, absolutely not! We reuse your existing design and logic from Bolt, Lovable, or Replit. Our goal is to preserve your work while adding the backend scalability and capabilities you lack. It's an intelligent migration of your prototype, not a complete rebuild from scratch."
+        },
+        "q2": {
+          "question": "How long to migrate my Bubble or FlutterFlow app?",
+          "answer": "Generally, 2-3 weeks is enough to transform your Bubble or FlutterFlow prototype into a production application. This includes audit, architecture, new backend development, and testing."
+        },
+        "q3": {
+          "question": "Can I keep my UI from Webflow or Glide?",
+          "answer": "Yes! If you are happy with your Webflow or Glide interface, we keep it and focus on creating a high-performance backend. We export your frontend, optimize it, and connect it to a solid infrastructure."
+        },
+        "q4": {
+          "question": "What's the cost compared to staying on Bolt or Replit?",
+          "answer": "In the long run, VibeCodr is more economical. Bolt or Replit subscriptions can skyrocket with growth (€500-1000/month). Our solution gives you full code ownership. The initial investment (€6000-15000) is quickly offset against the high recurring costs of no-code platforms."
+        },
+        "q5": {
+          "question": "How to manage existing users during migration?",
+          "answer": "We implement a seamless migration strategy. Your users can continue using the current platform while we develop. The switch is smooth with data and user account migration."
+        },
+        "q6": {
+          "question": "Will I be able to modify the code myself afterwards?",
+          "answer": "Yes, that's exactly the goal! You receive clean, documented code with industry standards. We include training and documentation. You can modify, evolve, or hire any developer to continue."
+        },
+        "q7": {
+          "question": "What about my Stripe/third-party API integrations from my no-code app?",
+          "answer": "Great news: we take over and improve your existing integrations from your no-code app. Limitations of platforms like Bolt on APIs disappear. Complex webhooks, advanced business logic, and custom integrations become possible."
+        },
+        "q8": {
+          "question": "Do I have to start from scratch after my no-code experience?",
+          "answer": "No! This is our strength: we don't start from scratch after your no-code experience on Bolt or Bubble. We analyze your prototype, extract the functional parts, and build a solid backend on top. Your time investment in the no-code platform is your starting point, not a loss."
         }
       }
     }

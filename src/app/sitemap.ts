@@ -13,6 +13,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '', // Page d'accueil
     '/vision-first',
     '/mvp-development', // Nouvelle page MVP Development
+    '/from-nocode-to-production', // Nouvelle page pour les développeurs no-code
+    '/bolt-lovable-replit-limits', // Page de redirection SEO
     '/faq',
     '/glossary',
     '/legal' // Page légale maintenant prête
@@ -32,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${BASE_URL}/${lang}${page}`,
         lastModified: new Date(), 
         changeFrequency: page === '' || page === '/glossary' ? 'weekly' : 'monthly', 
-        priority: page === '' ? 1 : (page === '/mvp-development' ? 0.9 : (page === '/glossary' ? 0.8 : 0.7)),
+        priority: page === '' ? 1 : (page === '/mvp-development' || page === '/from-nocode-to-production' ? 0.9 : (page === '/glossary' || page === '/bolt-lovable-replit-limits' ? 0.8 : 0.7)),
       });
     });
     // Page principale du blog

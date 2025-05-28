@@ -220,6 +220,7 @@
     "product": {
       "visionFirst": "Vision-First",
       "mvpDevelopment": "Développement MVP",
+      "fromNocodeToProd": "Du No-Code à la Prod",
       "marketplace": "Marketplace",
       "pricing": "Tarification",
       "testimonials": "Témoignages",
@@ -1113,12 +1114,12 @@
             "inProgress": "J'ai un projet en cours à terminer ou débloquer",
             "readyToDeploy": "Mon projet est prêt à être mis en production"
           },
-                      "features": {
-              "fromScratch": "Je démarre de zéro - J'ai une idée mais pas encore de code",
-              "takeOver": "J'ai un projet en cours - J'ai besoin d'aide pour continuer ou débloquer",
-              "launchProduction": "Mon projet est prêt - J'ai besoin d'aide pour le déploiement"
-            },
-            "budgets": {
+          "features": {
+            "fromScratch": "Je démarre de zéro - J'ai une idée mais pas encore de code",
+            "takeOver": "J'ai un projet en cours - J'ai besoin d'aide pour continuer ou débloquer",
+            "launchProduction": "Mon projet est prêt - J'ai besoin d'aide pour le déploiement"
+          },
+          "budgets": {
             "small": "Moins de 5 000€",
             "medium": "5 000€ - 10 000€",
             "large": "10 000€ - 25 000€",
@@ -1165,16 +1166,169 @@
         },
         "summary": {
           "title": "Récapitulatif",
-                      "project": "Type de projet",
-            "status": "Situation",
-            "goal": "Objectif",
-            "budget": "Budget",
-            "timeline": "Délai"
+          "project": "Type de projet",
+          "status": "Situation",
+          "goal": "Objectif",
+          "budget": "Budget",
+          "timeline": "Délai"
         },
         "trust": {
           "secure": "Données sécurisées",
           "gdpr": "Conforme RGPD",
           "response": "Réponse sous 24h"
+        }
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes des développeurs no-code",
+      "subtitle": "Nous répondons à vos interrogations sur la migration de votre projet",
+      "items": {
+        "q1": {
+          "question": "Est-ce que je vais perdre tout le travail fait sur Bolt/Lovable/Replit ?",
+          "answer": "Non, absolument pas ! Nous reprenons votre design, vos fonctionnalités et votre logique existante. Notre objectif est de préserver votre travail tout en ajoutant les capacités backend et la scalabilité qui vous manquent. Nous migrons intelligemment votre prototype, pas de refonte complète."
+        },
+        "q2": {
+          "question": "Combien de temps prend la migration depuis une plateforme no-code ?",
+          "answer": "En général, 2 à 3 semaines suffisent pour transformer votre prototype en application production. La première semaine est consacrée à l'audit et l'architecture, la deuxième au développement du backend et des fonctionnalités avancées, et la troisième aux tests et optimisations."
+        },
+        "q3": {
+          "question": "Puis-je continuer à utiliser mon interface créée sur Bolt/Lovable ?",
+          "answer": "Oui ! Si votre interface vous convient, nous la conservons et nous concentrons sur le backend. Nous pouvons exporter votre frontend, l'optimiser et le connecter à un vrai backend robuste. Vous gardez ce qui fonctionne et nous améliorons ce qui bloque."
+        },
+        "q4": {
+          "question": "Quel est le coût comparé à continuer sur une plateforme no-code ?",
+          "answer": "Sur le long terme, vous économisez. Les plateformes no-code deviennent très chères avec la croissance (parfois 500-1000€/mois pour une app moyenne). Notre solution one-time vous donne la propriété totale du code. Investissement initial : 6000-15000€ selon la complexité, puis vous êtes libre."
+        },
+        "q5": {
+          "question": "Comment gérer les utilisateurs existants pendant la migration ?",
+          "answer": "Nous mettons en place une stratégie de migration sans interruption. Vos utilisateurs peuvent continuer à utiliser la plateforme actuelle pendant que nous développons. La bascule se fait en douceur avec migration des données et des comptes utilisateurs."
+        },
+        "q6": {
+          "question": "Vais-je pouvoir modifier le code moi-même après ?",
+          "answer": "Oui, c'est justement l'objectif ! Vous recevez un code propre, documenté, avec les standards de l'industrie. Nous incluons une formation et de la documentation. Vous pouvez modifier, faire évoluer, ou engager n'importe quel développeur pour continuer."
+        },
+        "q7": {
+          "question": "Que faire si j'ai déjà des intégrations (Stripe, API tierces) ?",
+          "answer": "Excellente nouvelle : nous reprenons et améliorons vos intégrations existantes. Les limitations des plateformes no-code sur les intégrations disparaissent. Nous pouvons implémenter des webhooks complexes, de la logique métier avancée, et des intégrations sur-mesure impossibles en no-code."
+        },
+        "q8": {
+          "question": "Est-ce que je dois tout refaire depuis zéro ?",
+          "answer": "Non ! C'est notre valeur ajoutée : nous ne repartons pas de zéro. Nous analysons votre prototype, extrayons ce qui fonctionne, et construisons dessus. Votre investissement en temps sur la plateforme no-code n'est pas perdu, c'est votre point de départ."
+        }
+      }
+    }
+  },
+  "FromNocodeToProductionPageMeta": {
+    "title": "Bolt, Lovable, Replit : Limites atteintes ? VibeCodr finalise votre MVP",
+    "description": "Bloqué par Bolt, Lovable ou Replit ? Backend limité, problèmes de performance, sécurité insuffisante ? VibeCodr transforme votre prototype no-code en application production avec backend robuste. Migration en 2-3 semaines.",
+    "keywords": "bolt limites, lovable backend, replit scalabilité, bubble limites, flutterflow production, webflow backend, no-code bloqué, no-code vers production, migration no-code, backend complexe bolt, api bolt, performance lovable, sécurité replit, personnalisation no-code, agence migration no-code, développeur no-code, limites plateformes no-code, alternative bolt, alternative lovable, alternative replit",
+    "ogImageAlt": "VibeCodr - Solution aux limites de Bolt, Lovable et Replit"
+  },
+  "FromNocodeToProduction": {
+    "hero": {
+      "badge": "Du prototype à la production",
+      "title": "Votre maquette no-code mérite un vrai backend",
+      "subtitle": "Vous avez atteint les limites de Bolt, Lovable ou Replit ? Nous transformons votre prototype en application robuste et scalable.",
+      "cta": "Finaliser mon projet",
+      "ctaSecondary": "Voir notre processus"
+    },
+    "problem": {
+      "title": "Les limites du no-code vous freinent ?",
+      "subtitle": "Ces plateformes sont excellentes pour prototyper, mais insuffisantes pour la production"
+    },
+    "limitations": {
+      "backend": "Backend limité sur Bolt, Lovable, Replit ?",
+      "backendDesc": "Impossible d'implémenter des workflows complexes, des intégrations API multiples ou une logique métier sophistiquée typiques des limitations de Bolt, Lovable ou Replit.",
+      "scale": "Problèmes de scalabilité avec votre app no-code ?",
+      "scaleDesc": "Performance dégradée avec l'augmentation des utilisateurs sur Bubble ou Glide, temps de réponse lents, coûts d'infrastructure qui explosent.",
+      "security": "Sécurité et authentification no-code insuffisantes ?",
+      "securityDesc": "Authentification basique souvent constatée sur Replit ou Webflow, pas de gestion fine des permissions (RLS), vulnérabilités potentielles pour votre projet.",
+      "customization": "Personnalisation bloquée par les templates no-code ?",
+      "customizationDesc": "Impossible de sortir des templates de FlutterFlow ou Softr, fonctionnalités sur-mesure irréalisables, forte dépendance et vendor lock-in."
+    },
+    "solution": {
+      "title": "La solution VibeCodr : Dépassez les limites de Bolt et Replit",
+      "subtitle": "Nous reprenons votre prototype no-code là où les plateformes comme Bubble ou Webflow s'arrêtent, en offrant une véritable scalabilité backend."
+    },
+    "solutions": {
+      "backend": "Backend sur-mesure post-Replit",
+      "backendDesc": "Architecture backend robuste avec Node.js, Python ou votre stack préférée, pour une vraie scalabilité après les limitations de Replit.",
+      "backendFeature1": "API REST/GraphQL complète",
+      "backendFeature2": "Logique métier complexe",
+      "backendFeature3": "Intégrations illimitées",
+      "performance": "Performance optimale au-delà de Bubble",
+      "performanceDesc": "Infrastructure scalable pensée pour la croissance, bien au-delà des capacités de plateformes comme Bubble ou Glide.",
+      "performanceFeature1": "Temps de réponse < 200ms",
+      "performanceFeature2": "Cache intelligent",
+      "performanceFeature3": "Auto-scaling",
+      "security": "Sécurité renforcée après le no-code",
+      "securityDesc": "Protection de niveau entreprise pour vos données, bien plus robuste que la sécurité par défaut des outils no-code.",
+      "securityFeature1": "Auth avancée (OAuth, 2FA)",
+      "securityFeature2": "Chiffrement bout-en-bout",
+      "securityFeature3": "Conformité RGPD"
+    },
+    "process": {
+      "title": "Notre processus de migration depuis Bolt, Lovable, Replit",
+      "subtitle": "De votre prototype no-code à une application en production en 4 étapes clés",
+      "audit": "Audit technique",
+      "auditDesc": "Nous analysons votre prototype, identifions les fonctionnalités à migrer et définissons l'architecture cible optimale",
+      "architecture": "Architecture évolutive",
+      "architectureDesc": "Conception d'une architecture modulaire qui préserve vos acquis tout en permettant l'évolution future",
+      "migration": "Migration intelligente",
+      "migrationDesc": "Reprise du design et des fonctionnalités existantes, développement du backend et des logiques avancées",
+      "optimization": "Optimisation production",
+      "optimizationDesc": "Tests de charge, optimisation des performances, mise en place du monitoring et déploiement sécurisé"
+    },
+    "benefits": {
+      "title": "Pourquoi choisir VibeCodr ?",
+      "speed": "Rapidité d'exécution",
+      "speedDesc": "Votre prototype devient une app production en 2-3 semaines, pas en 6 mois",
+      "scalability": "Scalabilité garantie",
+      "scalabilityDesc": "Architecture conçue pour supporter votre croissance sans refonte majeure",
+      "expertise": "Expertise reconnue",
+      "expertiseDesc": "Équipe française experte en transformation de prototypes et architectures complexes"
+    },
+    "cta": {
+      "title": "Prêt à passer au niveau supérieur ?",
+      "subtitle": "Transformons ensemble votre prototype en success story",
+      "button": "Discuter de mon projet",
+      "buttonSecondary": "Voir nos réalisations"
+    },
+    "faq": {
+      "title": "FAQ : Quitter Bolt, Lovable, Replit pour un code sur-mesure",
+      "subtitle": "Nous répondons à vos interrogations sur la migration de votre projet no-code vers une solution VibeCodr.",
+      "items": {
+        "q1": {
+          "question": "Vais-je perdre mon travail fait sur Bolt, Lovable ou Replit ?",
+          "answer": "Non, absolument pas ! Nous reprenons votre design et logique existante de Bolt, Lovable ou Replit. Notre objectif est de préserver votre travail tout en ajoutant la scalabilité backend et les capacités qui vous manquent. C'est une migration intelligente de votre prototype, pas une refonte complète depuis zéro."
+        },
+        "q2": {
+          "question": "Combien de temps pour migrer mon app Bubble ou FlutterFlow ?",
+          "answer": "En général, 2 à 3 semaines suffisent pour transformer votre prototype Bubble ou FlutterFlow en application production. Cela inclut l'audit, l'architecture, le développement du nouveau backend et les tests."
+        },
+        "q3": {
+          "question": "Puis-je garder mon UI de Webflow ou Glide ?",
+          "answer": "Oui ! Si votre interface Webflow ou Glide vous convient, nous la conservons et nous concentrons sur la création d'un backend performant. Nous exportons votre frontend, l'optimisons et le connectons à une infrastructure solide."
+        },
+        "q4": {
+          "question": "Quel est le coût comparé à rester sur Bolt ou Replit ?",
+          "answer": "Sur le long terme, VibeCodr est plus économique. Les abonnements de Bolt ou Replit peuvent exploser avec la croissance (500-1000€/mois). Notre solution vous donne la propriété du code. L'investissement initial (6000-15000€) est vite rentabilisé face aux coûts récurrents élevés des plateformes no-code."
+        },
+        "q5": {
+          "question": "Comment gérer les utilisateurs existants pendant la migration ?",
+          "answer": "Nous mettons en place une stratégie de migration sans interruption. Vos utilisateurs peuvent continuer à utiliser la plateforme actuelle pendant que nous développons. La bascule se fait en douceur avec migration des données et des comptes utilisateurs."
+        },
+        "q6": {
+          "question": "Vais-je pouvoir modifier le code moi-même après ?",
+          "answer": "Oui, c'est justement l'objectif ! Vous recevez un code propre, documenté, avec les standards de l'industrie. Nous incluons une formation et de la documentation. Vous pouvez modifier, faire évoluer, ou engager n'importe quel développeur pour continuer."
+        },
+        "q7": {
+          "question": "Mes intégrations Stripe/API tierces de mon app no-code ?",
+          "answer": "Excellente nouvelle : nous reprenons et améliorons vos intégrations existantes depuis votre app no-code. Les limitations des plateformes comme Bolt sur les API disparaissent. Webhooks complexes, logique métier avancée, et intégrations sur-mesure deviennent possibles."
+        },
+        "q8": {
+          "question": "Dois-je repartir de zéro après mon expérience no-code ?",
+          "answer": "Non ! C'est notre force : nous ne repartons pas de zéro après votre expérience no-code sur Bolt ou Bubble. Nous analysons votre prototype, extrayons le fonctionnel, et construisons un backend solide dessus. Votre investissement temps sur la plateforme no-code est votre point de départ, pas une perte."
         }
       }
     }
